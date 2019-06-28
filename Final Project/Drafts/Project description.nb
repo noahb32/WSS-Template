@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      4846,        110]
-NotebookOptionsPosition[      4343,         93]
-NotebookOutlinePosition[      4679,        108]
-CellTagsIndexPosition[      4636,        105]
+NotebookDataLength[      4936,        111]
+NotebookOptionsPosition[      4433,         94]
+NotebookOutlinePosition[      4769,        109]
+CellTagsIndexPosition[      4726,        106]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -62,10 +62,10 @@ will proceed to attempt to address variates of ",
  StyleBox["UniformDistribution[]", "Input"],
  " or equivalently, ",
  StyleBox["RandomReal[]", "Input"],
- ". Following the development of these methods using both tests dependent on \
-the distributions of variates and the serial positioning of variates, the \
-test will be extended to variates of arbitrary distributions provided by the \
-user."
+ ". Time permitting, following the development of these methods using both \
+tests dependent on the distributions of variates and the serial positioning \
+of variates, the test will be extended to variates of arbitrary distributions \
+provided by the user. "
 }], "Text",
  CellChangeTimes->{{3.7706717727417593`*^9, 3.770671841246644*^9}, {
    3.770671879716941*^9, 3.77067188480429*^9}, {3.7706719486857967`*^9, 
@@ -86,13 +86,14 @@ user."
    3.770677723146226*^9, 3.7706777575036583`*^9}, {3.770678309425198*^9, 
    3.770678324756646*^9}, {3.77071574075086*^9, 3.770715749933329*^9}, {
    3.7707158228252783`*^9, 3.7707158948294*^9}, {3.770716072275403*^9, 
-   3.7707161324254704`*^9}, {3.770716333485865*^9, 
-   3.770716352344818*^9}},ExpressionUUID->"8298712a-76dd-457e-9501-\
+   3.7707161324254704`*^9}, {3.770716333485865*^9, 3.770716352344818*^9}, 
+   3.770722784150837*^9, {3.770722844806477*^9, 
+   3.770722847454424*^9}},ExpressionUUID->"8298712a-76dd-457e-9501-\
 150836a49518"]
 }, Open  ]]
 },
-WindowSize->{861, 683},
-WindowMargins->{{8, Automatic}, {Automatic, 0}},
+WindowSize->{813, 753},
+WindowMargins->{{7, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -110,7 +111,7 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[583, 22, 255, 4, 160, "Title",ExpressionUUID->"90bd80f6-20e7-472a-a002-b30ce09af41a"],
 Cell[841, 28, 159, 3, 31, "Author",ExpressionUUID->"bd535077-5f22-4648-b5bf-91fd71e94cdc"],
-Cell[1003, 33, 3324, 57, 311, "Text",ExpressionUUID->"8298712a-76dd-457e-9501-150836a49518"]
+Cell[1003, 33, 3414, 58, 334, "Text",ExpressionUUID->"8298712a-76dd-457e-9501-150836a49518"]
 }, Open  ]]
 }
 ]

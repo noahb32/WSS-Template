@@ -1,0 +1,107 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      3339,         97]
+NotebookOptionsPosition[      2622,         76]
+NotebookOutlinePosition[      2960,         91]
+CellTagsIndexPosition[      2917,         88]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Brainstorming for Systematic Randomness Testing", "Title",
+ CellChangeTimes->{{3.770720199205409*^9, 
+  3.770720209640101*^9}},ExpressionUUID->"ffdf878f-223b-46e2-a2fd-\
+29e6dfa45f1b"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["https://en.wikipedia.org/wiki/Kolmogorov% E2 %80 %93 \
+Smirnov_test #Kolmogorov % E2 %80 %93 Smirnov_statistic",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test#\
+Kolmogorov%E2%80%93Smirnov_statistic"], None},
+ ButtonNote->
+  "https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test#Kolmogorov%\
+E2%80%93Smirnov_statistic"]], "Item",
+ CellChangeTimes->{{3.770720215908424*^9, 
+  3.7707202248015013`*^9}},ExpressionUUID->"d099cc52-3ca4-46be-a233-\
+39cd088219e9"],
+
+Cell[TextData[ButtonBox["http://www-users.math.umn.edu/~garrett/students/reu/\
+pRNGs.pdf",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www-users.math.umn.edu/~garrett/students/reu/pRNGs.pdf"], None},
+ ButtonNote->
+  "http://www-users.math.umn.edu/~garrett/students/reu/pRNGs.pdf"]], "Item",
+ CellChangeTimes->{{3.770720215908424*^9, 
+  3.770720245027463*^9}},ExpressionUUID->"5750822d-194c-4bf8-bc88-\
+57a79b521ea5"],
+
+Cell[TextData[ButtonBox["https://en.wikipedia.org/wiki/Wald% E2 %80 %93 \
+Wolfowitz_runs _test",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://en.wikipedia.org/wiki/Wald%E2%80%93Wolfowitz_runs_test"], 
+   None},
+ ButtonNote->
+  "https://en.wikipedia.org/wiki/Wald%E2%80%93Wolfowitz_runs_test"]], "Item",
+ CellChangeTimes->{{3.770720248215149*^9, 
+  3.77072025165009*^9}},ExpressionUUID->"718789ab-7d9a-43d8-9458-\
+3b72423e64a3"],
+
+Cell[TextData[ButtonBox["https://en.wikipedia.org/wiki/Diehard_tests",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://en.wikipedia.org/wiki/Diehard_tests"], None},
+ ButtonNote->"https://en.wikipedia.org/wiki/Diehard_tests"]], "Item",
+ CellChangeTimes->{{3.770720259318101*^9, 
+  3.770720262559453*^9}},ExpressionUUID->"c925faad-dd0e-442d-8d0e-\
+77021f7f963a"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 683},
+WindowMargins->{{148, Automatic}, {Automatic, 4}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 190, 3, 160, "Title",ExpressionUUID->"ffdf878f-223b-46e2-a2fd-29e6dfa45f1b"],
+Cell[CellGroupData[{
+Cell[798, 29, 554, 11, 53, "Item",ExpressionUUID->"d099cc52-3ca4-46be-a233-39cd088219e9"],
+Cell[1355, 42, 427, 9, 32, "Item",ExpressionUUID->"5750822d-194c-4bf8-bc88-57a79b521ea5"],
+Cell[1785, 53, 438, 10, 32, "Item",ExpressionUUID->"718789ab-7d9a-43d8-9458-3b72423e64a3"],
+Cell[2226, 65, 368, 7, 32, "Item",ExpressionUUID->"c925faad-dd0e-442d-8d0e-77021f7f963a"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
