@@ -1,0 +1,118 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      4846,        110]
+NotebookOptionsPosition[      4343,         93]
+NotebookOutlinePosition[      4679,        108]
+CellTagsIndexPosition[      4636,        105]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Project Description \[LongDash] Systematic Randomness Testing", "Title",
+ CellChangeTimes->{{3.770671707530447*^9, 3.770671717435944*^9}, {
+  3.7706749651428957`*^9, 
+  3.770674968557436*^9}},ExpressionUUID->"90bd80f6-20e7-472a-a002-\
+b30ce09af41a"],
+
+Cell["Emmy Blumenthal", "Author",
+ CellChangeTimes->{{3.770674973530534*^9, 
+  3.770674976560607*^9}},ExpressionUUID->"bd535077-5f22-4648-b5bf-\
+91fd71e94cdc"],
+
+Cell[TextData[{
+ "In this project, I will create a set of functions that will systematically \
+test for the randomness of given sequences. Sequences may include zeros and \
+ones or random reals. These functions will resemble other statistical \
+functions that test hypotheses like ",
+ StyleBox["LocationTest", "Input"],
+ ", ",
+ StyleBox["MardiaSkewnessTest", "Input"],
+ ", ",
+ StyleBox["TTest", "Input"],
+ ", or ",
+ StyleBox["FisherRatioTest", "Input"],
+ ". These functions will each use a different method to produce a p-value \
+specifying the probability of observing the results given that the null \
+hypothesis\[LongDash]that the random sequence is truly random\[LongDash]is \
+correct. The general procedure to generate this p-value is to calculate a \
+test statistic while also having an efficient way to evaluate values of the \
+cumulative distribution function of the distribution of the test statistic. \
+This project will begin by implementing the Kolmogorov\[Dash]Smirnov and \
+Chi-Square test which constitute more traditional theoretical tests. The \
+project will then begin to implement ",
+ ButtonBox["Diehard tests",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://en.wikipedia.org/wiki/Diehard_tests"], None},
+  ButtonNote->"https://en.wikipedia.org/wiki/Diehard_tests"],
+ ". \n\nThe project will first address sequences of zeros and ones and then \
+will proceed to attempt to address variates of ",
+ StyleBox["UniformDistribution[]", "Input"],
+ " or equivalently, ",
+ StyleBox["RandomReal[]", "Input"],
+ ". Following the development of these methods using both tests dependent on \
+the distributions of variates and the serial positioning of variates, the \
+test will be extended to variates of arbitrary distributions provided by the \
+user."
+}], "Text",
+ CellChangeTimes->{{3.7706717727417593`*^9, 3.770671841246644*^9}, {
+   3.770671879716941*^9, 3.77067188480429*^9}, {3.7706719486857967`*^9, 
+   3.7706719988647842`*^9}, {3.770672050125476*^9, 3.770672077668055*^9}, {
+   3.77067227365946*^9, 3.7706722953112097`*^9}, {3.770672327075014*^9, 
+   3.770672345035151*^9}, {3.7706723959779367`*^9, 3.7706724193984623`*^9}, {
+   3.770672481899242*^9, 3.7706725887578573`*^9}, {3.770672689919958*^9, 
+   3.770672709696838*^9}, {3.770672884028905*^9, 3.77067288593729*^9}, {
+   3.7706730338002234`*^9, 3.7706730457593203`*^9}, {3.770673904789568*^9, 
+   3.7706739995496597`*^9}, {3.770674060987885*^9, 3.7706741441658087`*^9}, {
+   3.770674208851561*^9, 3.770674237726376*^9}, 3.770674290090803*^9, {
+   3.77067434216072*^9, 3.7706743610165462`*^9}, {3.770674540584107*^9, 
+   3.770674556077284*^9}, {3.770674608189439*^9, 3.7706746108231993`*^9}, {
+   3.7706746685049963`*^9, 3.77067467738955*^9}, {3.770674786199295*^9, 
+   3.7706748196995173`*^9}, {3.770674854199247*^9, 3.770674959115567*^9}, {
+   3.770677463628278*^9, 3.77067747539781*^9}, {3.770677551889678*^9, 
+   3.770677615322695*^9}, {3.770677677206758*^9, 3.7706776920402737`*^9}, {
+   3.770677723146226*^9, 3.7706777575036583`*^9}, {3.770678309425198*^9, 
+   3.770678324756646*^9}, {3.77071574075086*^9, 3.770715749933329*^9}, {
+   3.7707158228252783`*^9, 3.7707158948294*^9}, {3.770716072275403*^9, 
+   3.7707161324254704`*^9}, {3.770716333485865*^9, 
+   3.770716352344818*^9}},ExpressionUUID->"8298712a-76dd-457e-9501-\
+150836a49518"]
+}, Open  ]]
+},
+WindowSize->{861, 683},
+WindowMargins->{{8, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 255, 4, 160, "Title",ExpressionUUID->"90bd80f6-20e7-472a-a002-b30ce09af41a"],
+Cell[841, 28, 159, 3, 31, "Author",ExpressionUUID->"bd535077-5f22-4648-b5bf-91fd71e94cdc"],
+Cell[1003, 33, 3324, 57, 311, "Text",ExpressionUUID->"8298712a-76dd-457e-9501-150836a49518"]
+}, Open  ]]
+}
+]
+*)
+
