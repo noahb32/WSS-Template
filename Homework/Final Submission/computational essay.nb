@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    982725,      16909]
-NotebookOptionsPosition[    975512,      16788]
-NotebookOutlinePosition[    976530,      16823]
-CellTagsIndexPosition[    976459,      16818]
+NotebookDataLength[    982764,      16911]
+NotebookOptionsPosition[    975551,      16790]
+NotebookOutlinePosition[    976569,      16825]
+CellTagsIndexPosition[    976498,      16820]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -909,7 +909,7 @@ Cell[BoxData[{
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`tf$$ = 10.43, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`tf$$ = 9.01, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
@@ -2027,8 +2027,9 @@ Cell[BoxData[
               Evaluator -> Automatic, Method -> "Preemptive"], 
              Alignment -> {Center, Center}, ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}]], 
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
             GridBox[{{
                RowBox[{
                  TagBox["\"Name: \"", "SummaryItemAnnotation"], 
@@ -2121,8 +2122,9 @@ IrBQpDCq+EqAK1YZlAYnIVqWBUO1KgRM1YMfDYp2oPTtrobGPUL8D+lW394=
               Evaluator -> Automatic, Method -> "Preemptive"], 
              Alignment -> {Center, Center}, ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}]], 
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
             GridBox[{{
                RowBox[{
                  TagBox["\"Name: \"", "SummaryItemAnnotation"], 
@@ -16817,7 +16819,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 976319, 16812}
+ {"Title", 976358, 16814}
  }
 *)
 (*NotebookFileOutline
@@ -16884,31 +16886,31 @@ Cell[29859, 785, 1468, 34, 35, "Text",ExpressionUUID->"514c31e2-da02-4a89-95cb-1
 Cell[31330, 821, 265, 6, 35, "Text",ExpressionUUID->"c0f565f4-76bd-4e6a-818e-065fa5e884c1"],
 Cell[CellGroupData[{
 Cell[31620, 831, 3176, 75, 55, "Input",ExpressionUUID->"fd42fa38-a3a8-4c68-a0d5-7f0ac773a3f8"],
-Cell[34799, 908, 2510, 49, 453, "Output",ExpressionUUID->"2db45dfe-3065-488d-9630-a95247812cdd"]
+Cell[34799, 908, 2509, 49, 453, "Output",ExpressionUUID->"2db45dfe-3065-488d-9630-a95247812cdd"]
 }, Open  ]],
-Cell[37324, 960, 748, 20, 58, "Text",ExpressionUUID->"8e015664-19d2-486e-9bc1-e39b1aa040e0"],
-Cell[38075, 982, 1876, 50, 61, "Text",ExpressionUUID->"a1e10b92-b400-4c44-95b5-c4b3064d5ee1"],
-Cell[39954, 1034, 590, 14, 35, "Text",ExpressionUUID->"a1dc8c26-e1b2-4532-8ceb-511f32510cac"],
+Cell[37323, 960, 748, 20, 58, "Text",ExpressionUUID->"8e015664-19d2-486e-9bc1-e39b1aa040e0"],
+Cell[38074, 982, 1876, 50, 61, "Text",ExpressionUUID->"a1e10b92-b400-4c44-95b5-c4b3064d5ee1"],
+Cell[39953, 1034, 590, 14, 35, "Text",ExpressionUUID->"a1dc8c26-e1b2-4532-8ceb-511f32510cac"],
 Cell[CellGroupData[{
-Cell[40569, 1052, 360, 6, 30, "Input",ExpressionUUID->"1a39e424-9f15-4ace-893d-d7060c8543e4"],
-Cell[40932, 1060, 3061, 79, 68, "Output",ExpressionUUID->"88844cbe-2b47-4a8a-8a17-81ee929ca273"]
+Cell[40568, 1052, 360, 6, 30, "Input",ExpressionUUID->"1a39e424-9f15-4ace-893d-d7060c8543e4"],
+Cell[40931, 1060, 3061, 79, 68, "Output",ExpressionUUID->"88844cbe-2b47-4a8a-8a17-81ee929ca273"]
 }, Open  ]],
-Cell[44008, 1142, 296, 6, 35, "Text",ExpressionUUID->"bf5b0154-88b6-4bdb-b797-0c38815f3ce4"],
-Cell[44307, 1150, 1621, 46, 168, "Input",ExpressionUUID->"236f8d52-ec85-45ec-a054-476552ded68c"],
+Cell[44007, 1142, 296, 6, 35, "Text",ExpressionUUID->"bf5b0154-88b6-4bdb-b797-0c38815f3ce4"],
+Cell[44306, 1150, 1621, 46, 168, "Input",ExpressionUUID->"236f8d52-ec85-45ec-a054-476552ded68c"],
 Cell[CellGroupData[{
-Cell[45953, 1200, 1174, 26, 73, "Input",ExpressionUUID->"19f9acf0-ce6f-4ee8-807f-3d863b228777"],
-Cell[47130, 1228, 45198, 760, 247, "Output",ExpressionUUID->"217c9340-4755-4057-908c-fffdd527b2c4"]
+Cell[45952, 1200, 1174, 26, 73, "Input",ExpressionUUID->"19f9acf0-ce6f-4ee8-807f-3d863b228777"],
+Cell[47129, 1228, 45198, 760, 247, "Output",ExpressionUUID->"217c9340-4755-4057-908c-fffdd527b2c4"]
 }, Open  ]],
-Cell[92343, 1991, 555, 10, 81, "Text",ExpressionUUID->"5bfd9b7d-767a-4d3a-b42f-dd0fd272aaf1"],
+Cell[92342, 1991, 555, 10, 81, "Text",ExpressionUUID->"5bfd9b7d-767a-4d3a-b42f-dd0fd272aaf1"],
 Cell[CellGroupData[{
-Cell[92923, 2005, 277, 5, 30, "Input",ExpressionUUID->"2e1237ba-25fc-49da-a1c6-4e2a6911bce4"],
-Cell[93203, 2012, 11527, 217, 62, "Output",ExpressionUUID->"650a7295-12e3-4fb1-ae4f-f4f95195e0ad"]
+Cell[92922, 2005, 277, 5, 30, "Input",ExpressionUUID->"2e1237ba-25fc-49da-a1c6-4e2a6911bce4"],
+Cell[93202, 2012, 11567, 219, 62, "Output",ExpressionUUID->"650a7295-12e3-4fb1-ae4f-f4f95195e0ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[104767, 2234, 4259, 97, 233, "Input",ExpressionUUID->"4bd6458b-26f3-4e82-85c7-6071d1a5dc67"],
-Cell[109029, 2333, 865734, 14436, 899, "Output",ExpressionUUID->"b6513e7c-458a-4e04-9172-e5041eb0b2bd"]
+Cell[104806, 2236, 4259, 97, 233, "Input",ExpressionUUID->"4bd6458b-26f3-4e82-85c7-6071d1a5dc67"],
+Cell[109068, 2335, 865734, 14436, 899, "Output",ExpressionUUID->"b6513e7c-458a-4e04-9172-e5041eb0b2bd"]
 }, Open  ]],
-Cell[974778, 16772, 706, 12, 104, "Text",ExpressionUUID->"84986071-1c2d-4113-ada6-8041dcf85d6b"]
+Cell[974817, 16774, 706, 12, 104, "Text",ExpressionUUID->"84986071-1c2d-4113-ada6-8041dcf85d6b"]
 }, Open  ]]
 }, Open  ]]
 }
