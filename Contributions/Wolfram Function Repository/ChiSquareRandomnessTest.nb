@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    278150,       5814]
-NotebookOptionsPosition[    105083,       2410]
-NotebookOutlinePosition[    265504,       5522]
-CellTagsIndexPosition[    264785,       5498]
+NotebookDataLength[    203391,       4364]
+NotebookOptionsPosition[    102214,       2339]
+NotebookOutlinePosition[    191406,       4091]
+CellTagsIndexPosition[    190687,       4067]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -344,7 +344,14 @@ Cell[BoxData[
  CellTags->"TabNext",
  CellID->410373307,ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be"],
 
-Cell["tests a sequence of 0s and 1s and returns a p-value", "UsageDescription",
+Cell[TextData[{
+ "tests a ",
+ Cell[BoxData[
+  StyleBox["sequence", "TI"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "701e0ae9-7cb0-4227-80fd-542708a8eefd"],
+ " of 0s and 1s and returns a p-value."
+}], "UsageDescription",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -362,11 +369,12 @@ Cell["tests a sequence of 0s and 1s and returns a p-value", "UsageDescription",
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390209]},
+   CellObject[723473]},
  CellChangeTimes->{{3.771153426628068*^9, 3.771153438624254*^9}, {
-  3.771153471694792*^9, 3.771153474876074*^9}},
+  3.771153471694792*^9, 3.771153474876074*^9}, {3.771165284049182*^9, 
+  3.771165285423251*^9}, {3.771183646782505*^9, 3.7711836546644697`*^9}},
  CellTags->"TabNext",
- CellID->584004037,ExpressionUUID->"04c01a17-491f-4c42-9335-4c26dd269459"]
+ CellID->584004037,ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -384,9 +392,14 @@ Cell[BoxData[
  CellTags->"TabNext",
  CellID->1728765464,ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827"],
 
-Cell["\<\
-tests a sequence of random reals between 0 and 1 and returns a p-value\
-\>", "UsageDescription",
+Cell[TextData[{
+ "tests a ",
+ Cell[BoxData[
+  StyleBox["sequence", "TI"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "b4b4aa13-567a-4dc7-954d-1981a9b0b057"],
+ " of random reals between 0 and 1 and returns a p-value."
+}], "UsageDescription",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -404,36 +417,46 @@ tests a sequence of random reals between 0 and 1 and returns a p-value\
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390257]},
+   CellObject[723521]},
  CellChangeTimes->{{3.771153426628068*^9, 3.771153438624254*^9}, {
-  3.771153471694792*^9, 3.771153474876074*^9}, {3.771153626986313*^9, 
-  3.7711536334561768`*^9}},
+   3.771153471694792*^9, 3.771153474876074*^9}, {3.771153626986313*^9, 
+   3.7711536334561768`*^9}, 3.7711652866824512`*^9},
  CellTags->"TabNext",
- CellID->2054893185,ExpressionUUID->"1a80c7d7-af3b-4728-908a-f082442dd241"]
+ CellID->2054893185,ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"ChiSquareRandomnessTest", "[", 
-  StyleBox[
-   RowBox[{"sequence", " ", ",", "\"\<property\>\""}], "TI"], 
-  "]"}]], "UsageInputs",
+  RowBox[{
+   StyleBox["sequence", "TI"], ",", 
+   "\"\<\!\(\*StyleBox[\"property\", \"TI\"]\)\>\""}], "]"}]], "UsageInputs",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
    ProgressIndicator[Appearance -> "Necklace"], "AttachedInlineCell" -> 
-   CellObject[390353]},
+   CellObject[484321]},
  CellChangeTimes->{{3.7711533758700247`*^9, 3.7711533865068407`*^9}, {
-  3.771153418292701*^9, 3.771153418596445*^9}, {3.771153643396751*^9, 
-  3.7711536714906063`*^9}, {3.771164031425084*^9, 3.7711640348949633`*^9}},
+   3.771153418292701*^9, 3.771153418596445*^9}, {3.771153643396751*^9, 
+   3.7711536714906063`*^9}, {3.771164031425084*^9, 3.7711640348949633`*^9}, 
+   3.7711652913993387`*^9},
  CellTags->"TabNext",
  CellID->1201398026,ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b"],
 
-Cell["\<\
-tests a sequence of either random reals between 0 and 1 or a sequence of 0s \
-and 1s and returns a a property of the test\
-\>", "UsageDescription",
+Cell[TextData[{
+ "tests a ",
+ Cell[BoxData[
+  StyleBox["sequence", "TI"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "fb11b826-b4b1-4619-bee3-886762958bed"],
+ " of either random reals between 0 and 1 or a ",
+ Cell[BoxData[
+  StyleBox["sequence", "TI"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "41e562b7-7084-4313-9155-32db554be266"],
+ " of 0s and 1s and returns a a property of the test."
+}], "UsageDescription",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -451,13 +474,13 @@ and 1s and returns a a property of the test\
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390305]},
+   CellObject[723569]},
  CellChangeTimes->{{3.771153426628068*^9, 3.771153438624254*^9}, {
    3.771153471694792*^9, 3.771153474876074*^9}, {3.771153626986313*^9, 
    3.7711536334561768`*^9}, {3.771153679865385*^9, 3.771153709031761*^9}, 
-   3.771164512508915*^9},
+   3.771164512508915*^9, 3.771165289426401*^9},
  CellTags->"TabNext",
- CellID->1255373888,ExpressionUUID->"f8c61532-e9f8-4292-9dae-e65128b858de"]
+ CellID->1255373888,ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09"]
 }, Open  ]]
 }, Open  ]],
 
@@ -708,7 +731,7 @@ Cell[BoxData[
  CellLabel->"In[180]:=",
  CellID->771105549,ExpressionUUID->"e87ba7aa-08f1-4590-afe6-4aeb9845b4de"],
 
-Cell["Visualize the sequence", "Text",
+Cell["Visualize the sequence:", "Text",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -726,9 +749,9 @@ Cell["Visualize the sequence", "Text",
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390401]},
+   CellObject[484369]},
  CellChangeTimes->{{3.771157061210312*^9, 3.771157065204805*^9}},
- CellID->942238246,ExpressionUUID->"a7deb8cf-3d54-4b90-a1d4-769c90d79e5d"],
+ CellID->942238246,ExpressionUUID->"d50ddd93-e538-42b8-b546-cebda62eff31"],
 
 Cell[CellGroupData[{
 
@@ -778,7 +801,8 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"ChiSquareRandomnessTest", "[", 
   RowBox[{"sequence", ",", "\"\<TestStatistic\>\""}], "]"}]], "Input",
- CellChangeTimes->{{3.771157119535438*^9, 3.771157129858354*^9}},
+ CellChangeTimes->{{3.771157119535438*^9, 3.771157129858354*^9}, 
+   3.771165233685522*^9},
  CellLabel->"In[190]:=",
  CellID->954404241,ExpressionUUID->"3dc54bc2-5358-4c97-b740-ba89973ecb55"],
 
@@ -834,7 +858,7 @@ Cell[BoxData[
  CellLabel->"In[196]:=",
  CellID->1297948717,ExpressionUUID->"a6626910-9424-4445-ba4e-e2a153a05118"],
 
-Cell["Visualize the sequence", "Text",
+Cell["Visualize the sequence:", "Text",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -852,9 +876,9 @@ Cell["Visualize the sequence", "Text",
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390449]},
+   CellObject[484417]},
  CellChangeTimes->{{3.771157292323633*^9, 3.7711572978661757`*^9}},
- CellID->1094108079,ExpressionUUID->"6a5ebae0-2e5c-4167-be30-a0569e7c8dcf"],
+ CellID->1094108079,ExpressionUUID->"92eeb36e-3d87-464f-a7cf-d44ab6da3814"],
 
 Cell[CellGroupData[{
 
@@ -1400,7 +1424,7 @@ Cell[BoxData[
  CellID->137986306,ExpressionUUID->"80723a3d-fedd-4708-99e5-8be620f75513"]
 }, Open  ]],
 
-Cell["Transform the variates so that the range is between 0 and 1", "Text",
+Cell["Transform the variates so that the range is between 0 and 1:", "Text",
  TaggingRules->{
   "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
    "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
@@ -1418,10 +1442,10 @@ Cell["Transform the variates so that the range is between 0 and 1", "Text",
      CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
      FrontEndObject[
       LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
-   CellObject[390497]},
+   CellObject[484465]},
  CellChangeTimes->{{3.7711574199581738`*^9, 3.7711574398297873`*^9}, {
   3.771157563603715*^9, 3.771157575349255*^9}},
- CellID->1494721804,ExpressionUUID->"80d18f26-fa73-4d91-89f9-aa910d50655b"],
+ CellID->1494721804,ExpressionUUID->"3b34eeec-366b-4248-a532-cdcd9ff091bc"],
 
 Cell[BoxData[
  RowBox[{
@@ -2033,7 +2057,9 @@ Cell[BoxData[
        "\"Graphs & Networks\""},
       "RowDefault"], 
      TemplateBox[{
-      CheckboxBox[False, {False, "Higher Mathematical Computation"}],"\" \"",
+      CheckboxBox[
+       "Higher Mathematical Computation", {
+        False, "Higher Mathematical Computation"}],"\" \"",
        "\"Higher Mathematical Computation\""},
       "RowDefault"]},
     {
@@ -2119,12 +2145,11 @@ Cell[BoxData[
   "Grid"]], "Output",
  Editable->False,
  Deletable->False,
- CellChangeTimes->{{3.7711640629016523`*^9, 3.771164064805202*^9}},
+ CellChangeTimes->{{3.7711640629016523`*^9, 3.771164064805202*^9}, {
+  3.771183435963161*^9, 3.771183436024259*^9}},
  CellTags->"CategoriesCell",
  CellID->1894707987,ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[TextData[{
  "Related Symbols",
@@ -2147,38 +2172,6 @@ related to the function.", "MoreInfoText"], Background -> GrayLevel[0.95],
  CellTags->"Related Symbols",
  CellID->161079978,ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669"],
 
-Cell["", "Item",
- TaggingRules->{
-  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
-   "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
-   ProgressIndicator[Appearance -> "Necklace"], "AttachedHints" -> {
-     CellObject[321601], 
-     CellObject[321665], 
-     CellObject[321713], 
-     CellObject[321761], 
-     CellObject[321825], 
-     CellObject[321889], 
-     CellObject[321953], 
-     CellObject[322017], 
-     CellObject[322081], 
-     CellObject[322145]}, "PreviewNotebook" -> NotebookObject[
-     FrontEndObject[
-      LinkObject["muw43_shm", 3, 1]], 74], 
-   "AttachedCells" -> {"Tests" -> CellObject[323569]}, "AttachedInlineCell" -> 
-   CellObject[390689]},
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellChangeTimes->{3.771158637433399*^9},
- CellTags->"TabNext",
- CellID->79477165,ExpressionUUID->"274f46d5-ca4b-498b-970a-1252ce6c17cc"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
 Cell[TextData[{
  "Related Resource Objects",
  Cell[BoxData[
@@ -2199,36 +2192,6 @@ repository that are related to this function.", "MoreInfoText"], Background ->
  DefaultNewCellStyle->"Item",
  CellTags->"Related Resource Objects",
  CellID->588449267,ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740"],
-
-Cell["", "Item",
- TaggingRules->{
-  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
-   "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
-   ProgressIndicator[Appearance -> "Necklace"], "AttachedHints" -> {
-     CellObject[321601], 
-     CellObject[321665], 
-     CellObject[321713], 
-     CellObject[321761], 
-     CellObject[321825], 
-     CellObject[321889], 
-     CellObject[321953], 
-     CellObject[322017], 
-     CellObject[322081], 
-     CellObject[322145]}, "PreviewNotebook" -> NotebookObject[
-     FrontEndObject[
-      LinkObject["muw43_shm", 3, 1]], 74], 
-   "AttachedCells" -> {"Tests" -> CellObject[323569]}, "AttachedInlineCell" -> 
-   CellObject[390545]},
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellChangeTimes->{3.771158639563924*^9},
- CellTags->"TabNext",
- CellID->960273585,ExpressionUUID->"49110d70-1c77-41fd-8151-04efdf6f0c4d"]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -2270,8 +2233,6 @@ Cell["Source, reference or citation information", "Text",
  CellID->343081869,ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[TextData[{
  "Links",
  Cell[BoxData[
@@ -2292,19 +2253,6 @@ to the function.", "MoreInfoText"], Background -> GrayLevel[0.95],
  DefaultNewCellStyle->"Item",
  CellTags->"Links",
  CellID->521525586,ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2"],
-
-Cell["Link to other related material", "Item",
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellTags->"TabNext",
- CellID->485448166,ExpressionUUID->"930b7ae4-9cfc-41bc-8d5c-6a27639f9bc0"]
-}, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[TextData[{
  "Tests",
@@ -2327,30 +2275,7 @@ additional options.", "MoreInfoText"], Background -> GrayLevel[0.95],
  Deletable->False,
  DefaultNewCellStyle->"Input",
  CellTags->"Tests",
- CellID->74308299,ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709"],
-
-Cell[BoxData[" "], "Input",
- TaggingRules->{
-  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
-   "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
-   ProgressIndicator[Appearance -> "Necklace"], "AttachedHints" -> {
-     CellObject[321601], 
-     CellObject[321665], 
-     CellObject[321713], 
-     CellObject[321761], 
-     CellObject[321825], 
-     CellObject[321889], 
-     CellObject[321953], 
-     CellObject[322017], 
-     CellObject[322081], 
-     CellObject[322145]}, "PreviewNotebook" -> NotebookObject[
-     FrontEndObject[
-      LinkObject["muw43_shm", 3, 1]], 74], 
-   "AttachedCells" -> {"Tests" -> CellObject[323569]}, "AttachedInlineCell" -> 
-   CellObject[390737]},
- CellChangeTimes->{3.771158684067895*^9},
- CellID->972017713,ExpressionUUID->"c93bb813-b244-4acf-bce3-d995550abcee"]
-}, Open  ]]
+ CellID->74308299,ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2361,13 +2286,17 @@ Cell["Author Notes", "Section",
  CellTags->"Author Notes",
  CellID->795110225,ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052"],
 
-Cell["Additional information about limitations, issues, etc.", "Text",
+Cell["\<\
+The chi square test is meant to work with sequences of a certain length \
+(typically longer than 30).\
+\>", "Text",
  CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
        SelectedNotebook[], After, Cell]; NotebookFind[
        SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.771183448724455*^9, 3.7711834667138987`*^9}},
  CellTags->"TabNext",
  CellID->567921317,ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085"]
 }, Open  ]],
@@ -2428,1240 +2357,109 @@ DockedCells->{
   Cell[
    BoxData[
     StyleBox[
-     TagBox[
-      DynamicModuleBox[{Typeset`var$$ = False}, 
-       InterpretationBox[
-        StyleBox[
-         PaneSelectorBox[{False -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
+     InterpretationBox[
+      TagBox[
+       GridBox[{{
+          OverlayBox[{
+            StyleBox[
+             TagBox[
+              DynamicModuleBox[{Typeset`var$$ = False}, 
+               InterpretationBox[
+                StyleBox[
+                 PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
                     DynamicBox[
                     ToBoxes[
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771163937773442`16.32905040136479*^9, TimeZone -> 0]], {
+                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
                     "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                     "System"], FontSlant -> Italic, FontColor -> 
                     GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
-                    GridBox[{{"\"Deployed for this computer\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "Version" -> 
-                    None, "Keywords" -> {"Randomness", "Statistics"}, 
-                    "ContributorInformation" -> 
-                    Association[
-                    "ContributedBy" -> 
-                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
-emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
                     StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of 0s and 1s and returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of random reals between 0 and 1 and \
-returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> 
-                    "tests a sequence of either random reals between 0 and 1 \
-or a sequen ce of 0s and 1s and returns a a property of the test"]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell["Returns the chi square test statistic", 
-                    "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9}, CellID -> 
-                    1532378813], 
-                    Cell[
-                    "The bin size for testing random reals is 1/n where n is \
-the sequence length", "Notes", CellChangeTimes -> {{3.771157717650599*^9, 
-                    3.771157759978085*^9}}, CellID -> 1869827803]}], 
-                    "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["xcva2_shm", 3, 1]], 105], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f/download/DefinitionData"], 
-                    "RelatedSymbols" -> {""}, "SeeAlso" -> {""}, "ShortName" -> 
-                    "ChiSquareRandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f"]}]]], Selectable -> False], 
-                    RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                   StyleBox[
-                    ActionMenuBox[
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "5", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "9", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                    "\"   \""}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    2054893185]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    2054893185]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"The character \\\",\\\" should not be included in \
-argument formatting\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1201398026]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1255373888]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    942238246]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1094108079]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1494721804]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"No documentation found for \""}, "RowDefault"] :> (
-                    Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"No symbol named  found in System`\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    960273585]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    972017713])}, Method -> "Queued", Appearance -> None], 
-                    "BoxID" -> "WarningCountButton", StripOnInput -> False], 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "1be4f818-5892-49f8-8d4c-4c85e6f02cd7"]), Appearance -> 
-                    None, BoxID -> "1be4f818-5892-49f8-8d4c-4c85e6f02cd7", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}], True -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
                     DynamicBox[
                     ToBoxes[
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771163937773442`16.32905040136479*^9, TimeZone -> 0]], {
+                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
                     "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                     "System"], FontSlant -> Italic, FontColor -> 
                     GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
-                    GridBox[{{"\"Deployed for this computer\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "Version" -> 
-                    None, "Keywords" -> {"Randomness", "Statistics"}, 
-                    "ContributorInformation" -> 
-                    Association[
-                    "ContributedBy" -> 
-                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
-emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of 0s and 1s and returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of random reals between 0 and 1 and \
-returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> 
-                    "tests a sequence of either random reals between 0 and 1 \
-or a sequen ce of 0s and 1s and returns a a property of the test"]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell[
-                    "Returns the chi square test statistic", "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9}, CellID -> 
-                    1532378813], 
-                    Cell[
-                    "The bin size for testing random reals is 1/n where n is \
-the sequence length", "Notes", CellChangeTimes -> {{3.771157717650599*^9, 
-                    3.771157759978085*^9}}, CellID -> 1869827803]}], 
-                    "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["xcva2_shm", 3, 1]], 105], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f/download/DefinitionData"], 
-                    "RelatedSymbols" -> {""}, "SeeAlso" -> {""}, "ShortName" -> 
-                    "ChiSquareRandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f"]}]]], Selectable -> False], 
-                    RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                   StyleBox[
-                    ActionMenuBox[
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "5", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "9", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                    "\"   \""}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    2054893185]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    2054893185]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"The character \\\",\\\" should not be included in \
-argument formatting\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1201398026]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Usage descriptions should end in a period (.)\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1255373888]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    942238246]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1094108079]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Example captions should usually end in a colon when \
-appearing before input\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1494721804]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"No documentation found for \""}, "RowDefault"] :> (
-                    Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"No symbol named  found in System`\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    79477165]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    960273585]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    972017713])}, Method -> "Queued", Appearance -> None], 
-                    "BoxID" -> "WarningCountButton", StripOnInput -> False], 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "1be4f818-5892-49f8-8d4c-4c85e6f02cd7"]), Appearance -> 
-                    None, BoxID -> "1be4f818-5892-49f8-8d4c-4c85e6f02cd7", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
-               PaneBox[
-                TagBox[
-                 GridBox[{{"\"\"", 
-                    StyleBox[
-                    TagBox[
-                    
-                    GridBox[{{
-                    "\"\[FilledVerySmallSquare]\"", "\"Local object:\"", 
-                    TemplateBox[{
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file://\[Ellipsis]/DeployedResources/Function/\
-ChiSquareRandomnessTest\"", "]"}], 
-                    RawBoxes[
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}]]}, 
-                    "ClickToCopyTemplate"]}, {
-                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
-                    TemplateBox[{
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
-                    LineBreakWithin -> False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    RowBox[{"ResourceFunction", "[", 
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {Automatic, Automatic, Fit}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
-                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
-                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                  False, GridBoxDividers -> {
-                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
-                    Rational[239, 255]]}}, 
-                  GridBoxItemSize -> {
-                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
-                  GridBoxSpacings -> {
-                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
-                ImageMargins -> 0]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}]}, 
-          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
-          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
-         StripOnInput -> False], 
-        OpenerView[{
-          Grid[{{
-             Style[
-              Dynamic[
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                  Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                  Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                  DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                  Baseline], Deployed -> False, StripOnInput -> False], 
+                OpenerView[{
+                  Style[
+                   Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                   FontSlant -> Italic, FontColor -> GrayLevel[0.5], FontSize -> 
+                   0.9 Inherited], ""}, False]], DynamicModuleValues -> 
+               Automatic], Setting[#, {0}]& ], ShowContents -> False, 
+             StripOnInput -> False], 
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
                DateString[
                 TimeZoneConvert[
                  DateObject[
-                 3.771163937773442`16.32905040136479*^9, TimeZone -> 0]], {
+                 3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
                 "MonthName", " ", "DayShort", ", ", "Year", " ", 
                  "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
-              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
-              "   ", 
-             Grid[{{"Deployed for this computer", 
-                RawBoxes[
+               StandardForm], SingleEvaluation -> True, Evaluator -> 
+              "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+             FontSize -> 0.9 Inherited, StripOnInput -> False]}, Alignment -> 
+           Right], "\"   \"", 
+          TagBox[
+           
+           GridBox[{{"\"Found 3 suggestions\"", "\"\""}}, AutoDelete -> False,
+             GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], "\"\"", 
+          StyleBox[
+           ActionMenuBox[
+            TagBox[
+             TagBox[
+              GridBox[{{
                  TemplateBox[{
-                   ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                   "PrettyTooltipTemplate"]]}}, Spacings -> 0.25], 
-             Grid[{{"ResourceFunction:", 
-                RawBoxes[
-                 TemplateBox[{
-                   InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox["\"ChiSquareRandomnessTest\"", 
-                    "ResourceFunctionLabel"], FontSize -> 
-                    Rational[12, 13] Inherited, ShowStringCharacters -> 
-                    False]}}]], "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "Version" -> 
-                    None, "Keywords" -> {"Randomness", "Statistics"}, 
-                    "ContributorInformation" -> 
-                    Association[
-                    "ContributedBy" -> 
-                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
-emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of 0s and 1s and returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    "tests a sequence of random reals between 0 and 1 and \
-returns a p-value"], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> 
-                    "tests a sequence of either random reals between 0 and 1 \
-or a sequen ce of 0s and 1s and returns a a property of the test"]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell[
-                    "Returns the chi square test statistic", "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9}, CellID -> 
-                    1532378813], 
-                    Cell[
-                    "The bin size for testing random reals is 1/n where n is \
-the sequence length", "Notes", 
-                    CellChangeTimes -> {{3.771157717650599*^9, 
-                    3.771157759978085*^9}}, CellID -> 1869827803]}], 
-                    "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["xcva2_shm", 3, 1]], 105], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f/download/DefinitionData"], 
-                    "RelatedSymbols" -> {""}, "SeeAlso" -> {""}, "ShortName" -> 
-                    "ChiSquareRandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-6d2/6d27c05c-acd2-4324-851d-f073b11cfb7f"]}]]], Selectable -> False], 
-                   RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}]]}, 
-                  "ClickToCopyTemplate"]]}}], 
-             Style[
-              ActionMenu[
-               MouseAppearance[
-                Grid[{{
-                   RawBoxes[
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "5", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]], 
-                   
-                   RawBoxes[
-                    TemplateBox[{
-                    TagBox[
+                   TagBox[
                     GridBox[{{
                     TemplateBox[{
                     RGBColor[{
@@ -3671,336 +2469,117 @@ DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}]]},
                     RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
                     "SuggestionIconTemplate"], 
                     StyleBox[
-                    "9", FontColor -> GrayLevel[0.5], FontSize -> 9, 
+                    "3", FontColor -> GrayLevel[0.5], FontSize -> 9, 
                     StripOnInput -> False]}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
                     False, GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"]], 
-                   "   "}}], "LinkHand"], {Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
+                   "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
+                 "\"   \""}}, AutoDelete -> False, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+              "Grid"], 
+             MouseAppearanceTag["LinkHand"]], {TemplateBox[{
+                TemplateBox[{
+                  RGBColor[{
                     Rational[25, 51], 
                     Rational[25, 51], 
                     Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Arguments should also be formatted in the description"}] :> \
-(Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[584004037]),
-                 Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
+                  RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"Arguments should also be formatted in the description\""}, 
+               "RowDefault"] :> (Block[{$ContextPath}, 
+                Needs["FunctionResource`DefinitionNotebook`"]]; 
+              FunctionResource`DefinitionNotebook`Private`seek[584004037]), 
+             TemplateBox[{
+                TemplateBox[{
+                  RGBColor[{
                     Rational[25, 51], 
                     Rational[25, 51], 
                     Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Usage descriptions should end in a period (.)"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[584004037]),
-                 Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
+                  RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"Arguments should also be formatted in the description\""}, 
+               "RowDefault"] :> (Block[{$ContextPath}, 
+                Needs["FunctionResource`DefinitionNotebook`"]]; 
+              FunctionResource`DefinitionNotebook`Private`seek[2054893185]), 
+             TemplateBox[{
+                TemplateBox[{
+                  RGBColor[{
                     Rational[25, 51], 
                     Rational[25, 51], 
                     Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Arguments should also be formatted in the description"}] :> \
-(Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  2054893185]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Usage descriptions should end in a period (.)"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  2054893185]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "The character \",\" should not be included in argument \
-formatting"}] :> (Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1201398026]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Usage descriptions should end in a period (.)"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1255373888]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Example captions should usually end in a colon when \
-appearing before input"}] :> (Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[942238246]),
-                 Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Example captions should usually end in a colon when \
-appearing before input"}] :> (Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1094108079]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Example captions should usually end in a colon when \
-appearing before input"}] :> (Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1494721804]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", "Cell is empty"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[79477165]), 
-                Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "No documentation found for "}] :> (Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[79477165]), 
-                Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "No symbol named  found in System`"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[79477165]), 
-                Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", "Cell is empty"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[960273585]),
-                 Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", "Cell is empty"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  972017713])}, Method -> "Queued", Appearance -> None], 
-              "BoxID" -> "WarningCountButton"], 
-             MouseAppearance[
-              Button[
-               MouseAppearance[
-                Mouseover[
-                 Graphics[{
-                   GrayLevel[
-                    Rational[64, 85]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+                  RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"Arguments should also be formatted in the description\""}, 
+               "RowDefault"] :> (Block[{$ContextPath}, 
+                Needs["FunctionResource`DefinitionNotebook`"]]; 
+              FunctionResource`DefinitionNotebook`Private`seek[1255373888])}, 
+            Method -> "Queued", Appearance -> None], "BoxID" -> 
+           "WarningCountButton", StripOnInput -> False], 
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
 {-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
 {-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None], 
-                 Graphics[{
-                   GrayLevel[
-                    Rational[128, 255]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
 {-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
 {-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
-               FunctionResource`DefinitionNotebook`Private`deleteMe[
-                "1be4f818-5892-49f8-8d4c-4c85e6f02cd7"], Appearance -> None, 
-               BoxID -> "1be4f818-5892-49f8-8d4c-4c85e6f02cd7"], 
-              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
-              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
-           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
-          Grid[{{"", 
-             Style[
-              Grid[{{"\[FilledVerySmallSquare]", "Local object:", 
-                 RawBoxes[
-                  TemplateBox[{
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file://\[Ellipsis]/DeployedResources/Function/\
-ChiSquareRandomnessTest\"", "]"}], 
-                    RawBoxes[
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}]]}, 
-                   "ClickToCopyTemplate"]]}, {
-                "\[FilledVerySmallSquare]", "Resource object:", 
-                 RawBoxes[
-                  TemplateBox[{
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox["\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "6d27c05c-acd2-4324-851d-f073b11cfb7f", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$6d27c05cacd24324851df073b11cfb7f`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/ChiSquareRandomnessTest\"", "]"}], "]"}], "]"}]]}, 
-                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
-               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
-              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
-           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
-           Dividers -> {None, {-1 -> GrayLevel[
-                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
-          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
-     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
-     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], 
+            ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+             FunctionResource`DefinitionNotebook`Private`deleteMe[
+              "a19320f8-251d-49d2-b0b7-f792aca2a456"]), Appearance -> None, 
+            BoxID -> "a19320f8-251d-49d2-b0b7-f792aca2a456", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]]}}, 
+        GridBoxAlignment -> {
+         "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+          "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+        GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+            Scaled[0.35], Automatic, Fit, Automatic}, 
+          "Rows" -> {{Automatic}}}], "Grid"], 
+      FunctionResource`DefinitionNotebook`Private`$checkStripe], "Text", 
+     FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
+   "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
   "TemplateVersion" -> "1.2.22", "ToolsOpen" -> False, "StatusMessage" -> "", 
   "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {
-    CellObject[390113], 
-    CellObject[390161], 
-    CellObject[390209], 
-    CellObject[390257], 
-    CellObject[390305], 
-    CellObject[390353], 
-    CellObject[390401], 
-    CellObject[390449], 
-    CellObject[390497], 
-    CellObject[390545], 
-    CellObject[390593], 
-    CellObject[390641], 
-    CellObject[390689], 
-    CellObject[390737]}},
+    CellObject[723473], 
+    CellObject[723521], 
+    CellObject[723569]}},
 CreateCellID->True,
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
 StyleDefinitions->Notebook[{
@@ -4282,7 +2861,6 @@ clickTime$$ > FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$,
                     Graphics[{
                     RGBColor[0, 2/3, 0], 
                     Thickness[2/45], 
-                    
                     FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
                     0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
                     0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
@@ -4303,8 +2881,7 @@ clickTime$$ > FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$,
                     11.25}}, {{8.25, 9.75}, {14.25, 9.75}, {14.25, 9.}, {8.25,
                      9.}}, {{8.25, 7.5}, {14.25, 7.5}, {14.25, 6.75}, {8.25, 
                     6.75}}}]}, ImageSize -> 12], "Copied"]], UpdateInterval -> 
-                    1, 
-                    TrackedSymbols :> {
+                    1, TrackedSymbols :> {
                     FunctionResourceTools`BuildDefinitionNotebook`Private`\
 clickTime$$}], StandardForm], Evaluator -> "System"], 
                  ButtonFunction :> (
@@ -4900,6 +3477,7 @@ p2HmwdTp4FCHTvOhqYfZrw2lhdDk0fno6tHcD1PPwOSAnY+uns8BAE8cGz4=
                     RGBColor[0.960784, 0.705882, 0.498039, 1.]], StripOnInput -> 
                     False], 
                     StyleBox[{
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -5362,70 +3940,10 @@ ACBxmlc=
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Author Notes"->{
-  Cell[102883, 2357, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
-   CellTags->"Author Notes",
-   CellID->795110225]},
- "Categories"->{
-  Cell[89280, 1986, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
-   CellTags->"Categories",
-   CellID->749076926]},
- "CategoriesCell"->{
-  Cell[89464, 1992, 4498, 131, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
-   CellTags->"CategoriesCell",
-   CellID->1894707987]},
- "Contributed By"->{
-  Cell[85500, 1893, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
-   CellTags->"Contributed By",
-   CellID->127820888]},
- "Definition"->{
-  Cell[2510, 61, 1000, 22, 68, "Section",ExpressionUUID->"6fa7d755-a92c-48b7-a83e-69d05a120f83",
-   CellTags->"Definition",
-   CellID->474513213]},
- "Description"->{
-  Cell[1483, 39, 1002, 18, 35, "Text",ExpressionUUID->"13bf7573-fa21-448d-8f4a-a44eb8dcca2e",
-   CellTags->{"Description", "TabNext"},
-   CellID->450900334]},
- "Details & Options"->{
-  Cell[17761, 465, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
-   CellTags->"Details & Options",
-   CellID->66019318]},
- "Documentation"->{
-  Cell[10787, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
-   CellTags->"Documentation",
-   CellID->855965831]},
- "Examples"->{
-  Cell[20894, 535, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
-   CellTags->"Examples",
-   CellID->180595041]},
- "Keywords"->{
-  Cell[87258, 1938, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
-   CellTags->"Keywords",
-   CellID->547400482]},
- "Links"->{
-  Cell[99827, 2274, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
-   CellTags->"Links",
-   CellID->521525586]},
- "Related Resource Objects"->{
-  Cell[96037, 2181, 824, 19, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
-   CellTags->"Related Resource Objects",
-   CellID->588449267]},
- "Related Symbols"->{
-  Cell[93999, 2128, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
-   CellTags->"Related Symbols",
-   CellID->161079978]},
- "Source & Additional Information"->{
-  Cell[85285, 1886, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
-   CellTags->"Source & Additional Information",
-   CellID->318391102]},
- "Source/Reference Citation"->{
-  Cell[98126, 2234, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
-   CellTags->"Source/Reference Citation",
-   CellID->642091068]},
- "Submission Notes"->{
-  Cell[103669, 2376, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
-   CellTags->"Submission Notes",
-   CellID->843283583]},
+ "Title"->{
+  Cell[583, 22, 897, 15, 98, "Title",ExpressionUUID->"45ecee62-60ff-4bcb-8875-a4bcb88cb61d",
+   CellTags->{"Title", "TabNext"},
+   CellID->362346026]},
  "TabNext"->{
   Cell[583, 22, 897, 15, 98, "Title",ExpressionUUID->"45ecee62-60ff-4bcb-8875-a4bcb88cb61d",
    CellTags->{"Title", "TabNext"},
@@ -5439,84 +3957,135 @@ CellTagsIndex->{
   Cell[12719, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
    CellTags->"TabNext",
    CellID->410373307],
-  Cell[13281, 346, 934, 22, 27, "UsageDescription",ExpressionUUID->"04c01a17-491f-4c42-9335-4c26dd269459",
+  Cell[13281, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
    CellTags->"TabNext",
    CellID->584004037],
-  Cell[14252, 373, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
+  Cell[14517, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
    CellTags->"TabNext",
    CellID->1728765464],
-  Cell[14815, 386, 1013, 25, 27, "UsageDescription",ExpressionUUID->"1a80c7d7-af3b-4728-908a-f082442dd241",
+  Cell[15080, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
    CellTags->"TabNext",
    CellID->2054893185],
-  Cell[15865, 416, 706, 14, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
+  Cell[16316, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
    CellTags->"TabNext",
    CellID->1201398026],
-  Cell[16574, 432, 1138, 27, 27, "UsageDescription",ExpressionUUID->"f8c61532-e9f8-4292-9dae-e65128b858de",
+  Cell[17081, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
    CellTags->"TabNext",
    CellID->1255373888],
-  Cell[19030, 494, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
+  Cell[19869, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
    CellTags->"TabNext",
    CellID->521904482],
-  Cell[86299, 1914, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
+  Cell[87167, 1938, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
    CellTags->"TabNext",
    CellID->832483124],
-  Cell[88080, 1961, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
+  Cell[88948, 1985, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
    CellTags->"TabNext",
    CellID->123227828],
-  Cell[94776, 2149, 1224, 27, 32, "Item",ExpressionUUID->"274f46d5-ca4b-498b-970a-1252ce6c17cc",
-   CellTags->"TabNext",
-   CellID->79477165],
-  Cell[96864, 2202, 1225, 27, 32, "Item",ExpressionUUID->"49110d70-1c77-41fd-8151-04efdf6f0c4d",
-   CellTags->"TabNext",
-   CellID->960273585],
-  Cell[99004, 2256, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
+  Cell[97443, 2219, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
    CellTags->"TabNext",
    CellID->343081869],
-  Cell[100557, 2295, 540, 8, 32, "Item",ExpressionUUID->"930b7ae4-9cfc-41bc-8d5c-6a27639f9bc0",
-   CellTags->"TabNext",
-   CellID->485448166],
-  Cell[103068, 2363, 564, 8, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
+  Cell[100076, 2288, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
    CellTags->"TabNext",
    CellID->567921317],
-  Cell[104505, 2398, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
+  Cell[101636, 2327, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
    CellTags->"TabNext",
    CellID->920818074]},
- "Tests"->{
-  Cell[101134, 2308, 880, 21, 54, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
-   CellTags->"Tests",
-   CellID->74308299]},
- "Title"->{
-  Cell[583, 22, 897, 15, 98, "Title",ExpressionUUID->"45ecee62-60ff-4bcb-8875-a4bcb88cb61d",
-   CellTags->{"Title", "TabNext"},
-   CellID->362346026]},
+ "Description"->{
+  Cell[1483, 39, 1002, 18, 35, "Text",ExpressionUUID->"13bf7573-fa21-448d-8f4a-a44eb8dcca2e",
+   CellTags->{"Description", "TabNext"},
+   CellID->450900334]},
+ "Definition"->{
+  Cell[2510, 61, 1000, 22, 68, "Section",ExpressionUUID->"6fa7d755-a92c-48b7-a83e-69d05a120f83",
+   CellTags->"Definition",
+   CellID->474513213]},
+ "Documentation"->{
+  Cell[10787, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
+   CellTags->"Documentation",
+   CellID->855965831]},
  "Usage"->{
   Cell[10966, 286, 1728, 43, 54, "Subsection",ExpressionUUID->"e2ee89b1-1f81-43c8-8b27-39320e134b17",
    CellTags->"Usage",
-   CellID->310800389]}
+   CellID->310800389]},
+ "Details & Options"->{
+  Cell[18600, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
+   CellTags->"Details & Options",
+   CellID->66019318]},
+ "Examples"->{
+  Cell[21733, 558, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
+   CellTags->"Examples",
+   CellID->180595041]},
+ "Source & Additional Information"->{
+  Cell[86153, 1910, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
+   CellTags->"Source & Additional Information",
+   CellID->318391102]},
+ "Contributed By"->{
+  Cell[86368, 1917, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
+   CellTags->"Contributed By",
+   CellID->127820888]},
+ "Keywords"->{
+  Cell[88126, 1962, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
+   CellTags->"Keywords",
+   CellID->547400482]},
+ "Categories"->{
+  Cell[90148, 2010, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
+   CellTags->"Categories",
+   CellID->749076926]},
+ "CategoriesCell"->{
+  Cell[90332, 2016, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
+   CellTags->"CategoriesCell",
+   CellID->1894707987]},
+ "Related Symbols"->{
+  Cell[94939, 2153, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
+   CellTags->"Related Symbols",
+   CellID->161079978]},
+ "Related Resource Objects"->{
+  Cell[95716, 2174, 824, 19, 38, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
+   CellTags->"Related Resource Objects",
+   CellID->588449267]},
+ "Source/Reference Citation"->{
+  Cell[96565, 2197, 875, 20, 38, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
+   CellTags->"Source/Reference Citation",
+   CellID->642091068]},
+ "Links"->{
+  Cell[98244, 2235, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
+   CellTags->"Links",
+   CellID->521525586]},
+ "Tests"->{
+  Cell[98974, 2256, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
+   CellTags->"Tests",
+   CellID->74308299]},
+ "Author Notes"->{
+  Cell[99891, 2282, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
+   CellTags->"Author Notes",
+   CellID->795110225]},
+ "Submission Notes"->{
+  Cell[100800, 2305, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
+   CellTags->"Submission Notes",
+   CellID->843283583]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Author Notes", 258780, 5364},
- {"Categories", 258949, 5368},
- {"CategoriesCell", 259122, 5372},
- {"Contributed By", 259300, 5376},
- {"Definition", 259474, 5380},
- {"Description", 259640, 5384},
- {"Details & Options", 259823, 5388},
- {"Documentation", 260002, 5392},
- {"Examples", 260168, 5396},
- {"Keywords", 260332, 5400},
- {"Links", 260495, 5404},
- {"Related Resource Objects", 260674, 5408},
- {"Related Symbols", 260863, 5412},
- {"Source & Additional Information", 261059, 5416},
- {"Source/Reference Citation", 261261, 5420},
- {"Submission Notes", 261452, 5424},
- {"TabNext", 261623, 5428},
- {"Tests", 264290, 5483},
- {"Title", 264450, 5487},
- {"Usage", 264614, 5491}
+ {"Title", 185105, 3942},
+ {"TabNext", 185271, 3946},
+ {"Description", 187516, 3992},
+ {"Definition", 187692, 3996},
+ {"Documentation", 187860, 4000},
+ {"Usage", 188023, 4004},
+ {"Details & Options", 188195, 4008},
+ {"Examples", 188369, 4012},
+ {"Source & Additional Information", 188556, 4016},
+ {"Contributed By", 188747, 4020},
+ {"Keywords", 188919, 4024},
+ {"Categories", 189087, 4028},
+ {"CategoriesCell", 189260, 4032},
+ {"Related Symbols", 189439, 4036},
+ {"Related Resource Objects", 189628, 4040},
+ {"Source/Reference Citation", 189827, 4044},
+ {"Links", 190007, 4048},
+ {"Tests", 190167, 4052},
+ {"Author Notes", 190333, 4056},
+ {"Submission Notes", 190507, 4060}
  }
 *)
 (*NotebookFileOutline
@@ -5556,262 +4125,243 @@ Cell[CellGroupData[{
 Cell[12719, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
  CellTags->"TabNext",
  CellID->410373307],
-Cell[13281, 346, 934, 22, 27, "UsageDescription",ExpressionUUID->"04c01a17-491f-4c42-9335-4c26dd269459",
+Cell[13281, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
  CellTags->"TabNext",
  CellID->584004037]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14252, 373, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
+Cell[14517, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
  CellTags->"TabNext",
  CellID->1728765464],
-Cell[14815, 386, 1013, 25, 27, "UsageDescription",ExpressionUUID->"1a80c7d7-af3b-4728-908a-f082442dd241",
+Cell[15080, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
  CellTags->"TabNext",
  CellID->2054893185]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15865, 416, 706, 14, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
+Cell[16316, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
  CellTags->"TabNext",
  CellID->1201398026],
-Cell[16574, 432, 1138, 27, 27, "UsageDescription",ExpressionUUID->"f8c61532-e9f8-4292-9dae-e65128b858de",
+Cell[17081, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
  CellTags->"TabNext",
  CellID->1255373888]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[17761, 465, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
+Cell[18600, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
  CellTags->"Details & Options",
  CellID->66019318],
 Cell[CellGroupData[{
-Cell[19030, 494, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
+Cell[19869, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
  CellTags->"TabNext",
  CellID->521904482],
-Cell[19864, 510, 724, 12, 70, "TableNotes",ExpressionUUID->"899ae3f1-e565-4167-8b86-4b12cd27e395",
+Cell[20703, 533, 724, 12, 70, "TableNotes",ExpressionUUID->"899ae3f1-e565-4167-8b86-4b12cd27e395",
  CellID->1532378813],
-Cell[20591, 524, 242, 4, 32, "Notes",ExpressionUUID->"5cfdaa40-fb95-49ff-8732-4dd085d4d131",
+Cell[21430, 547, 242, 4, 32, "Notes",ExpressionUUID->"5cfdaa40-fb95-49ff-8732-4dd085d4d131",
  CellID->1869827803]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20894, 535, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
+Cell[21733, 558, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
  CellTags->"Examples",
  CellID->180595041],
 Cell[CellGroupData[{
-Cell[27432, 683, 346, 6, 54, "Subsection",ExpressionUUID->"1034028f-93d8-4021-979b-a2c75b8e9b51",
+Cell[28271, 706, 346, 6, 54, "Subsection",ExpressionUUID->"1034028f-93d8-4021-979b-a2c75b8e9b51",
  CellID->462042388],
-Cell[27781, 691, 289, 5, 35, "Text",ExpressionUUID->"b5296509-450d-4eca-b919-e3125e422249",
+Cell[28620, 714, 289, 5, 35, "Text",ExpressionUUID->"b5296509-450d-4eca-b919-e3125e422249",
  CellID->13078159],
-Cell[28073, 698, 366, 10, 30, "Input",ExpressionUUID->"e87ba7aa-08f1-4590-afe6-4aeb9845b4de",
+Cell[28912, 721, 366, 10, 30, "Input",ExpressionUUID->"e87ba7aa-08f1-4590-afe6-4aeb9845b4de",
  CellID->771105549],
-Cell[28442, 710, 822, 20, 35, "Text",ExpressionUUID->"a7deb8cf-3d54-4b90-a1d4-769c90d79e5d",
+Cell[29281, 733, 823, 20, 35, "Text",ExpressionUUID->"d50ddd93-e538-42b8-b546-cebda62eff31",
  CellID->942238246],
 Cell[CellGroupData[{
-Cell[29289, 734, 395, 9, 30, "Input",ExpressionUUID->"e60875e4-13e3-46c5-aadd-37ed8f0ec3ce",
+Cell[30129, 757, 395, 9, 30, "Input",ExpressionUUID->"e60875e4-13e3-46c5-aadd-37ed8f0ec3ce",
  CellID->524633794],
-Cell[29687, 745, 1158, 27, 183, "Output",ExpressionUUID->"18b1f090-f913-4aa5-9c53-1c088d46eedd",
+Cell[30527, 768, 1158, 27, 183, "Output",ExpressionUUID->"18b1f090-f913-4aa5-9c53-1c088d46eedd",
  CellID->877704841]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30882, 777, 292, 5, 30, "Input",ExpressionUUID->"3dc54bc2-5358-4c97-b740-ba89973ecb55",
+Cell[31722, 800, 318, 6, 30, "Input",ExpressionUUID->"3dc54bc2-5358-4c97-b740-ba89973ecb55",
  CellID->954404241],
-Cell[31177, 784, 218, 4, 51, "Output",ExpressionUUID->"950a9e10-16a4-4acf-9d5c-614749e7c4c3",
+Cell[32043, 808, 218, 4, 51, "Output",ExpressionUUID->"950a9e10-16a4-4acf-9d5c-614749e7c4c3",
  CellID->1352626255]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[31432, 793, 336, 6, 30, "Input",ExpressionUUID->"e2f5d44d-005c-4518-9e7d-bb1d39725ea0",
+Cell[32298, 817, 336, 6, 30, "Input",ExpressionUUID->"e2f5d44d-005c-4518-9e7d-bb1d39725ea0",
  CellID->431240592],
-Cell[31771, 801, 240, 4, 34, "Output",ExpressionUUID->"9d76cd0f-251f-4059-9cf1-125ace888d14",
+Cell[32637, 825, 240, 4, 34, "Output",ExpressionUUID->"9d76cd0f-251f-4059-9cf1-125ace888d14",
  CellID->1190656195]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32048, 810, 243, 5, 33, "ExampleDelimiter",ExpressionUUID->"9e6bdc5a-b22e-409d-8061-9d0926925a37",
+Cell[32914, 834, 243, 5, 33, "ExampleDelimiter",ExpressionUUID->"9e6bdc5a-b22e-409d-8061-9d0926925a37",
  CellID->1688042150],
-Cell[32294, 817, 290, 5, 35, "Text",ExpressionUUID->"b424142e-0ac4-41d6-980c-da3c28793ac8",
+Cell[33160, 841, 290, 5, 35, "Text",ExpressionUUID->"b424142e-0ac4-41d6-980c-da3c28793ac8",
  CellID->1912975356],
-Cell[32587, 824, 364, 10, 30, "Input",ExpressionUUID->"a6626910-9424-4445-ba4e-e2a153a05118",
+Cell[33453, 848, 364, 10, 30, "Input",ExpressionUUID->"a6626910-9424-4445-ba4e-e2a153a05118",
  CellID->1297948717],
-Cell[32954, 836, 825, 20, 35, "Text",ExpressionUUID->"6a5ebae0-2e5c-4167-be30-a0569e7c8dcf",
+Cell[33820, 860, 826, 20, 35, "Text",ExpressionUUID->"92eeb36e-3d87-464f-a7cf-d44ab6da3814",
  CellID->1094108079],
 Cell[CellGroupData[{
-Cell[33804, 860, 329, 8, 30, "Input",ExpressionUUID->"95654acf-7aaf-42dd-96bb-364ecf3cec8e",
+Cell[34671, 884, 329, 8, 30, "Input",ExpressionUUID->"95654acf-7aaf-42dd-96bb-364ecf3cec8e",
  CellID->365838601],
-Cell[34136, 870, 11030, 189, 183, "Output",ExpressionUUID->"cae38558-1903-47c6-bfaf-37e5f5c50af0",
+Cell[35003, 894, 11030, 189, 183, "Output",ExpressionUUID->"cae38558-1903-47c6-bfaf-37e5f5c50af0",
  CellID->2104502202]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45203, 1064, 291, 5, 30, "Input",ExpressionUUID->"b778590d-7aac-46c7-bb98-4b754773a06f",
+Cell[46070, 1088, 291, 5, 30, "Input",ExpressionUUID->"b778590d-7aac-46c7-bb98-4b754773a06f",
  CellID->916634257],
-Cell[45497, 1071, 197, 3, 34, "Output",ExpressionUUID->"697637d2-fb0d-4a77-83b0-aa7c4b8b8034",
+Cell[46364, 1095, 197, 3, 34, "Output",ExpressionUUID->"697637d2-fb0d-4a77-83b0-aa7c4b8b8034",
  CellID->1206962272]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45731, 1079, 287, 5, 30, "Input",ExpressionUUID->"cf0a4d5f-6eca-4437-9009-25865ef79a1c",
+Cell[46598, 1103, 287, 5, 30, "Input",ExpressionUUID->"cf0a4d5f-6eca-4437-9009-25865ef79a1c",
  CellID->674643075],
-Cell[46021, 1086, 188, 3, 34, "Output",ExpressionUUID->"0fd7916a-8174-4160-a8b4-323a1078f7c2",
+Cell[46888, 1110, 188, 3, 34, "Output",ExpressionUUID->"0fd7916a-8174-4160-a8b4-323a1078f7c2",
  CellID->1058656937]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46258, 1095, 242, 5, 33, "ExampleDelimiter",ExpressionUUID->"6172c997-80a3-4eb1-af6a-908db7409bef",
+Cell[47125, 1119, 242, 5, 33, "ExampleDelimiter",ExpressionUUID->"6172c997-80a3-4eb1-af6a-908db7409bef",
  CellID->177693041],
-Cell[46503, 1102, 252, 5, 35, "Text",ExpressionUUID->"5d097360-625f-4aec-965a-ac1b0f126249",
+Cell[47370, 1126, 252, 5, 35, "Text",ExpressionUUID->"5d097360-625f-4aec-965a-ac1b0f126249",
  CellID->2078625853],
-Cell[46758, 1109, 356, 9, 30, "Input",ExpressionUUID->"d53f31e2-86f0-479f-ad0b-d65478d1b2dc",
+Cell[47625, 1133, 356, 9, 30, "Input",ExpressionUUID->"d53f31e2-86f0-479f-ad0b-d65478d1b2dc",
  CellID->1774611697],
-Cell[47117, 1120, 181, 2, 35, "Text",ExpressionUUID->"2d5150fe-6e74-44c1-9332-bdf315c52745",
+Cell[47984, 1144, 181, 2, 35, "Text",ExpressionUUID->"2d5150fe-6e74-44c1-9332-bdf315c52745",
  CellID->1141236796],
 Cell[CellGroupData[{
-Cell[47323, 1126, 396, 9, 30, "Input",ExpressionUUID->"e8cf8829-53f2-41dc-a4c1-d9939c70aea0",
+Cell[48190, 1150, 396, 9, 30, "Input",ExpressionUUID->"e8cf8829-53f2-41dc-a4c1-d9939c70aea0",
  CellID->1979401808],
-Cell[47722, 1137, 11075, 190, 183, "Output",ExpressionUUID->"b78210bf-a28b-4805-84ce-192b5db1458d",
+Cell[48589, 1161, 11075, 190, 183, "Output",ExpressionUUID->"b78210bf-a28b-4805-84ce-192b5db1458d",
  CellID->141238617]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[58834, 1332, 331, 6, 30, "Input",ExpressionUUID->"c1c8e22c-7464-4528-83b3-e892664511af",
+Cell[59701, 1356, 331, 6, 30, "Input",ExpressionUUID->"c1c8e22c-7464-4528-83b3-e892664511af",
  CellID->1921074434],
-Cell[59168, 1340, 3118, 59, 242, "Output",ExpressionUUID->"80723a3d-fedd-4708-99e5-8be620f75513",
+Cell[60035, 1364, 3118, 59, 242, "Output",ExpressionUUID->"80723a3d-fedd-4708-99e5-8be620f75513",
  CellID->137986306]
 }, Open  ]],
-Cell[62301, 1402, 913, 21, 35, "Text",ExpressionUUID->"80d18f26-fa73-4d91-89f9-aa910d50655b",
+Cell[63168, 1426, 914, 21, 35, "Text",ExpressionUUID->"3b34eeec-366b-4248-a532-cdcd9ff091bc",
  CellID->1494721804],
-Cell[63217, 1425, 414, 10, 30, "Input",ExpressionUUID->"9664808c-b077-4482-b66d-f7a96d3c53ac",
+Cell[64085, 1449, 414, 10, 30, "Input",ExpressionUUID->"9664808c-b077-4482-b66d-f7a96d3c53ac",
  CellID->1535629711],
-Cell[63634, 1437, 192, 2, 35, "Text",ExpressionUUID->"03a15a16-04ef-4502-b636-47b1016d29f1",
+Cell[64502, 1461, 192, 2, 35, "Text",ExpressionUUID->"03a15a16-04ef-4502-b636-47b1016d29f1",
  CellID->836620557],
 Cell[CellGroupData[{
-Cell[63851, 1443, 408, 9, 30, "Input",ExpressionUUID->"90185a50-3d97-493f-b533-01205e79b932",
+Cell[64719, 1467, 408, 9, 30, "Input",ExpressionUUID->"90185a50-3d97-493f-b533-01205e79b932",
  CellID->465604369],
-Cell[64262, 1454, 11037, 189, 183, "Output",ExpressionUUID->"ae80f9fd-465b-4c57-b2d6-5508e7f98079",
+Cell[65130, 1478, 11037, 189, 183, "Output",ExpressionUUID->"ae80f9fd-465b-4c57-b2d6-5508e7f98079",
  CellID->50061509]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[75336, 1648, 296, 6, 70, "Input",ExpressionUUID->"b3153431-af10-43ad-9083-953b23c1da9c",
+Cell[76204, 1672, 296, 6, 30, "Input",ExpressionUUID->"b3153431-af10-43ad-9083-953b23c1da9c",
  CellID->1766042889],
-Cell[75635, 1656, 4354, 78, 242, "Output",ExpressionUUID->"9e393ed4-0303-44a0-b1d1-4958ac3515c0",
+Cell[76503, 1680, 4354, 78, 242, "Output",ExpressionUUID->"9e393ed4-0303-44a0-b1d1-4958ac3515c0",
  CellID->906760209]
 }, Open  ]],
-Cell[80004, 1737, 215, 2, 35, "Text",ExpressionUUID->"96304be3-b64a-49ea-a65b-796223199fe6",
+Cell[80872, 1761, 215, 2, 35, "Text",ExpressionUUID->"96304be3-b64a-49ea-a65b-796223199fe6",
  CellID->1818358816],
 Cell[CellGroupData[{
-Cell[80244, 1743, 306, 6, 30, "Input",ExpressionUUID->"9503a805-8757-412b-86d4-87f053a5c9e7",
+Cell[81112, 1767, 306, 6, 30, "Input",ExpressionUUID->"9503a805-8757-412b-86d4-87f053a5c9e7",
  CellID->812290806],
-Cell[80553, 1751, 198, 3, 34, "Output",ExpressionUUID->"bd8deb19-5fd3-488f-a24e-049c3967fa1a",
+Cell[81421, 1775, 198, 3, 34, "Output",ExpressionUUID->"bd8deb19-5fd3-488f-a24e-049c3967fa1a",
  CellID->1389993010]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[80788, 1759, 296, 5, 30, "Input",ExpressionUUID->"c06c7907-a0d4-40e1-a97e-3e8e9e30d6dc",
+Cell[81656, 1783, 296, 5, 30, "Input",ExpressionUUID->"c06c7907-a0d4-40e1-a97e-3e8e9e30d6dc",
  CellID->386579685],
-Cell[81087, 1766, 190, 3, 34, "Output",ExpressionUUID->"fdb21afc-af02-479e-acc4-089b6ec0f9ef",
+Cell[81955, 1790, 190, 3, 34, "Output",ExpressionUUID->"fdb21afc-af02-479e-acc4-089b6ec0f9ef",
  CellID->1269833104]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[81338, 1776, 344, 6, 54, "Subsection",ExpressionUUID->"ebdb3ed2-33f9-473d-9d98-5c89c753e9c8",
+Cell[82206, 1800, 344, 6, 54, "Subsection",ExpressionUUID->"ebdb3ed2-33f9-473d-9d98-5c89c753e9c8",
  CellID->568056528],
-Cell[81685, 1784, 202, 2, 35, "Text",ExpressionUUID->"4f28f28b-3b11-44d3-a81d-4c69285ca080",
+Cell[82553, 1808, 202, 2, 35, "Text",ExpressionUUID->"4f28f28b-3b11-44d3-a81d-4c69285ca080",
  CellID->2049052413],
-Cell[81890, 1788, 572, 16, 30, "Input",ExpressionUUID->"362e9437-24d0-418d-952a-3bba3d34fdc4",
+Cell[82758, 1812, 572, 16, 30, "Input",ExpressionUUID->"362e9437-24d0-418d-952a-3bba3d34fdc4",
  CellID->2111465485],
 Cell[CellGroupData[{
-Cell[82487, 1808, 1247, 30, 34, "Input",ExpressionUUID->"bd440d6f-bf08-4e1d-8ee1-8ab88874e3a4",
+Cell[83355, 1832, 1247, 30, 34, "Input",ExpressionUUID->"bd440d6f-bf08-4e1d-8ee1-8ab88874e3a4",
  CellID->1158032380],
-Cell[83737, 1840, 1007, 25, 190, "Output",ExpressionUUID->"3b0b4fa8-f79a-4f2e-b5f7-a44913eba699",
+Cell[84605, 1864, 1007, 25, 190, "Output",ExpressionUUID->"3b0b4fa8-f79a-4f2e-b5f7-a44913eba699",
  CellID->1431044291]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[84781, 1870, 253, 4, 30, "Input",ExpressionUUID->"2c7d0fa6-6070-4d8d-a7f2-56fb72a9beb0",
+Cell[85649, 1894, 253, 4, 30, "Input",ExpressionUUID->"2c7d0fa6-6070-4d8d-a7f2-56fb72a9beb0",
  CellID->1195759581],
-Cell[85037, 1876, 187, 3, 34, "Output",ExpressionUUID->"21efa139-ab99-4985-bb2d-0aaeb62d0fba",
+Cell[85905, 1900, 187, 3, 34, "Output",ExpressionUUID->"21efa139-ab99-4985-bb2d-0aaeb62d0fba",
  CellID->20765305]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[85285, 1886, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
+Cell[86153, 1910, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
  CellTags->"Source & Additional Information",
  CellID->318391102],
 Cell[CellGroupData[{
-Cell[85500, 1893, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
+Cell[86368, 1917, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
  CellTags->"Contributed By",
  CellID->127820888],
-Cell[86299, 1914, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
+Cell[87167, 1938, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
  CellTags->"TabNext",
  CellID->832483124]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[87258, 1938, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
+Cell[88126, 1962, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
  CellTags->"Keywords",
  CellID->547400482],
 Cell[CellGroupData[{
-Cell[88080, 1961, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
+Cell[88948, 1985, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
  CellTags->"TabNext",
  CellID->123227828],
-Cell[88668, 1972, 563, 8, 32, "Item",ExpressionUUID->"1b6d538b-f8b6-4ca3-94bc-0effdb821f8a",
+Cell[89536, 1996, 563, 8, 32, "Item",ExpressionUUID->"1b6d538b-f8b6-4ca3-94bc-0effdb821f8a",
  CellID->965164660]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[89280, 1986, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
+Cell[90148, 2010, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
  CellTags->"Categories",
  CellID->749076926],
-Cell[89464, 1992, 4498, 131, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
+Cell[90332, 2016, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
  CellTags->"CategoriesCell",
  CellID->1894707987]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[93999, 2128, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
+Cell[94939, 2153, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
  CellTags->"Related Symbols",
  CellID->161079978],
-Cell[94776, 2149, 1224, 27, 32, "Item",ExpressionUUID->"274f46d5-ca4b-498b-970a-1252ce6c17cc",
- CellTags->"TabNext",
- CellID->79477165]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[96037, 2181, 824, 19, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
+Cell[95716, 2174, 824, 19, 38, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
  CellTags->"Related Resource Objects",
  CellID->588449267],
-Cell[96864, 2202, 1225, 27, 32, "Item",ExpressionUUID->"49110d70-1c77-41fd-8151-04efdf6f0c4d",
- CellTags->"TabNext",
- CellID->960273585]
-}, Open  ]],
 Cell[CellGroupData[{
-Cell[98126, 2234, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
+Cell[96565, 2197, 875, 20, 38, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
  CellTags->"Source/Reference Citation",
  CellID->642091068],
-Cell[99004, 2256, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
+Cell[97443, 2219, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
  CellTags->"TabNext",
  CellID->343081869]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[99827, 2274, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
+Cell[98244, 2235, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
  CellTags->"Links",
  CellID->521525586],
-Cell[100557, 2295, 540, 8, 32, "Item",ExpressionUUID->"930b7ae4-9cfc-41bc-8d5c-6a27639f9bc0",
- CellTags->"TabNext",
- CellID->485448166]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[101134, 2308, 880, 21, 54, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
+Cell[98974, 2256, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
  CellTags->"Tests",
- CellID->74308299],
-Cell[102017, 2331, 817, 20, 30, "Input",ExpressionUUID->"c93bb813-b244-4acf-bce3-d995550abcee",
- CellID->972017713]
-}, Open  ]]
+ CellID->74308299]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102883, 2357, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
+Cell[99891, 2282, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
  CellTags->"Author Notes",
  CellID->795110225],
-Cell[103068, 2363, 564, 8, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
+Cell[100076, 2288, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
  CellTags->"TabNext",
  CellID->567921317]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[103669, 2376, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
+Cell[100800, 2305, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
  CellTags->"Submission Notes",
  CellID->843283583],
-Cell[104505, 2398, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
+Cell[101636, 2327, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
  CellTags->"TabNext",
  CellID->920818074]
 }, Open  ]]

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    186850,       3944]
-NotebookOptionsPosition[     42664,       1101]
-NotebookOutlinePosition[    179189,       3759]
-CellTagsIndexPosition[    178470,       3735]
+NotebookDataLength[    194215,       4118]
+NotebookOptionsPosition[     96564,       2165]
+NotebookOutlinePosition[    183166,       3865]
+CellTagsIndexPosition[    182447,       3841]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,8 +33,8 @@ Cell["OPERM5RandomnessTest", "Title",
  CellID->362346026,ExpressionUUID->"770369c9-91d1-46dc-b33a-a8fe75097ef6"],
 
 Cell["\<\
-Test a sequence of 0s and 1s for randomness using the overlapping \
-permutations test where permutations are of length 5.\
+Test a sequence of 0s and 1s for randomness using an overlapping permutations \
+test where permutations are of length 5.\
 \>", "Text",
  TaggingRules->{
   "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
@@ -48,7 +48,8 @@ permutations test where permutations are of length 5.\
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
- CellChangeTimes->{{3.771164313741499*^9, 3.771164355239338*^9}},
+ CellChangeTimes->{{3.771164313741499*^9, 3.771164355239338*^9}, {
+  3.771165373278734*^9, 3.7711653734007607`*^9}},
  CellTags->{"Description", "TabNext"},
  CellID->450900334,ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1"],
 
@@ -81,24 +82,25 @@ creating the Examples section below.", "MoreInfoText"], Background ->
 Cell[CellGroupData[{
 
 Cell[BoxData[{
- RowBox[{"$cts", "=", 
-  RowBox[{"Values", "@", 
-   RowBox[{"KeySort", "@", 
-    FractionBox[
-     RowBox[{"CountsBy", "[", 
-      RowBox[{
-       RowBox[{"Tuples", "[", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{"0", ",", "1"}], "}"}], ",", "5"}], "]"}], ",", "Total"}], 
-      "]"}], 
-     RowBox[{"N", "@", 
-      RowBox[{"Length", "[", 
-       RowBox[{"Tuples", "[", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{"0", ",", "1"}], "}"}], ",", "5"}], "]"}], 
-       "]"}]}]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"$cts", "=", 
+   RowBox[{"Values", "@", 
+    RowBox[{"KeySort", "@", 
+     FractionBox[
+      RowBox[{"CountsBy", "[", 
+       RowBox[{
+        RowBox[{"Tuples", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}], ",", "5"}], "]"}], ",", "Total"}], 
+       "]"}], 
+      RowBox[{"N", "@", 
+       RowBox[{"Length", "[", 
+        RowBox[{"Tuples", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}], ",", "5"}], "]"}], "]"}]}]]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"operm5stat", "=", 
    RowBox[{
@@ -128,10 +130,9 @@ Cell[BoxData[{
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.7711617427346573`*^9, 3.771161756359174*^9}, {
-  3.771161898048594*^9, 3.7711618988706427`*^9}, {3.771163638702031*^9, 
-  3.771163667340679*^9}},
+   3.771161898048594*^9, 3.7711618988706427`*^9}, {3.771163638702031*^9, 
+   3.771163667340679*^9}, 3.771182248270001*^9},
  CellTags->"TabNext",
- CellLabel->"In[61]:=",
  CellID->778396829,ExpressionUUID->"85f59cc9-a773-4ab3-83d0-449f8bfb1816"],
 
 Cell[BoxData[
@@ -139,10 +140,11 @@ Cell[BoxData[
   RowBox[{
   "0.03125`", ",", "0.15625`", ",", "0.3125`", ",", "0.3125`", ",", 
    "0.15625`", ",", "0.03125`"}], "}"}]], "Output",
- CellChangeTimes->{{3.771163650570797*^9, 3.77116366758186*^9}},
+ CellChangeTimes->{{3.771163650570797*^9, 3.77116366758186*^9}, 
+   3.771165497035603*^9},
  CellTags->"TabNext",
- CellLabel->"Out[61]=",
- CellID->2127380909,ExpressionUUID->"d1040658-cf25-4966-a61d-45e5fe50383c"]
+ CellLabel->"Out[19]=",
+ CellID->1202887271,ExpressionUUID->"c9684e24-0679-4b66-ae1e-474b984ebbca"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -176,7 +178,7 @@ Cell[BoxData[{
    3.771163139937801*^9}, {3.771163432109392*^9, 3.771163449947001*^9}, {
    3.771163635341674*^9, 3.771163635557494*^9}, {3.771163671418976*^9, 
    3.7711636953616877`*^9}},
- CellLabel->"In[65]:=",
+ CellLabel->"In[21]:=",
  CellID->995839409,ExpressionUUID->"e3de4c6f-fdfd-4afb-9bf4-c159eb6b5a3d"],
 
 Cell[BoxData[
@@ -197,10 +199,30 @@ Cell[BoxData[
  CellChangeTimes->{{3.771163470468268*^9, 3.771163558390609*^9}, {
   3.771163649085284*^9, 3.771163657753901*^9}, {3.771163701284614*^9, 
   3.7711637123424883`*^9}},
- CellLabel->"In[67]:=",
+ CellLabel->"In[23]:=",
  CellID->1359298832,ExpressionUUID->"713363e5-f310-4397-9e9c-8b48d2eb9767"],
 
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"OPERM5RandomnessTest", "::", "seqlength"}], "=", 
+   "\"\<List length is less than 250!\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.771181657803219*^9, 3.7711816748502483`*^9}, {
+   3.771181713136882*^9, 3.771181716162342*^9}, {3.771182190154911*^9, 
+   3.7711821910423117`*^9}, 3.7711832350734577`*^9},
+ CellLabel->"In[200]:=",
+ CellID->878423629,ExpressionUUID->"c20cb7d7-e1e9-44f9-981c-90cb4ae16d19"],
+
 Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"OPERM5RandomnessTest", "[", 
+    RowBox[{"seq_List", "/;", 
+     RowBox[{
+      RowBox[{"Length", "[", "seq", "]"}], "<", "250"}]}], "]"}], ":=", 
+   RowBox[{"Message", "[", 
+    RowBox[{"OPERM5RandomnessTest", "::", "seqlength"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"OPERM5RandomnessTest", "[", 
@@ -211,8 +233,12 @@ Cell[BoxData[{
         RowBox[{
          RowBox[{"#", "\[Equal]", "0"}], "||", 
          RowBox[{"#", "\[Equal]", "1"}]}], "&"}]}], "]"}]}], "]"}], ":=", 
-   RowBox[{
-    RowBox[{"operm5Test", "[", "seq", "]"}], "[", "\"\<PValue\>\"", "]"}]}], 
+   RowBox[{"1", "-", 
+    RowBox[{"CDF", "[", 
+     RowBox[{
+      RowBox[{"operm5dist", "[", 
+       RowBox[{"Length", "[", "seq", "]"}], "]"}], ",", 
+      RowBox[{"operm5stat", "[", "seq", "]"}]}], "]"}]}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
@@ -226,8 +252,12 @@ Cell[BoxData[{
           RowBox[{"#", "\[Equal]", "0"}], "||", 
           RowBox[{"#", "\[Equal]", "1"}]}], "&"}]}], "]"}]}], ",", 
      "\"\<PValue\>\""}], "]"}], ":=", 
-   RowBox[{
-    RowBox[{"operm5Test", "[", "seq", "]"}], "[", "\"\<PValue\>\"", "]"}]}], 
+   RowBox[{"1", "-", 
+    RowBox[{"CDF", "[", 
+     RowBox[{
+      RowBox[{"operm5dist", "[", 
+       RowBox[{"Length", "[", "seq", "]"}], "]"}], ",", 
+      RowBox[{"operm5stat", "[", "seq", "]"}]}], "]"}]}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
@@ -241,12 +271,14 @@ Cell[BoxData[{
           RowBox[{"#", "\[Equal]", "0"}], "||", 
           RowBox[{"#", "\[Equal]", "1"}]}], "&"}]}], "]"}]}], ",", 
      "\"\<TestStatistic\>\""}], "]"}], ":=", 
-   RowBox[{
-    RowBox[{"operm5Test", "[", "seq", "]"}], "[", "\"\<TestStatistic\>\"", 
-    "]"}]}], ";"}]}], "Input",
+   RowBox[{"operm5stat", "[", "seq", "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.771163740048628*^9, 3.771163758830205*^9}, {
-  3.77116382685045*^9, 3.771163868768363*^9}, {3.771164153664567*^9, 
-  3.771164158286343*^9}},
+   3.77116382685045*^9, 3.771163868768363*^9}, {3.771164153664567*^9, 
+   3.771164158286343*^9}, {3.771181720426013*^9, 3.771181771222413*^9}, {
+   3.771181841485264*^9, 3.771181847309868*^9}, {3.771181881147253*^9, 
+   3.771181893665659*^9}, {3.771181939612938*^9, 3.771181987438085*^9}, {
+   3.7711820435246773`*^9, 3.771182048861883*^9}, {3.771182166457376*^9, 
+   3.771182196462995*^9}, 3.771183231510868*^9},
  CellID->1248888415,ExpressionUUID->"ab95a23a-b4fb-4357-acf2-766d9bbfd838"]
 }, Open  ]],
 
@@ -341,9 +373,9 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"OPERM5RandomnessTest", "[", 
-  StyleBox[
-   RowBox[{"sequence", ",", "\"\<property\>\""}], "TI"], "]"}]], "UsageInputs",\
-
+  RowBox[{
+   StyleBox["sequence", "TI"], ",", 
+   "\"\<\!\(\*StyleBox[\"property\", \"TI\"]\)\>\""}], "]"}]], "UsageInputs",
  TaggingRules->{
   "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
    "TemplateVersion" -> "1.2.22", "ToolsOpen" -> False, "StatusMessage" -> 
@@ -351,7 +383,8 @@ Cell[BoxData[
    "SubmissionReviewData" -> {"Review" -> False}, "AttachedInlineCell" -> 
    CellObject[473681]},
  CellChangeTimes->{{3.771164364298381*^9, 3.771164378252286*^9}, {
-   3.771164567943079*^9, 3.771164571175292*^9}, 3.771164732589478*^9},
+   3.771164567943079*^9, 3.771164571175292*^9}, 3.771164732589478*^9, 
+   3.77116550664533*^9},
  CellTags->"TabNext",
  CellID->1120296453,ExpressionUUID->"eec1b870-7271-4a1b-89ce-d3313c254db6"],
 
@@ -439,10 +472,30 @@ Cell[BoxData[GridBox[{
  CellID->1532378813,ExpressionUUID->"cc84d2c2-58b9-4f7e-9477-377244b65f5b"],
 
 Cell["\<\
-The test statistic is generated by creating a chi square-like statistic \
+The test statistic is generated by creating a chi square-like statistic that \
+measures the difference between a certain number of permutations present over \
+all subsequences and the expected number of permutations present over all \
+subsequences.\
 \>", "Notes",
- CellChangeTimes->{{3.7711648249027987`*^9, 3.771164841585191*^9}},
- CellID->1094618737,ExpressionUUID->"9121b017-f399-4925-8288-ebf9195c57de"]
+ CellChangeTimes->{{3.7711648249027987`*^9, 3.771164841585191*^9}, {
+  3.7711651665079517`*^9, 3.771165203607033*^9}, {3.77118111310741*^9, 
+  3.7711811131111183`*^9}},
+ CellID->1094618737,ExpressionUUID->"9121b017-f399-4925-8288-ebf9195c57de"],
+
+Cell["The test only works for sequences of 0s and 1s", "Notes",
+ CellChangeTimes->{{3.7711648249027987`*^9, 3.771164841585191*^9}, {
+  3.7711651665079517`*^9, 3.771165203607033*^9}, {3.7711811135193987`*^9, 
+  3.771181120842082*^9}, {3.771181456059189*^9, 3.771181456063326*^9}},
+ CellID->1734633867,ExpressionUUID->"1e3905d7-f122-4bbf-89a2-29d2e9e98c9a"],
+
+Cell["\<\
+OPERM5RandomnessTest results are valid only for sequence lengths greater than \
+250.\
+\>", "Notes",
+ CellChangeTimes->{{3.7711648249027987`*^9, 3.771164841585191*^9}, {
+  3.7711651665079517`*^9, 3.771165203607033*^9}, {3.7711811135193987`*^9, 
+  3.771181120842082*^9}, {3.771181458939981*^9, 3.771181492352972*^9}},
+ CellID->496278082,ExpressionUUID->"3f3db445-9409-47ae-84a8-5ea571ce8f1f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -600,41 +653,367 @@ Cell[CellGroupData[{
 Cell["Basic Examples", "Subsection",
  CellID->462042388,ExpressionUUID->"b155a3da-7d07-46e7-a94b-92e139d07cda"],
 
-Cell["Text about the example:", "Text",
- CellID->13078159,ExpressionUUID->"208d9639-f29f-488b-ae2a-71ece4a2f3fa"]
+Cell["\<\
+Generate a sequence of random integers and apply an overlapping \
+permutations-based test:\
+\>", "Text",
+ CellChangeTimes->{{3.771165357209673*^9, 3.771165364983837*^9}, {
+  3.7711654702260933`*^9, 3.77116548074102*^9}},
+ CellID->13078159,ExpressionUUID->"208d9639-f29f-488b-ae2a-71ece4a2f3fa"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sequence", "=", 
+   RowBox[{"RandomInteger", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], ",", "1000"}], "]"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.771157000859314*^9, 3.7711570201609707`*^9}},
+ CellLabel->"In[27]:=",
+ CellID->771105549,ExpressionUUID->"217e11c5-8125-430b-89f6-cede4370d008"],
+
+Cell["Visualize the sequence:", "Text",
+ TaggingRules->{
+  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
+   "TemplateVersion" -> "1.2.13", "StatusMessage" -> 
+   ProgressIndicator[Appearance -> "Necklace"], "AttachedHints" -> {
+     CellObject[188817], 
+     CellObject[188881], 
+     CellObject[188945], 
+     CellObject[189009], 
+     CellObject[189073], 
+     CellObject[189137], 
+     CellObject[189201], 
+     CellObject[189265], 
+     CellObject[189329], 
+     CellObject[189393], 
+     CellObject[189457]}, "PreviewNotebook" -> NotebookObject[
+     FrontEndObject[
+      LinkObject["muw43_shm", 3, 1]], 45], "AttachedInlineCell" -> 
+   CellObject[484369]},
+ CellChangeTimes->{{3.771157061210312*^9, 3.771157065204805*^9}},
+ CellID->942238246,ExpressionUUID->"327f1fe7-75cf-4333-b676-ae9aaa6b8e6f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Partition", "[", 
+     RowBox[{"sequence", ",", "16"}], "]"}], "\[Transpose]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.771157020871545*^9, 3.771157056213524*^9}},
+ CellLabel->"In[28]:=",
+ CellID->524633794,ExpressionUUID->"55b911ae-749d-44c1-be4e-23c398f99ad3"],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJxlU9sRwjAMk5iAFViEIRihC7D/H6G1HoFcS3J1LMmyeRzv13EDcF/vc71c
+D899bbw2LX6X42cU51k/nDtkLs0+cBfaFeeeNwzDdJ2puygldI5QKDmE2AfP
+VEkwF6zQrMLT9fkEBbrsCZQNaFL5JWX7gxZk1XKIlkWfpUJw5dTm2I/hvz6x
+sJkKU0I3Oqa6WZoGF65U9Ic4X/jlBNhFeGJYwmlUmROLM2P2F4Xc9KLR3Lnz
+NQ89QzVfUp+xyrKrKEWlJq2LQ6lyh2Ukdu7m1P9/rI21axYzPa7mTNc+cwwD
+7g==
+   "], {{0, 0}, {62, 16}}, {0, 1}],
+  Frame->Automatic,
+  FrameLabel->{None, None},
+  FrameTicks->{{None, None}, {None, None}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->{540.6796875, Automatic},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic}]], "Output",
+ CellChangeTimes->{{3.7711570246112223`*^9, 3.7711570565790462`*^9}, 
+   3.771165549590096*^9},
+ CellLabel->"Out[28]=",
+ CellID->1493512065,ExpressionUUID->"c7fdba19-b56f-42d6-8338-8935b5244929"]
 }, Open  ]],
 
 Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"OPERM5RandomnessTest", "[", 
+  RowBox[{"sequence", ",", "\"\<TestStatistic\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.771165555713615*^9, 3.7711655590568037`*^9}, {
+  3.77118105112236*^9, 3.771181052318335*^9}, {3.771181137031106*^9, 
+  3.771181140485691*^9}},
+ CellLabel->"In[30]:=",
+ CellID->312766755,ExpressionUUID->"c8881773-b730-44db-8e48-5c7e35a5f99f"],
+
+Cell[BoxData["0.008019225496362963`"], "Output",
+ CellChangeTimes->{3.771181052708378*^9, 3.771181140740326*^9},
+ CellLabel->"Out[30]=",
+ CellID->291422056,ExpressionUUID->"f1eaf406-9f32-4e32-b95d-a39d5622b6ac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"OPERM5RandomnessTest", "[", 
+  RowBox[{"sequence", ",", "\"\<PValue\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.771165555713615*^9, 3.7711655590568037`*^9}, {
+  3.77118105112236*^9, 3.771181052318335*^9}, {3.771181137031106*^9, 
+  3.771181146554532*^9}},
+ CellLabel->"In[31]:=",
+ CellID->1422437180,ExpressionUUID->"27d63c69-d10b-4f49-b52d-4799afafafce"],
+
+Cell[BoxData["0.6251037006311093`"], "Output",
+ CellChangeTimes->{
+  3.771181052708378*^9, {3.771181140740326*^9, 3.771181146854631*^9}},
+ CellLabel->"Out[31]=",
+ CellID->1350374589,ExpressionUUID->"01df8033-1936-4dfc-b038-4f5922f08d05"]
+}, Open  ]]
+}, Open  ]],
 
 Cell["Scope", "Subsection",
  CellID->964056545,ExpressionUUID->"b3b27b8c-d501-47c1-9e03-c4a420ba3634"],
 
-Cell["\<\
-Text about additional examples expanding scope (and see other sections for \
-options, applications, etc):\
-\>", "Text",
- CellID->649685796,ExpressionUUID->"1789e969-679f-44d4-b129-d4c6354aec01"],
+Cell["Options", "Subsection",
+ CellID->776923543,ExpressionUUID->"2bc86887-d4d2-4059-aed5-19bce6de1c62"],
+
+Cell[CellGroupData[{
+
+Cell["Applications", "Subsection",
+ CellID->568056528,ExpressionUUID->"c1a04389-b64a-4a08-af9b-df43a83eb84c"],
+
+Cell["Test the randomness of rule 30:", "Text",
+ CellChangeTimes->{{3.771182474560307*^9, 3.771182497014842*^9}},
+ CellID->1900504355,ExpressionUUID->"cdb2d34e-aa84-4124-bdb3-2195a74c1c5a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rule30seq", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"CellularAutomaton", "[", 
+      RowBox[{"30", ",", " ", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", "1", "}"}], ",", " ", "0"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"10000", ",", "0"}], "}"}]}], "]"}], "\[Transpose]"}], 
+    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{3.771157688873746*^9},
+ CellLabel->"In[175]:=",
+ CellID->2111465485,ExpressionUUID->"eaaf6197-6673-46bc-b20d-12088ecf8a2f"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"MyFunction", "[", 
-  RowBox[{"x", ",", "y", ",", "z"}], "]"}]], "Input",
- CellLabel->"In[2]:= ",
- CellID->836153427,ExpressionUUID->"02f8f9ff-c4b2-4f04-9fda-3a4a030ea1ab"],
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"Take", "[", 
+      RowBox[{"rule30seq", ",", "100"}], "]"}], ",", "25"}], "]"}], ",", 
+   InterpretationBox[
+    DynamicModuleBox[{Typeset`open = False}, 
+     TemplateBox[{"Expression","SequenceIcon",GridBox[{{
+          RowBox[{
+            TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["Sequence", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Length: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["2", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            
+            TagBox["208", "IconizedItem"]}]}}, 
+        GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+        "Column", 
+        GridBoxItemSize -> {
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],Dynamic[
+       Typeset`open]},
+      "IconizedObject"]],
+    Sequence[ColorFunction -> "CandyColors", ImageSize -> Full],
+    SelectWithContents->True,
+    Selectable->False]}], "]"}]], "Input",
+ CellLabel->"In[176]:=",
+ CellID->1158032380,ExpressionUUID->"038ed863-f952-4ce7-953a-29e0c76f9020"],
 
 Cell[BoxData[
- RowBox[{"x", " ", "y", " ", "z"}]], "Output",
- CellLabel->"Out[2]= ",
- CellID->147179208,ExpressionUUID->"2832512c-cf49-4400-8885-34aa8a40b63b"]
-}, Open  ]]
+ GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmVmYGBgAWJJIAaxD/57fWeL5FN7M7mcjbefv7YXFzLYtcfyjX3Q
+Zb1lM9/dtH9j9Ge5tMYp+7vTjW+L/rpKsjip5lNLPani1PIvrcNnoMJtuKaH
+oeJOWosPVDofbPFF63AbKuEw2MqNgcrvwzVdDbbyfKDqQVrHIwC7ICVk
+   "], {{0, 0}, {25, 
+   4}}, {0, 1}],
+  Frame->Automatic,
+  FrameLabel->{None, None},
+  FrameTicks->{{None, None}, {None, None}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->Full,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic}]], "Output",
+ CellChangeTimes->{3.771157696617467*^9, 3.771182503630843*^9},
+ CellLabel->"Out[176]=",
+ CellID->348012917,ExpressionUUID->"32638958-dc08-4d4a-95e0-b388f12fc2b1"]
 }, Open  ]],
 
-Cell["Options", "Subsection",
- CellID->776923543,ExpressionUUID->"2bc86887-d4d2-4059-aed5-19bce6de1c62"],
+Cell[CellGroupData[{
 
-Cell["Applications", "Subsection",
- CellID->568056528,ExpressionUUID->"c1a04389-b64a-4a08-af9b-df43a83eb84c"],
+Cell[BoxData[
+ RowBox[{"OPERM5RandomnessTest", "[", "rule30seq", "]"}]], "Input",
+ CellChangeTimes->{{3.7711577008504963`*^9, 3.771157704660398*^9}, {
+  3.7711825059890203`*^9, 3.771182506863255*^9}},
+ CellLabel->"In[178]:=",
+ CellID->1195759581,ExpressionUUID->"9d333d31-2943-4803-8880-affd12a7e5a2"],
+
+Cell[BoxData["0.764771915746655`"], "Output",
+ CellChangeTimes->{3.771157797055334*^9, 3.771182507171708*^9, 
+  3.771182752835045*^9},
+ CellLabel->"Out[178]=",
+ CellID->444432742,ExpressionUUID->"dcf9cb4d-886c-4179-9618-112020b789b5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "c3f64eb7-9b0b-4d59-86c6-b800a1d66761"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->1971152477,ExpressionUUID->"20e4dbf9-58d2-45e6-a7d5-7978a80f306d"],
+
+Cell["Reject the randomness of a non-random sequence:", "Text",
+ TaggingRules->{
+  "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
+   "TemplateVersion" -> "1.2.22", "ToolsOpen" -> True, "StatusMessage" -> "", 
+   "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {
+     CellObject[669649], 
+     CellObject[669697]}, "PreviewNotebook" -> NotebookObject[
+     FrontEndObject[
+      LinkObject["jv6wa_shm", 3, 1]], 225], "AttachedInlineCell" -> 
+   CellObject[714257]},
+ CellChangeTimes->{{3.77118292653251*^9, 3.771182937203691*^9}},
+ CellID->1325606945,ExpressionUUID->"fb47fdf5-65a2-406a-813a-7c5f20a69782"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"subsequence", "=", 
+   RowBox[{"RandomInteger", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], ",", "100"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7711831441289387`*^9, 3.7711831629589653`*^9}},
+ CellLabel->"In[195]:=",
+ CellID->417726745,ExpressionUUID->"16bc600b-dc42-44ca-9537-53c7d8f64d1a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sequence", "=", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"subsequence", ",", "20"}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7711829413662777`*^9, 3.771182942159625*^9}, {
+  3.771183051211823*^9, 3.7711830694872828`*^9}, {3.7711831142591257`*^9, 
+  3.771183165107781*^9}},
+ CellLabel->"In[196]:=",
+ CellID->380525297,ExpressionUUID->"a22b6157-0312-4ab3-9eeb-8b0aae24145a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"Take", "[", 
+      RowBox[{"sequence", ",", "200"}], "]"}], ",", "25"}], "]"}], ",", 
+   InterpretationBox[
+    DynamicModuleBox[{Typeset`open = False}, 
+     TemplateBox[{"Expression","SequenceIcon",GridBox[{{
+          RowBox[{
+            TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["Sequence", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Length: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["2", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            
+            TagBox["208", "IconizedItem"]}]}}, 
+        GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+        "Column", 
+        GridBoxItemSize -> {
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],Dynamic[
+       Typeset`open]},
+      "IconizedObject"]],
+    Sequence[ColorFunction -> "CandyColors", ImageSize -> Full],
+    SelectWithContents->True,
+    Selectable->False]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7711830785880833`*^9, 3.7711830793266687`*^9}, {
+  3.771183193432551*^9, 3.771183193496882*^9}},
+ CellLabel->"In[199]:=",
+ CellID->969916519,ExpressionUUID->"ae3f9374-c582-4a48-bc7e-4b605849a5e4"],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmVmYGDgAGJJIAaxgy7rLZv57qb9G6M/y6U1TtnfnW58W/TXVXtq
+iR/89/rOFsmn9mZyORtvP39tLy5ksGuP5Ruc4rS2d6j4i1RzaG0vtcQHyr8D
+FV+0DreRlq6Ga/lA6/Q8VPLvUPHXYEu3g809gy1fDPVye7R9Ndq+Ggz5YrDF
+12DLp0M9XQ3X8mGw1QuDLT8ONn8NtnQ72Nwz2PLFQKVDAMBKR20=
+   "], {{0, 0}, {25, 
+   8}}, {0, 1}],
+  Frame->Automatic,
+  FrameLabel->{None, None},
+  FrameTicks->{{None, None}, {None, None}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->Full,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic}]], "Output",
+ CellChangeTimes->{
+  3.771157696617467*^9, 3.771182503630843*^9, 3.771183079617614*^9, {
+   3.771183124938888*^9, 3.7711831956903687`*^9}},
+ CellLabel->"Out[199]=",
+ CellID->618219413,ExpressionUUID->"4827515b-25d3-4694-a1b4-b051d15658c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"OPERM5RandomnessTest", "[", "sequence", "]"}]], "Input",
+ CellChangeTimes->{{3.7711831035302753`*^9, 3.771183107618128*^9}},
+ CellLabel->"In[198]:=",
+ CellID->420887977,ExpressionUUID->"d25c92d9-680c-425c-b52e-630a56101b60"],
+
+Cell[BoxData["0.`"], "Output",
+ CellChangeTimes->{{3.77118310785108*^9, 3.7711831286518593`*^9}, {
+  3.771183159904245*^9, 3.7711831689600353`*^9}},
+ CellLabel->"Out[198]=",
+ CellID->646852565,ExpressionUUID->"1a88f2bb-abe5-4ebb-864a-92284c78abb3"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
 
 Cell["Properties and Relations", "Subsection",
  CellID->754506620,ExpressionUUID->"30d13a14-9898-461a-8013-9418c25d2d90"],
@@ -642,8 +1021,703 @@ Cell["Properties and Relations", "Subsection",
 Cell["Possible Issues", "Subsection",
  CellID->92483860,ExpressionUUID->"ff5dab84-6c7e-4102-8846-c3a116b23498"],
 
+Cell[CellGroupData[{
+
 Cell["Neat Examples", "Subsection",
- CellID->540091361,ExpressionUUID->"7ab08ca2-9e34-4ad8-ad4a-87a6923637f5"]
+ CellID->540091361,ExpressionUUID->"7ab08ca2-9e34-4ad8-ad4a-87a6923637f5"],
+
+Cell["Visualize the sampling distribution of the test statistic:", "Text",
+ CellChangeTimes->{{3.771181150371621*^9, 3.77118117771231*^9}},
+ CellID->423730456,ExpressionUUID->"b2528be7-aa0b-4782-b342-e3daeaf1c2b4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"samp", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"OPERM5RandomnessTest", "[", 
+      RowBox[{"#", ",", "\"\<TestStatistic\>\""}], "]"}], "&"}], "/@", 
+    RowBox[{"RandomInteger", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1000", ",", "1000"}], "}"}]}], "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7711811837793417`*^9, 3.7711811905034122`*^9}, {
+   3.771181224558073*^9, 3.771181230938673*^9}, {3.771182072840897*^9, 
+   3.7711821035216923`*^9}, 3.771182209357997*^9, 3.771182262378454*^9, {
+   3.771182306473*^9, 3.7711823107234373`*^9}},
+ CellLabel->"In[170]:=",
+ CellID->1520492122,ExpressionUUID->"a7d3e1b0-9e10-4038-8b9e-1bd1d9d228f8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Histogram", "[", 
+  RowBox[{"samp", ",", "Automatic", ",", "\"\<PDF\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.771182109354067*^9, 3.771182113173534*^9}, {
+  3.771182311885886*^9, 3.771182340315425*^9}},
+ CellLabel->"In[179]:=",
+ CellID->1177328354,ExpressionUUID->"6251a87f-e93d-467e-9f48-a49ba56b40e3"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1: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
+YKZTp07JCb+6uvrxO7JIkZEvv/xSbs/Pz8fjcblbVFTkeqCMyPjw8HB6TdYm
+VhfR2Izf0wCAOdTbH9vp7e1NJBLqdjKZdB61srKiBmdmZtJrkiZWF9HYjN/T
+AIA5vvnmm9b3HT58WOKgrq5Obr98+XLrXeL09PQ4j4rFYjJSXFycsSZpYnUR
+jc34PQ0AmMz1vsnWu1+rUlNTs7i4KHfla3V1tYxEo9GMFUgTq4tobMbvaQDA
+ZOlpkkgk1LskZWVljY2N8lV9Bmx9fT1jBdLE6iIam/F7GgAw2YULFyQOHj16
+lDo4PT0taxPn/RRZm8Tj8e0qkCZWF9HYjN/TAIClZJEyMTExOzvrui7ehTSx
+uojGZvyeBgCCjTSxuojGZvyeBgCCzdfrFpVAnnsNKaKxGf8mAIAwYG1idRGN
+zfg9DQAEG2lidRGNzfg9DQAEG2lidRGNzfg9DQAEG2lidRGNzfg9DQAEG2li
+dRGNzfg9DQAEG2lidRGNzfg9DQAEG2lidRGNzfg9DQAEG2lidRGNzfg9DQAE
+G1cvWl1EYzP+TQAAYcDaxOoiGpvxexoACDbSxOoiGpvxexoACDbSxOoiGpvx
+exoACDbSxOoiGpvxexoACDbSxOoiGpvxexoACDbSxOoiGpvxexoACDbSxOoi
+GpvxexoACDbSxOoiGpvxexoACDauXrS6iMZm/JsAAMKAtYnVRTQ24/c0ABBs
+pInVRTQ24/c0ABBspInVRTQ24/c0ABBspInVRTQ24/c0ABBspInVRTQ24/c0
+ABBspInVRTQ24/c0ABBspInVRTQ24/c0ABBspInVRTQ24/c0ABBsXL1odRGN
+zfg3AQCYaWNj49GjR9evX7948eLt27fHxsbStxkcHGxpaWloaGhvbx8aGspS
+jbWJ1UU0NuP3NABglOXl5RMnTuS97969e6nbdHR0uDbo7OzcriBpYnURjc34
+PQ0AGKWpqUnO/8XFxV1dXcPDwzdu3FB5MTIyojaIx+ORSCQ/P7+7u3tycjIa
+jaoN+vv7MxYkTawuorEZv6cBAHOsrq5+9tlncv6XKHEG1VLl1q1b6m5dXZ3c
+bW1tdTZoa2uTkfr6+ow1SROri2hsxu9pAMAcy8vLd+7cuXbt2tLSkjPY3Nws
+iXD16lW5nUwmZVUid8fHx50NZIUiIzKe+igHaWJ1EY3N+D0NAJhsZGSkqKhI
+EuGHH36Qu2NjYyo4Njc3UzeLRCIyPjo6ml6BNLG6iMZm/J4GAMzU2dl5+PBh
+9Z6ILEzW1ta23n6US+6Wlpa6NpaR7d46IU2sLqKxGb+nAQAz1dbWOh/Zampq
+evPmjQz29fXJ3fLyctfGlZWVMt7b25tehzSxuojGZvyeBgDMNDc39+rVq66u
+rkOHDkkinDx5UgYHBgbkdkVFhWtjyRcZl6xJr+P6LLEfrQby3GtIEY3N+PG/
+HoBFnj17poLg9evX8XhcbhQVFbm2Ue+tDA8Ppz+ctYnVRTQ24/c0AGCOZDL5
+4sWLwcHB1MG1tTX1seFYLJZIJFSyyJbOBisrK2pwZmYmvSZpYnURjc34PQ0A
+mEOiRE7+kUgk9bO+clt9ZEv9BhX1hntPT4+zgaSMuuAxY03SxOoiGpvxexoA
+MIezDGlubl5fX5cR+XrlyhX16pZaj6hfq1JTU7O4uCh35Wt1dbWMRKPRjDVJ
+E6uLaGzG72kAwCgPHz5UL1vJGuTy5cvHjh1Td9X1JiKRSKh3ScrKyhobG+Wr
+3K6qqlLpk440sbqIxmb8ngYATPP48WP1cpZy5MgR1zsp09PTsjZxNpC1STwe
+364aaWJ1EY3N+D0NABhoY2NjZmZmZGRkYWFhu21kkTIxMTE7O+u6Lt6FNLG6
+iMZm/J4GAIKNNLG6iMZm/J4GAILN1+sWlUCeew0porEZ/yYAgDBgbWJ1EY3N
++D0NAAQbaWJ1EY3N+D0Ndk6a0fLvY+8HEC6kidVFNDbj9zTYueDtERAGpInV
+RTQ2Y86KgDQBbESaWF3EwGbMmTDeOwGwc6SJ1UUMbMacCeO9EwA7R5pYXcTA
+ZsyZMN47AbBzpInVRQxsxpwJ470TADvH1YtWFzGwGXMmjPdOAOwcaxOrixjY
+jDkTxnsnAHaONLG6iIHNmDNhvHcCYOdIE6uLGNiMORPGeycAdo40sbqIgc2Y
+M2G8dwJg50gTq4sY2Iw5E8Z7JwB2jjSxuoiBzWj5p6UTvyc2gFSkidVFaCZL
+Eb8nNoBUpInVRWgmSxG/JzaAVFy9aHURmslSxL8pDSAdaxOri9BMliJ+T2wA
+qUgTq4vQTJYifk9sAKlIE6uL0EyWIn5PbACpSBOri9BMliJ+T2wAqUgTq4vQ
+TJYifk9sAKlIE6uL0EyWIn5PbACpSBOri9BMliJ+T2wAqUgTq4vQTJYifk9s
+AKm4etHqIjSTpYh/UxoIho2NjadPn964cePChQvNzc3ff//92tqaa5vBwcGW
+lpaGhob29vahoaEs1VibWF2EZrIU8XtiA1ZbXFysrq7Oe9/Ro0fn5uacbTo6
+OlwbdHZ2bleQNLG6CM1kKeL3xAasdvnyZTn/Hzhw4NatW8PDw9Fo9ODBgzJy
+9uxZtUE8Ho9EIvn5+d3d3ZOTk7KBCpT+/v6MBUkTq4vQTJYifk9swF6rq6sF
+BQVy/r97964z+PjxY5UXb968kbt1dXVyu7W11dmgra1NRurr6zPWJE2sLkIz
+WYr4PbEBe01NTVVWVhYXFy8sLDiDKysrKk0mJiaSyaSsSuT2+Pi4s4GsUGRE
+xpeWltJrkiZWF6GZLEX8nthAwAwMDKiwkCgZGxtTtzc3N1O3iUQiMj46Opr+
+cNLE6iI0k6WI3xMbCJLFxUVZrUginDt3buvtR7nkdmlpqWszGdnurRPSxOoi
+NJOliN8TGwiM5eXl06dPSxzs379/fn5eRvr6+uRueXm5a0uVOL29velFSBOr
+i9BMliJ+T2wgGF6/fl1bWytZUFBQIEsSNahe9aqoqHBtLPki45I16XVcnyX2
+o1VzzjCmne4CtkdGNUOaADsxPT1dVlYmJ/+ioqLh4WFnPB6Pq0HX9jIi46lb
+OlibWF2EZrIU8XtiA7b75Zdf1PsgEigvX75M/VYikVBLjGQy6Qw6H/qamZlJ
+r0aaWF2EZrIU8XtiA1aT1ceBAwckAmpra1+/fp2+gQqanp4eZyQWi8lIcXFx
+xoKkidVFaCZLEb8nNmCvzc3NU6dOyfn/+PHjsgxZf5/aRv1alZqamsXFxa2U
+38QSjUYz1iRNrC5CM1mK+D2xAXv19vbmbe/nn3/eevtil3qXpKysrLGxUb29
+UlVV5cSNC2lidRGayVLE74kN2Mv5pVsZvXjxQm02PT0taxNnXNYm8Xh8u5qk
+idVFaCZLEb8nNhASskiZmJiYnZ11XRfvQppYXYRmshTxe2IDSJXlShN5Pur6
+Z8gZxrTTXcD2yKhmSBMgx7KsTYJ3hjGqmeDtkVHNkCZAjpEmVhehmSxFcvk8
+AkCaWF2EZrIUyeXzCABpYnURmslSJJfPIwCkidVFaCZLkVw+jwCQJlYXoZks
+RXL5PAJAmlhdhGayFMnl8wgAaWJ1EZrJUiSXzyMA2a9eDNgZxqhmgrdHRjWj
+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
+6iI0E549MrAZ76/DmLZHhhTJQTMfTJO+vj55eHl5uWu8svLfy/b29pIm5jQT
+vD0yqpng7RHNhGePctDMB9NkYGBAHl5RUeEal3yRccma9LwAAITNB9MkHo/L
+ZkVFRa5xGZHx4eHhjAuQD5YFAIRKIpFQuZNMJp3BlZUVNTgzM5P+ENIEAJBO
+veHe09PjjMRiMRkpLi7OuD1pAgBIp36tSk1NzeLiotyVr9XV1TISjUYzbk+a
+AADSJRIJ9S5JWVlZY2OjfJXbVVVV6+vrGbcnTQAAGU1PT8vaxHnvXtYm8Xh8
+u41JEwBAFrJImZiYmJ2ddV0XDwAAAAAAAABZ7PzvXe72IfPz8+fPn79//76+
+Zu2j/fBubGw8ffr0xo0bFy5caG5u/v7779fW1nxo3A5v3rzp7Oy8dOnSH//4
+RzkUiUTigw/54OF99OjR9evXL168ePv27bGxMV/6toT2w5vqwYMHjY2NP/30
+k75+8THt6u9d7uohyWSytrZWvnv16lV/ereA9sPrfHI+1dGjR+fm5nzeFRPJ
+yU1dp+Y4cuTIq1evsjwk++FdXl4+ceKEa4N79+75vysm0n54U0lMf/rpp7KB
+ZIo/7SOndvv3Lnf+EJlyZ86cUd8KbZr4cXgvX74sdw8cOHDr1q3h4WHZ4ODB
+gzJy9uzZXO2WQeQnW9l3Of+PjIz8+OOPVVVVcvd3v/vddtt/8PA2NTXlvb1i
+uqurSw6vLADVBlI/V/tkEO2H1yE/asqPQOq7pEkw7PbvXe7wIfKzXGFhofPD
+SWjTRPvhXV1dLSgokLt37951Nnj8+LE6zm/evPFnPww1NDQkey0/3y4sLKgR
+uaH+ItJ2L0998PB+9tlncleixNlALVUku33cEyNpP7ypVGqTJoGxh793ucOH
+qG1OnTql5kw408SPwzs1NVVZWSk/OTtP8K2UX2c3MTHh6x6Z5k9/+pPs9blz
+51IHL1y4IINff/11+vYfPLzLy8t37ty5du1a6v+d5ubmcM5h7YfXGXz+/Hne
+26vUT58+TZoEwx7+3uUOHyI5EovFNjY2bt++Hc5n4pafh9dF/TUHeVTqb0wN
+A/mJV3a8o6MjdbCzs1MGv/jii/Tt93B4R0ZG1C/o+OGHH/Q2bz6fDq/8IFRS
+UiIjsvaRqCJNgmEPf+9ytw/59ttvQ5smOTi8W2/flFd/Uc71M2QYyA8tsuPf
+ffdd6qDc3e61/V0dXjltHj582HmpNoSfmvPp8KoE+eqrr5zbpEkA7OHvXe72
+IWFOkxwc3uXlZfVawf79++fn5zU2bwX1icHHjx+nDvb09OS9/f1+6dvv6vCq
+4kpTU1PY3pPa8ufwqjCSh6+urm6RJgGy2793uYeHhDlN/D68r1+/Vs/3goIC
++bFQb/NWOHnypOz+kydPUgfVZxLkyKRvv6vDOzc39+rVq66urkOHDsl35b+l
+vX/DaT+8U1NThYWFkUhkcnJSfYs0CYw9/L3L3T4kzGni6+Gdnp5Wv2RbvpWx
+VBhcvHhRjsBf/vKX1MG7d+/mbfN56T38HxHPnj1TKxSJb12dW0H74VUvnVVX
+Vz9+R33k+Msvv5TbIVxcB8ke/t7lbh8S5jTx7/D+8ssv6rVoCZSXL1/6vSPG
+UheD3Lx5M3VQ7srglStX0rf/4OGV8RcvXrgWemtra+pjw7FYzKcdMZP2w+u6
+ENIl42u/sMhu/97lbh8S5jTZ8ufwyk+ABw4cUK82hO2nZRf1IvyxY8dSB9U1
+cdv9Mp/sh1eiRG5HIpHUj7PKbfWppB3+VpzA0H54v/nmm9b3qc851NXVye0w
+/1wUDDv5e5fyo5os9qenp3f+EEfI00T74d3c3FQvFxw/flx+FFx/38fYxY9p
+eXlZvYrivFP86NEjuVtSUuL8OqldHV5nGdLc3KyOp3yVn8PVCzhh+wC29sOb
+jvdNgmQnf+9S/TTifOx8V38iM+Rpov3w9vb2Znmt4Oeff/44+/nx/PnPf857
+e43DF2+pq+dSX5La7ex9+PChOpjyY/bly5flJ3N1N4TXm2z5cHhdSJOA+eDf
+u1Qf8Lt9+/bOH+Lo6uqSDa5fv+7vPhhM7+F1fvFRRi9evMjpvhlAFmtyKtu3
+b586AgUFBe3t7akb7GH2yo/iqa/wHzlyJJwfmdvy5/CmUlfWy5LHx31Azu3h
+713yJzJ3jsPrq42Njb///e9y1lpeXt7hQ7IfXik4MzMzMjKS+htsQkv74QUA
+AAAAAAAg/g0Nm8UC
+    "], {{0, 340}, {538, 0}}, {0, 255},
+    ColorFunction->RGBColor],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->{269., Automatic},
+  ImageSizeRaw->{538, 340},
+  PlotRange->{{0, 538}, {0, 340}}]], "Output",
+ TaggingRules->{"Magnified" -> True},
+ CellChangeTimes->{3.771182836120946*^9},
+ CellLabel->"Out[179]=",
+ CellID->824894767,ExpressionUUID->"041ceddd-8a08-450b-9ea3-1377eab86091"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dist", "=", 
+  RowBox[{"FindDistribution", "[", 
+   RowBox[{"samp", ",", 
+    RowBox[{"TargetFunctions", "\[Rule]", 
+     RowBox[{"{", "GammaDistribution", "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.771182277292694*^9, 3.771182323301115*^9}},
+ CellLabel->"In[172]:=",
+ CellID->894430390,ExpressionUUID->"36429b0a-d896-4519-9fdd-55a936f3441b"],
+
+Cell[BoxData[
+ RowBox[{"GammaDistribution", "[", 
+  RowBox[{"2.08678880952192`", ",", "0.005928635459248512`"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.771182287975947*^9, 3.771182324026404*^9}, {
+  3.771182432342288*^9, 3.7711824418009443`*^9}},
+ CellLabel->"Out[172]=",
+ CellID->548016783,ExpressionUUID->"b0334a9a-255f-4ee9-b938-661cd7b0e32d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Show", "[", 
+  RowBox[{
+   RowBox[{"Histogram", "[", 
+    RowBox[{"samp", ",", "Automatic", ",", "\"\<PDF\>\""}], "]"}], ",", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"PDF", "[", 
+      RowBox[{"dist", ",", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", ".1"}], "}"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7711823270217237`*^9, 3.7711823532935667`*^9}},
+ CellLabel->"In[173]:=",
+ CellID->673970004,ExpressionUUID->"5a7f631e-67c8-4942-a7c2-ddb70ac11d74"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1: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
+Er0i/jHVomkCYjICZ6RTIg6dcTz+OOLM1mDIZHt0a02Kl7/8QuCTM8E11ojL
+zyO47vy9nEu3Yy7fCLh65ZLvpf9089y/E6pbwdXpdTGW1aS67Ak9/1GppaJp
+AmIyAmekUyIOnXE8/ghYon3Vz+WOh57H15VnpGYVBMZXmlud0uThE1l3PvBJ
+enYBCXqdzxIn2qLXesM8/fS6GMtqkpmbT091Vl6eaJqAmIzAGemUiENnHI8/
+Ti2Rdiho4dXDfuXjmqc/9eX+44oLYTboCzlI/oC4yrj04oKCnIbKtIGGx9Mv
+or71h3rK6XUxltUkIqWMnlUi96JpAmIyAmekUyIOnXE8/ri4RLT/MtwU11yd
+ml+QE5VaeiO6xty+LRaOS+HPiMpEp5Xk5OXVPs14VZ802hL7qSti53UwV6fX
+xVhWE79o3a3I7meJomkCYjICZ6RTIg6dcTz+8FAiIgHzryIHGx7Lrvvl5ucS
+ibkZXX1WbrPE6B5aDqoknaCY9JLsvLyqsidttSlDjfHTHVGrvWE2PcjkoWpi
+bvai/5l/w56amGyPFk0TEJMROCOdEnHojOPxh7cSsdfaoaDF7oi3zbHttclP
+SzJTsgpDEsuvRtXa0ZE5EZpQ5bWo2gcJP7UmMzevvCSzsSq1V5Ew1hJD5Oxr
+n3xf9Zszgpxec4f1RsbHx0tKStLS0mpraycmJizktNA3uXHh/2LnYa1PLpom
+ICYjcEY6JeLQGRvimhl4K9GpeUhHRt35cKQ5tqMumXQ9MnPzI1NLb8dW2Toi
+Y/IgHSIiWPfiK4nNS7ejC5+P1b163/Z6bmD88/jM6vzSxvr3nT1b1paxUCIr
+LSiVSq/faWhoMJfZgppcv/z/0TJeDH/m9mstvvYovhJx5Yz4SsShM9aHNXPw
+ViJHvv6tXz7zIuqa7I+22pTK0kzS+4hOK7n/uOJKZJ0jPRrj4+LDJr+E9gdP
+uqIK+1MqVXnK0Yq2iYae6Zd/Lbz+e3F8ZmXu87flr1tbO3v+jqmJWq2WyWTe
+3t7Nzc0LCwsKhYIKyujoqMn8FtTkylUf6nxAXKXbrzUnFYY3I3BGOiXi0Bk7
+JUQP3krkJCO7Q8FfusMn2x8NNjxuqUkhnZqcvLz4jKKQxHK/6Bryc11Arfnt
+CFF6R9STf0FELTy5LD6jOD0nP78g52lJpjVXJyYmhghEWVkZSykvLycpSUlJ
+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
+    "], {{0, 340}, {538, 0}}, {0, 
+    255},
+    ColorFunction->RGBColor],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->{269., Automatic},
+  ImageSizeRaw->{538, 340},
+  PlotRange->{{0, 538}, {0, 340}}]], "Output",
+ TaggingRules->{"Magnified" -> True},
+ CellChangeTimes->{{3.771182346568776*^9, 3.771182353839611*^9}, {
+  3.771182434787858*^9, 3.7711824429111547`*^9}},
+ CellLabel->"Out[173]=",
+ CellID->191997478,ExpressionUUID->"c1937a67-4ff1-4e73-8f62-49417a8ddf89"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -676,19 +1750,24 @@ publicly credited with contributing this function.", "MoreInfoText"],
  CellTags->"Contributed By",
  CellID->127820888,ExpressionUUID->"6a6e6ff9-c602-4fb2-a56e-b84e9ad6b210"],
 
-Cell["Author Name", "Text",
+Cell["\<\
+Emmy/Noah Blumenthal
+noahb320@gmail.com
+emmyb320@bu.edu\
+\>", "Text",
  TaggingRules->{
   "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
    "TemplateVersion" -> "1.2.22", "ToolsOpen" -> False, "StatusMessage" -> 
    ProgressIndicator[Appearance -> "Necklace"], 
    "SubmissionReviewData" -> {"Review" -> False}, "AttachedInlineCell" -> 
-   CellObject[473729]},
+   CellObject[714289]},
  CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
        SelectedNotebook[], After, Cell]; NotebookFind[
        SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.7711832760213833`*^9, 3.771183291078723*^9}},
  CellTags->"TabNext",
  CellID->832483124,ExpressionUUID->"ad2bcd99-1169-417d-84ea-a58bff44b935"]
 }, Open  ]],
@@ -716,15 +1795,31 @@ concepts) that should be used to include the function in search results.",
  CellTags->"Keywords",
  CellID->547400482,ExpressionUUID->"3e661b9c-b693-4d9b-9f1d-1f56a36eb822"],
 
-Cell["keyword 1", "Item",
+Cell[CellGroupData[{
+
+Cell["Randomness", "Item",
  CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
        SelectedNotebook[], After, Cell]; NotebookFind[
        SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.771183283830214*^9, 3.771183283948571*^9}, {
+  3.771183424367063*^9, 3.7711834256870537`*^9}},
  CellTags->"TabNext",
- CellID->123227828,ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49"]
+ CellID->123227828,ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49"],
+
+Cell["Statistics", "Item",
+ CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+       SelectedNotebook[], After, Cell]; NotebookFind[
+       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
+       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
+       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
+   PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.771183283830214*^9, 3.771183283948571*^9}, {
+  3.771183424367063*^9, 3.771183427620203*^9}},
+ CellID->1521394149,ExpressionUUID->"b04f5bdb-0386-40ee-b8c5-ba5b42e5e901"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -778,7 +1873,9 @@ Cell[BoxData[
        "\"Graphs & Networks\""},
       "RowDefault"], 
      TemplateBox[{
-      CheckboxBox[False, {False, "Higher Mathematical Computation"}],"\" \"",
+      CheckboxBox[
+       "Higher Mathematical Computation", {
+        False, "Higher Mathematical Computation"}],"\" \"",
        "\"Higher Mathematical Computation\""},
       "RowDefault"]},
     {
@@ -805,8 +1902,8 @@ Cell[BoxData[
        "\" \"","\"Notebook Documents & Presentation\""},
       "RowDefault"], 
      TemplateBox[{
-      CheckboxBox[False, {False, "Programming Utilities"}],"\" \"",
-       "\"Programming Utilities\""},
+      CheckboxBox["Programming Utilities", {False, "Programming Utilities"}],
+       "\" \"","\"Programming Utilities\""},
       "RowDefault"]},
     {
      TemplateBox[{
@@ -831,7 +1928,9 @@ Cell[BoxData[
        "\"Strings & Text\""},
       "RowDefault"], 
      TemplateBox[{
-      CheckboxBox[False, {False, "Symbolic & Numeric Computation"}],"\" \"",
+      CheckboxBox[
+       "Symbolic & Numeric Computation", {
+        False, "Symbolic & Numeric Computation"}],"\" \"",
        "\"Symbolic & Numeric Computation\""},
       "RowDefault"]},
     {
@@ -862,11 +1961,11 @@ Cell[BoxData[
   "Grid"]], "Output",
  Editable->False,
  Deletable->False,
+ CellChangeTimes->{{3.771183308620468*^9, 3.771183317276573*^9}, {
+  3.771183430578583*^9, 3.771183433616374*^9}},
  CellTags->"CategoriesCell",
  CellID->184433961,ExpressionUUID->"4120fccc-9be7-4253-a46a-5ee8530f4e2d"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[TextData[{
  "Related Symbols",
@@ -888,17 +1987,6 @@ related to the function.", "MoreInfoText"], Background -> GrayLevel[0.95],
  DefaultNewCellStyle->"Item",
  CellTags->"Related Symbols",
  CellID->161079978,ExpressionUUID->"15dcfa82-bd63-4d06-b01f-0e3abfb92cf6"],
-
-Cell["SymbolName (documented Wolfram Language symbol)", "Item",
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellTags->"TabNext",
- CellID->79477165,ExpressionUUID->"4a292c27-f96c-44ca-8739-842647763c2b"]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -923,13 +2011,14 @@ repository that are related to this function.", "MoreInfoText"], Background ->
  CellTags->"Related Resource Objects",
  CellID->588449267,ExpressionUUID->"4041ebf6-f032-4e7d-863d-2ac18b187d00"],
 
-Cell["Resource Name (resources from any Wolfram repository)", "Item",
+Cell["ChiSquareRandomnessTest", "Item",
  CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
        SelectedNotebook[], After, Cell]; NotebookFind[
        SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.7711833385845747`*^9, 3.77118334427137*^9}},
  CellTags->"TabNext",
  CellID->960273585,ExpressionUUID->"79b0898f-f2a8-44d2-aa64-01d13bc72283"]
 }, Open  ]],
@@ -969,8 +2058,6 @@ Cell["Source, reference or citation information", "Text",
  CellID->343081869,ExpressionUUID->"f5554af3-d6c2-425d-ae13-71ac514eecbd"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[TextData[{
  "Links",
  Cell[BoxData[
@@ -991,19 +2078,6 @@ to the function.", "MoreInfoText"], Background -> GrayLevel[0.95],
  DefaultNewCellStyle->"Item",
  CellTags->"Links",
  CellID->521525586,ExpressionUUID->"4ec56e69-a766-41d4-b175-fd0afe91cd42"],
-
-Cell["Link to other related material", "Item",
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellTags->"TabNext",
- CellID->485448166,ExpressionUUID->"8c63868e-c42c-4642-9227-9e587b62096d"]
-}, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[TextData[{
  "Tests",
@@ -1026,23 +2100,8 @@ additional options.", "MoreInfoText"], Background -> GrayLevel[0.95],
  Deletable->False,
  DefaultNewCellStyle->"Input",
  CellTags->"Tests",
- CellID->74308299,ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"MyFunction", "[", 
-  RowBox[{"x", ",", "y"}], "]"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->667877521,ExpressionUUID->"8c9ca38d-165e-4ce1-bc53-86d018f1e7dc"],
-
-Cell[BoxData[
- RowBox[{"x", " ", "y"}]], "Output",
- CellLabel->"Out[3]=",
- CellID->993233288,ExpressionUUID->"b6ff8436-fa57-4306-8712-e004dc9e28c1"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
+ CellID->74308299,ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1052,13 +2111,18 @@ Cell["Author Notes", "Section",
  CellTags->"Author Notes",
  CellID->795110225,ExpressionUUID->"ea5fdfa5-c833-41ef-a7d4-c67515be6d63"],
 
-Cell["Additional information about limitations, issues, etc.", "Text",
+Cell["\<\
+This overlapping permutations test requires a sequence of length at least \
+250. The test is more accurate when the sequence length is at least 1000.\
+\>", "Text",
  CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
        SelectedNotebook[], After, Cell]; NotebookFind[
        SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.771183477733913*^9, 3.771183499137464*^9}, {
+  3.77118355652073*^9, 3.7711836036248283`*^9}},
  CellTags->"TabNext",
  CellID->567921317,ExpressionUUID->"5c151f60-a831-4f7e-bc9c-ae0ed94637e8"]
 }, Open  ]],
@@ -1100,7 +2164,7 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{808, 683},
-WindowMargins->{{406, 226}, {Automatic, 31}},
+WindowMargins->{{Automatic, 226}, {Automatic, 0}},
 DockedCells->{
   Cell[
    BoxData[
@@ -1116,901 +2180,6 @@ DockedCells->{
    CellFrameColor -> GrayLevel[0.75], CellOpen -> Dynamic[
      CurrentValue[
       EvaluationNotebook[], {TaggingRules, "ToolsOpen"}, False]]], 
-  Cell[
-   BoxData[
-    StyleBox[
-     TagBox[
-      DynamicModuleBox[{Typeset`var$$ = False}, 
-       InterpretationBox[
-        StyleBox[
-         PaneSelectorBox[{False -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771164695382942`16.32905048861254*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
-                    GridBox[{{"\"Deployed for this computer\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "ShortName" -> 
-                    "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", 
-                    "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> Automatic,
-                     Method -> "Queued"], "\"View Documentation\""}, 
-                    "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"OPERM5RandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", "Version" -> 
-                    None, "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    TextData[{
-                    "returns a p-value associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> TextData[{
-                    "returns a property associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell["Returns the test statistic", "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9, {
-                    3.771164593223517*^9, 3.771164623290739*^9}, {
-                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
-                    1532378813]}], "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 132], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713/download/DefinitionData"], 
-                    "ShortName" -> "OPERM5RandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713"]}]]], Selectable -> False], 
-                    RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], "", 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "93b81fc6-d1af-43e2-8ddc-30962bf063f2"]), Appearance -> 
-                    None, BoxID -> "93b81fc6-d1af-43e2-8ddc-30962bf063f2", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}], True -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771164695382942`16.32905048861254*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
-                    GridBox[{{"\"Deployed for this computer\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "ShortName" -> 
-                    "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", 
-                    "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> Automatic,
-                     Method -> "Queued"], "\"View Documentation\""}, 
-                    "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"OPERM5RandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", "Version" -> 
-                    None, "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    TextData[{
-                    "returns a p-value associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> TextData[{
-                    "returns a property associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell["Returns the test statistic", "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9, {
-                    3.771164593223517*^9, 3.771164623290739*^9}, {
-                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
-                    1532378813]}], "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 132], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713/download/DefinitionData"], 
-                    "ShortName" -> "OPERM5RandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713"]}]]], Selectable -> False], 
-                    RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], "", 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "93b81fc6-d1af-43e2-8ddc-30962bf063f2"]), Appearance -> 
-                    None, BoxID -> "93b81fc6-d1af-43e2-8ddc-30962bf063f2", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
-               PaneBox[
-                TagBox[
-                 GridBox[{{"\"\"", 
-                    StyleBox[
-                    TagBox[
-                    
-                    GridBox[{{
-                    "\"\[FilledVerySmallSquare]\"", "\"Local object:\"", 
-                    TemplateBox[{
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file://\[Ellipsis]/DeployedResources/Function/\
-OPERM5RandomnessTest\"", "]"}], 
-                    RawBoxes[
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}]]}, 
-                    "ClickToCopyTemplate"]}, {
-                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
-                    TemplateBox[{
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
-                    LineBreakWithin -> False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"OPERM5RandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "ShortName" -> 
-                    "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", 
-                    "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
-                    "]"}], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{"LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]}, 
-                    "ClickToCopyTemplate"]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {Automatic, Automatic, Fit}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
-                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
-                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                  False, GridBoxDividers -> {
-                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
-                    Rational[239, 255]]}}, 
-                  GridBoxItemSize -> {
-                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
-                  GridBoxSpacings -> {
-                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
-                ImageMargins -> 0]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}]}, 
-          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
-          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
-         StripOnInput -> False], 
-        OpenerView[{
-          Grid[{{
-             Style[
-              Dynamic[
-               DateString[
-                TimeZoneConvert[
-                 DateObject[
-                 3.771164695382942`16.32905048861254*^9, TimeZone -> 0]], {
-                "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
-              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
-              "   ", 
-             Grid[{{"Deployed for this computer", 
-                RawBoxes[
-                 TemplateBox[{
-                   ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DocumentationNotebook`\
-ViewDocumentationNotebook[
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "ShortName" -> 
-                    "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", 
-                    "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> Automatic,
-                     Method -> "Queued"], "\"View Documentation\""}, 
-                  "PrettyTooltipTemplate"]]}}, Spacings -> 0.25], 
-             Grid[{{"ResourceFunction:", 
-                RawBoxes[
-                 TemplateBox[{
-                   InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"OPERM5RandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", "Version" -> 
-                    None, "Documentation" -> Association["Usage" -> {
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
-                    TextData[{
-                    "returns a p-value associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]], 
-                    Association["Usage" -> BoxData[
-                    RowBox[{
-                    StyleBox[
-                    RowBox[{
-                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
-                    "[", 
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionName"], 
-                    "]"}], "ResourceFunctionHandle"], "[", 
-                    StyleBox[
-                    RowBox[{"sequence", ",", "\"property\""}], "TI"], "]"}]], 
-                    "Description" -> 
-                    TextData[{
-                    "returns a property associated with a test for randomness \
-of ", 
-                    StyleBox["sequence", "TI"]}]]}, "Notes" -> {
-                    Cell[
-                    "Properties include", "Notes", TaggingRules -> {}, 
-                    CellEventActions -> {
-                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-                    SelectedNotebook[], After, Cell]; NotebookFind[
-                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
-                    True, WrapAround -> True], Blank[NotebookSelection] :> 
-                    SelectionMove[
-                    SelectedNotebook[], All, CellContents, AutoScroll -> 
-                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
-                    CellChangeTimes -> {{3.7711537115336933`*^9, 
-                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
-                    521904482], 
-                    Cell[
-                    BoxData[
-                    GridBox[{{
-                    Cell["\"TestStatistic\"", "TableText"], 
-                    Cell["Returns the test statistic", "TableText"]}, {
-                    Cell["\"PValue\"", "TableText"], 
-                    Cell[
-                    "Returns the p-value associated with the test", 
-                    "TableText"]}}]], "TableNotes", 
-                    CellChangeTimes -> {{3.7711566955233393`*^9, 
-                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
-                    3.771156896970211*^9}, 3.771156992134433*^9, {
-                    3.771164593223517*^9, 3.771164623290739*^9}, {
-                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
-                    1532378813]}], "ExampleNotebook" -> NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 132], "FunctionLocation" -> 
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713/download/DefinitionData"], 
-                    "ShortName" -> "OPERM5RandomnessTest", "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "ResourceLocations" -> {
-                    LocalObject[
-                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
-84d/84da6409-75e2-43c7-b5ba-b14e63ee7713"]}]]], Selectable -> False], 
-                   RawBoxes[
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}]]}, 
-                  "ClickToCopyTemplate"]]}}], "", 
-             MouseAppearance[
-              Button[
-               MouseAppearance[
-                Mouseover[
-                 Graphics[{
-                   GrayLevel[
-                    Rational[64, 85]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None], 
-                 Graphics[{
-                   GrayLevel[
-                    Rational[128, 255]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
-               FunctionResource`DefinitionNotebook`Private`deleteMe[
-                "93b81fc6-d1af-43e2-8ddc-30962bf063f2"], Appearance -> None, 
-               BoxID -> "93b81fc6-d1af-43e2-8ddc-30962bf063f2"], 
-              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
-              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
-           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
-          Grid[{{"", 
-             Style[
-              Grid[{{"\[FilledVerySmallSquare]", "Local object:", 
-                 RawBoxes[
-                  TemplateBox[{
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file://\[Ellipsis]/DeployedResources/Function/\
-OPERM5RandomnessTest\"", "]"}], 
-                    RawBoxes[
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}]]}, 
-                   "ClickToCopyTemplate"]]}, {
-                "\[FilledVerySmallSquare]", "Resource object:", 
-                 RawBoxes[
-                  TemplateBox[{
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"OPERM5RandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.45], "\"OPERM5RandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "OPERM5RandomnessTest", "ShortName" -> 
-                    "OPERM5RandomnessTest", "UUID" -> 
-                    "84da6409-75e2-43c7-b5ba-b14e63ee7713", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Test a sequence of 0s and 1s for randomness using the \
-overlapping permutations test where permutations are of length 5.", 
-                    "SymbolName" -> 
-                    "FunctionRepository`$84da640975e243c7b5bab14e63ee7713`\
-OPERM5RandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
-                    "]"}], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    RowBox[{"ResourceFunction", "[", 
-                    
-                    RowBox[{
-                    "LocalObject", "[", 
-                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
-DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]}, 
-                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
-               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
-              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
-           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
-           Dividers -> {None, {-1 -> GrayLevel[
-                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
-          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
-     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
-     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
   Cell[
    BoxData[
     StyleBox[
@@ -2034,8 +2203,8 @@ DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]},
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771164754458964`16.329050495415853*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.77118360960735`16.329052666805055*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                     "System"], FontSlant -> Italic, FontColor -> 
@@ -2058,8 +2227,8 @@ DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]},
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771164754458964`16.329050495415853*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.77118360960735`16.329052666805055*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
                     "System"], FontSlant -> Italic, FontColor -> 
@@ -2083,8 +2252,8 @@ DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]},
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771164754458964`16.329050495415853*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    3.77118360960735`16.329052666805055*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     SingleEvaluation -> True, Evaluator -> "System"], 
                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], FontSize -> 
@@ -2097,7 +2266,7 @@ DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]},
                DateString[
                 TimeZoneConvert[
                  DateObject[
-                 3.771164754458964`16.329050495415853*^9, TimeZone -> 0]], {
+                 3.77118360960735`16.329052666805055*^9, TimeZone -> 0]], {
                 "MonthName", " ", "DayShort", ", ", "Year", " ", 
                  "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -2105,81 +2274,22 @@ DeployedResources/Function/OPERM5RandomnessTest\"", "]"}], "]"}], "]"}]]},
              FontSize -> 0.9 Inherited, StripOnInput -> False]}, Alignment -> 
            Right], "\"   \"", 
           TagBox[
-           
-           GridBox[{{"\"Found 1 potential issue and 1 suggestion\"", "\"\""}},
+           GridBox[{{
+              TagBox[
+               GridBox[{{
+                  StyleBox["\"\[Checkmark]\"", FontColor -> RGBColor[0, 
+                    Rational[2, 3], 0], FontSize -> 16, FontWeight -> "Heavy",
+                    StripOnInput -> False], "\"No issues found\""}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {"Columns" -> {{0.5}}}], "Grid"], "\"\""}},
              AutoDelete -> False, 
             GridBoxItemSize -> {
              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
             GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], "\"\"", 
-          StyleBox[
-           ActionMenuBox[
-            TagBox[
-             TagBox[
-              GridBox[{{
-                 TemplateBox[{
-                   TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                 TemplateBox[{
-                   TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                 "\"   \""}}, AutoDelete -> False, 
-               GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-              "Grid"], 
-             MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                TemplateBox[{
-                  RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                  RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                 "SuggestionIconTemplate"], "\" \"", 
-                "\"The character \\\",\\\" should not be included in argument \
-formatting\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                Needs["FunctionResource`DefinitionNotebook`"]]; 
-              FunctionResource`DefinitionNotebook`Private`seek[1120296453]), 
-             TemplateBox[{
-                TemplateBox[{
-                  RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                  RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                 "SuggestionIconTemplate"], "\" \"", 
-                "\"No author information given\""}, "RowDefault"] :> (
-              Block[{$ContextPath}, 
-                Needs["FunctionResource`DefinitionNotebook`"]]; 
-              FunctionResource`DefinitionNotebook`Private`seek[832483124])}, 
-            Method -> "Queued", Appearance -> None], "BoxID" -> 
-           "WarningCountButton", StripOnInput -> False], 
+          "\"\"", 
           TagBox[
            ButtonBox[
             TagBox[
@@ -2220,8 +2330,8 @@ formatting\""}, "RowDefault"] :> (Block[{$ContextPath},
              MouseAppearanceTag["LinkHand"]], 
             ButtonFunction :> (Symbol["System`ResourceFunction"]; 
              FunctionResource`DefinitionNotebook`Private`deleteMe[
-              "9ce884b0-4b84-42f9-977e-cb6d3f66f068"]), Appearance -> None, 
-            BoxID -> "9ce884b0-4b84-42f9-977e-cb6d3f66f068", Evaluator -> 
+              "29c70923-c25e-4386-94d1-3182370fde22"]), Appearance -> None, 
+            BoxID -> "29c70923-c25e-4386-94d1-3182370fde22", Evaluator -> 
             Automatic, Method -> "Preemptive"], 
            MouseAppearanceTag["LinkHand"]]}}, 
         GridBoxAlignment -> {
@@ -2236,10 +2346,11 @@ formatting\""}, "RowDefault"] :> (Block[{$ContextPath},
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceCreateNotebook" -> True, "ResourceType" -> "Function", 
-  "TemplateVersion" -> "1.2.22", "ToolsOpen" -> False, "StatusMessage" -> "", 
-  "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {
-    CellObject[473681], 
-    CellObject[473729]}},
+  "TemplateVersion" -> "1.2.22", "ToolsOpen" -> True, "StatusMessage" -> "", 
+  "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {}, 
+  "PreviewNotebook" -> NotebookObject[
+    FrontEndObject[
+     LinkObject["jv6wa_shm", 3, 1]], 225]},
 CreateCellID->True,
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
 StyleDefinitions->Notebook[{
@@ -2404,8 +2515,9 @@ kI/iXyC/aX6cGIOFCJwPdp+oMJwPDt/PgnA+2D1PBOB8WHygxy8Abafrpg==
                 ParentCell[
                  EvaluationCell[]], #2, "Inline", 
                 "ClosingActions" -> {"ParentChanged", "EvaluatorQuit"}]]; 
-            Null]; Null), Appearance -> None, Evaluator -> Automatic, Method -> 
-         "Preemptive"], BoxBaselineShift -> -0.5, BoxMargins -> 0.2]& )}], 
+            Null]; Null), Appearance -> None, Evaluator -> Automatic, 
+         Method -> "Preemptive"], BoxBaselineShift -> -0.5, BoxMargins -> 
+        0.2]& )}], 
    Cell[
     StyleData["ClickToCopyTemplate"], 
     TemplateBoxOptions -> {
@@ -2447,8 +2559,9 @@ kI/iXyC/aX6cGIOFCJwPdp+oMJwPDt/PgnA+2D1PBOB8WHygxy8Abafrpg==
             GridBoxSpacings -> {"Columns" -> {{0.4}}}], "Grid"], True -> 
          DynamicModuleBox[{
            FunctionResourceTools`BuildDefinitionNotebook`Private`clickTime$$ = 
-            0., FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$\
-$ = 3.}, 
+            0., 
+            FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$ = 
+            3.}, 
            TagBox[
             GridBox[{{#, 
                TagBox[
@@ -3037,8 +3150,7 @@ functions\""}, "PrettyTooltipTemplate"],
             GridBox[{{"\"\"", "\"\""}}, 
              GridBoxAlignment -> {
               "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, 
-             GridBoxDividers -> {
+             False, GridBoxDividers -> {
               "ColumnsIndexed" -> {2 -> True}, "Rows" -> {{False}}}, 
              GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{2}}},
               GridBoxSpacings -> {"Columns" -> {{0.5}}}, FrameStyle -> 
@@ -3126,7 +3238,6 @@ FunctionResource`DefinitionNotebook`Private`getResource[System`ButtonNotebook[\
                     GraphicsBox[{
                     Thickness[0.06349206349206349], 
                     StyleBox[{
-                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -3167,7 +3278,8 @@ eU8aPfbS9kxawAvxnrSCx3c3XzbS6JX4RFrAS34B53ckaw==
                     AspectRatio -> 1.15], "\"Submit Update\""}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
+                    False, 
+                    GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {
                     "Columns" -> {{0}}, "ColumnsIndexed" -> {2 -> 0.5}, 
@@ -3602,158 +3714,152 @@ ACBxmlc=
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Author Notes"->{
-  Cell[40464, 1048, 182, 4, 53, "Section",ExpressionUUID->"ea5fdfa5-c833-41ef-a7d4-c67515be6d63",
-   CellTags->"Author Notes",
-   CellID->795110225]},
- "Categories"->{
-  Cell[29005, 731, 181, 4, 70, "Subsection",ExpressionUUID->"8415715c-042d-4012-a6b6-4af762a4edef",
-   CellTags->"Categories",
-   CellID->749076926]},
- "CategoriesCell"->{
-  Cell[29189, 737, 4367, 128, 70, "Output",ExpressionUUID->"4120fccc-9be7-4253-a46a-5ee8530f4e2d",
-   CellTags->"CategoriesCell",
-   CellID->184433961]},
- "Contributed By"->{
-  Cell[25984, 657, 796, 19, 70, "Subsection",ExpressionUUID->"6a6e6ff9-c602-4fb2-a56e-b84e9ad6b210",
-   CellTags->"Contributed By",
-   CellID->127820888]},
- "Definition"->{
-  Cell[2299, 56, 1000, 22, 68, "Section",ExpressionUUID->"8e1fb886-9581-48a5-92d0-317b2e506d58",
-   CellTags->"Definition",
-   CellID->474513213]},
- "Description"->{
-  Cell[1244, 34, 1030, 18, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
-   CellTags->{"Description", "TabNext"},
-   CellID->450900334]},
- "Details & Options"->{
-  Cell[14424, 379, 1244, 25, 54, "Subsection",ExpressionUUID->"cb5cca6c-a76b-48ca-b74d-b4b879f1aef9",
-   CellTags->"Details & Options",
-   CellID->66019318]},
- "Documentation"->{
-  Cell[9532, 254, 154, 3, 67, "Section",ExpressionUUID->"cdbfb038-ece5-4cbc-bc4b-5eebf6c0d4e0",
-   CellTags->"Documentation",
-   CellID->855965831]},
- "Examples"->{
-  Cell[17645, 451, 6513, 144, 68, "Section",ExpressionUUID->"e85ad04e-5335-4358-ab34-db73ba4c044c",
-   CellTags->"Examples",
-   CellID->180595041]},
- "Keywords"->{
-  Cell[27649, 697, 797, 19, 70, "Subsection",ExpressionUUID->"3e661b9c-b693-4d9b-9f1d-1f56a36eb822",
-   CellTags->"Keywords",
-   CellID->547400482]},
- "Links"->{
-  Cell[37856, 973, 727, 19, 70, "Subsection",ExpressionUUID->"4ec56e69-a766-41d4-b175-fd0afe91cd42",
-   CellTags->"Links",
-   CellID->521525586]},
- "Related Resource Objects"->{
-  Cell[34963, 904, 824, 19, 70, "Subsection",ExpressionUUID->"4041ebf6-f032-4e7d-863d-2ac18b187d00",
-   CellTags->"Related Resource Objects",
-   CellID->588449267]},
- "Related Symbols"->{
-  Cell[33593, 870, 774, 19, 70, "Subsection",ExpressionUUID->"15dcfa82-bd63-4d06-b01f-0e3abfb92cf6",
-   CellTags->"Related Symbols",
-   CellID->161079978]},
- "Source & Additional Information"->{
-  Cell[25769, 650, 190, 3, 67, "Section",ExpressionUUID->"c3abe781-6489-41c3-ab47-17dead7e7d4b",
-   CellTags->"Source & Additional Information",
-   CellID->318391102]},
- "Source/Reference Citation"->{
-  Cell[36390, 938, 875, 20, 70, "Subsection",ExpressionUUID->"69e1f83b-81b6-4eff-9c2b-108d89cd65d9",
-   CellTags->"Source/Reference Citation",
-   CellID->642091068]},
- "Submission Notes"->{
-  Cell[41250, 1067, 833, 20, 68, "Section",ExpressionUUID->"bb783bcb-466e-44cb-9677-e04391f7026b",
-   CellTags->"Submission Notes",
-   CellID->843283583]},
- "TabNext"->{
-  Cell[583, 22, 658, 10, 98, "Title",ExpressionUUID->"770369c9-91d1-46dc-b33a-a8fe75097ef6",
-   CellTags->{"Title", "TabNext"},
-   CellID->362346026],
-  Cell[1244, 34, 1030, 18, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
-   CellTags->{"Description", "TabNext"},
-   CellID->450900334],
-  Cell[3324, 82, 1963, 52, 147, "Input",ExpressionUUID->"85f59cc9-a773-4ab3-83d0-449f8bfb1816",
-   CellTags->"TabNext",
-   CellID->778396829],
-  Cell[5290, 136, 347, 8, 34, "Output",ExpressionUUID->"d1040658-cf25-4966-a61d-45e5fe50383c",
-   CellTags->"TabNext",
-   CellID->2127380909],
-  Cell[11464, 308, 576, 11, 27, "UsageInputs",ExpressionUUID->"a2043e01-a3e4-461b-bee4-10b659efd70d",
-   CellTags->"TabNext",
-   CellID->410373307],
-  Cell[12043, 321, 774, 15, 27, "UsageDescription",ExpressionUUID->"85c4835f-e8c4-4145-860e-3bd7a91a8672",
-   CellTags->"TabNext",
-   CellID->584004037],
-  Cell[12854, 341, 690, 14, 64, "UsageInputs",ExpressionUUID->"eec1b870-7271-4a1b-89ce-d3313c254db6",
-   CellTags->"TabNext",
-   CellID->1120296453],
-  Cell[13547, 357, 828, 16, 27, "UsageDescription",ExpressionUUID->"c9a63194-86c6-4ce1-9b89-4fac589d2bb6",
-   CellTags->"TabNext",
-   CellID->1833352322],
-  Cell[15693, 408, 831, 14, 32, "Notes",ExpressionUUID->"5966f3ed-587c-4c1e-85d5-3f7f1f54c921",
-   CellTags->"TabNext",
-   CellID->521904482],
-  Cell[26783, 678, 829, 14, 70, "Text",ExpressionUUID->"ad2bcd99-1169-417d-84ea-a58bff44b935",
-   CellTags->"TabNext",
-   CellID->832483124],
-  Cell[28449, 718, 519, 8, 70, "Item",ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49",
-   CellTags->"TabNext",
-   CellID->123227828],
-  Cell[34370, 891, 556, 8, 70, "Item",ExpressionUUID->"4a292c27-f96c-44ca-8739-842647763c2b",
-   CellTags->"TabNext",
-   CellID->79477165],
-  Cell[35790, 925, 563, 8, 70, "Item",ExpressionUUID->"79b0898f-f2a8-44d2-aa64-01d13bc72283",
-   CellTags->"TabNext",
-   CellID->960273585],
-  Cell[37268, 960, 551, 8, 70, "Text",ExpressionUUID->"f5554af3-d6c2-425d-ae13-71ac514eecbd",
-   CellTags->"TabNext",
-   CellID->343081869],
-  Cell[38586, 994, 540, 8, 70, "Item",ExpressionUUID->"8c63868e-c42c-4642-9227-9e587b62096d",
-   CellTags->"TabNext",
-   CellID->485448166],
-  Cell[40649, 1054, 564, 8, 35, "Text",ExpressionUUID->"5c151f60-a831-4f7e-bc9c-ae0ed94637e8",
-   CellTags->"TabNext",
-   CellID->567921317],
-  Cell[42086, 1089, 550, 8, 35, "Text",ExpressionUUID->"474ada64-d939-4c2d-bb29-a64490b84a22",
-   CellTags->"TabNext",
-   CellID->920818074]},
- "Tests"->{
-  Cell[39163, 1007, 880, 21, 70, "Subsection",ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d",
-   CellTags->"Tests",
-   CellID->74308299]},
  "Title"->{
   Cell[583, 22, 658, 10, 98, "Title",ExpressionUUID->"770369c9-91d1-46dc-b33a-a8fe75097ef6",
    CellTags->{"Title", "TabNext"},
    CellID->362346026]},
+ "TabNext"->{
+  Cell[583, 22, 658, 10, 98, "Title",ExpressionUUID->"770369c9-91d1-46dc-b33a-a8fe75097ef6",
+   CellTags->{"Title", "TabNext"},
+   CellID->362346026],
+  Cell[1244, 34, 1080, 19, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
+   CellTags->{"Description", "TabNext"},
+   CellID->450900334],
+  Cell[3374, 83, 1992, 52, 147, "Input",ExpressionUUID->"85f59cc9-a773-4ab3-83d0-449f8bfb1816",
+   CellTags->"TabNext",
+   CellID->778396829],
+  Cell[5369, 137, 373, 9, 34, "Output",ExpressionUUID->"c9684e24-0679-4b66-ae1e-474b984ebbca",
+   CellTags->"TabNext",
+   CellID->1202887271],
+  Cell[12842, 340, 576, 11, 27, "UsageInputs",ExpressionUUID->"a2043e01-a3e4-461b-bee4-10b659efd70d",
+   CellTags->"TabNext",
+   CellID->410373307],
+  Cell[13421, 353, 774, 15, 27, "UsageDescription",ExpressionUUID->"85c4835f-e8c4-4145-860e-3bd7a91a8672",
+   CellTags->"TabNext",
+   CellID->584004037],
+  Cell[14232, 373, 747, 15, 27, "UsageInputs",ExpressionUUID->"eec1b870-7271-4a1b-89ce-d3313c254db6",
+   CellTags->"TabNext",
+   CellID->1120296453],
+  Cell[14982, 390, 828, 16, 27, "UsageDescription",ExpressionUUID->"c9a63194-86c6-4ce1-9b89-4fac589d2bb6",
+   CellTags->"TabNext",
+   CellID->1833352322],
+  Cell[17128, 441, 831, 14, 32, "Notes",ExpressionUUID->"5966f3ed-587c-4c1e-85d5-3f7f1f54c921",
+   CellTags->"TabNext",
+   CellID->521904482],
+  Cell[80892, 1752, 949, 19, 81, "Text",ExpressionUUID->"ad2bcd99-1169-417d-84ea-a58bff44b935",
+   CellTags->"TabNext",
+   CellID->832483124],
+  Cell[82700, 1799, 637, 10, 32, "Item",ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49",
+   CellTags->"TabNext",
+   CellID->123227828],
+  Cell[90417, 2013, 600, 9, 32, "Item",ExpressionUUID->"79b0898f-f2a8-44d2-aa64-01d13bc72283",
+   CellTags->"TabNext",
+   CellID->960273585],
+  Cell[91932, 2049, 551, 8, 35, "Text",ExpressionUUID->"f5554af3-d6c2-425d-ae13-71ac514eecbd",
+   CellTags->"TabNext",
+   CellID->343081869],
+  Cell[94330, 2113, 783, 13, 58, "Text",ExpressionUUID->"5c151f60-a831-4f7e-bc9c-ae0ed94637e8",
+   CellTags->"TabNext",
+   CellID->567921317],
+  Cell[95986, 2153, 550, 8, 35, "Text",ExpressionUUID->"474ada64-d939-4c2d-bb29-a64490b84a22",
+   CellTags->"TabNext",
+   CellID->920818074]},
+ "Description"->{
+  Cell[1244, 34, 1080, 19, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
+   CellTags->{"Description", "TabNext"},
+   CellID->450900334]},
+ "Definition"->{
+  Cell[2349, 57, 1000, 22, 68, "Section",ExpressionUUID->"8e1fb886-9581-48a5-92d0-317b2e506d58",
+   CellTags->"Definition",
+   CellID->474513213]},
+ "Documentation"->{
+  Cell[10910, 286, 154, 3, 67, "Section",ExpressionUUID->"cdbfb038-ece5-4cbc-bc4b-5eebf6c0d4e0",
+   CellTags->"Documentation",
+   CellID->855965831]},
  "Usage"->{
-  Cell[9711, 261, 1728, 43, 54, "Subsection",ExpressionUUID->"4e817e76-34d2-4370-85cf-6baa61b42b04",
+  Cell[11089, 293, 1728, 43, 54, "Subsection",ExpressionUUID->"4e817e76-34d2-4370-85cf-6baa61b42b04",
    CellTags->"Usage",
-   CellID->310800389]}
+   CellID->310800389]},
+ "Details & Options"->{
+  Cell[15859, 412, 1244, 25, 54, "Subsection",ExpressionUUID->"cb5cca6c-a76b-48ca-b74d-b4b879f1aef9",
+   CellTags->"Details & Options",
+   CellID->66019318]},
+ "Examples"->{
+  Cell[20118, 504, 6513, 144, 68, "Section",ExpressionUUID->"e85ad04e-5335-4358-ab34-db73ba4c044c",
+   CellTags->"Examples",
+   CellID->180595041]},
+ "Source & Additional Information"->{
+  Cell[79878, 1724, 190, 3, 67, "Section",ExpressionUUID->"c3abe781-6489-41c3-ab47-17dead7e7d4b",
+   CellTags->"Source & Additional Information",
+   CellID->318391102]},
+ "Contributed By"->{
+  Cell[80093, 1731, 796, 19, 54, "Subsection",ExpressionUUID->"6a6e6ff9-c602-4fb2-a56e-b84e9ad6b210",
+   CellTags->"Contributed By",
+   CellID->127820888]},
+ "Keywords"->{
+  Cell[81878, 1776, 797, 19, 54, "Subsection",ExpressionUUID->"3e661b9c-b693-4d9b-9f1d-1f56a36eb822",
+   CellTags->"Keywords",
+   CellID->547400482]},
+ "Categories"->{
+  Cell[84003, 1826, 181, 4, 54, "Subsection",ExpressionUUID->"8415715c-042d-4012-a6b6-4af762a4edef",
+   CellTags->"Categories",
+   CellID->749076926]},
+ "CategoriesCell"->{
+  Cell[84187, 1832, 4589, 134, 326, "Output",ExpressionUUID->"4120fccc-9be7-4253-a46a-5ee8530f4e2d",
+   CellTags->"CategoriesCell",
+   CellID->184433961]},
+ "Related Symbols"->{
+  Cell[88791, 1969, 774, 19, 54, "Subsection",ExpressionUUID->"15dcfa82-bd63-4d06-b01f-0e3abfb92cf6",
+   CellTags->"Related Symbols",
+   CellID->161079978]},
+ "Related Resource Objects"->{
+  Cell[89590, 1992, 824, 19, 38, "Subsection",ExpressionUUID->"4041ebf6-f032-4e7d-863d-2ac18b187d00",
+   CellTags->"Related Resource Objects",
+   CellID->588449267]},
+ "Source/Reference Citation"->{
+  Cell[91054, 2027, 875, 20, 54, "Subsection",ExpressionUUID->"69e1f83b-81b6-4eff-9c2b-108d89cd65d9",
+   CellTags->"Source/Reference Citation",
+   CellID->642091068]},
+ "Links"->{
+  Cell[92498, 2060, 727, 19, 54, "Subsection",ExpressionUUID->"4ec56e69-a766-41d4-b175-fd0afe91cd42",
+   CellTags->"Links",
+   CellID->521525586]},
+ "Tests"->{
+  Cell[93228, 2081, 880, 21, 38, "Subsection",ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d",
+   CellTags->"Tests",
+   CellID->74308299]},
+ "Author Notes"->{
+  Cell[94145, 2107, 182, 4, 67, "Section",ExpressionUUID->"ea5fdfa5-c833-41ef-a7d4-c67515be6d63",
+   CellTags->"Author Notes",
+   CellID->795110225]},
+ "Submission Notes"->{
+  Cell[95150, 2131, 833, 20, 68, "Section",ExpressionUUID->"bb783bcb-466e-44cb-9677-e04391f7026b",
+   CellTags->"Submission Notes",
+   CellID->843283583]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Author Notes", 172659, 3604},
- {"Categories", 172827, 3608},
- {"CategoriesCell", 172999, 3612},
- {"Contributed By", 173174, 3616},
- {"Definition", 173347, 3620},
- {"Description", 173513, 3624},
- {"Details & Options", 173696, 3628},
- {"Documentation", 173875, 3632},
- {"Examples", 174040, 3636},
- {"Keywords", 174204, 3640},
- {"Links", 174366, 3644},
- {"Related Resource Objects", 174544, 3648},
- {"Related Symbols", 174732, 3652},
- {"Source & Additional Information", 174927, 3656},
- {"Source/Reference Citation", 175128, 3660},
- {"Submission Notes", 175318, 3664},
- {"TabNext", 175488, 3668},
- {"Tests", 177977, 3720},
- {"Title", 178136, 3724},
- {"Usage", 178300, 3728}
+ {"Title", 176892, 3716},
+ {"TabNext", 177058, 3720},
+ {"Description", 179278, 3766},
+ {"Definition", 179454, 3770},
+ {"Documentation", 179622, 3774},
+ {"Usage", 179785, 3778},
+ {"Details & Options", 179957, 3782},
+ {"Examples", 180131, 3786},
+ {"Source & Additional Information", 180318, 3790},
+ {"Contributed By", 180509, 3794},
+ {"Keywords", 180681, 3798},
+ {"Categories", 180849, 3802},
+ {"CategoriesCell", 181022, 3806},
+ {"Related Symbols", 181200, 3810},
+ {"Related Resource Objects", 181389, 3814},
+ {"Source/Reference Citation", 181588, 3818},
+ {"Links", 181768, 3822},
+ {"Tests", 181928, 3826},
+ {"Author Notes", 182094, 3830},
+ {"Submission Notes", 182268, 3834}
  }
 *)
 (*NotebookFileOutline
@@ -3762,186 +3868,254 @@ Cell[CellGroupData[{
 Cell[583, 22, 658, 10, 98, "Title",ExpressionUUID->"770369c9-91d1-46dc-b33a-a8fe75097ef6",
  CellTags->{"Title", "TabNext"},
  CellID->362346026],
-Cell[1244, 34, 1030, 18, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
+Cell[1244, 34, 1080, 19, 58, "Text",ExpressionUUID->"e033fa81-dfe6-432b-9c73-3c3ba6a78ee1",
  CellTags->{"Description", "TabNext"},
  CellID->450900334],
 Cell[CellGroupData[{
-Cell[2299, 56, 1000, 22, 68, "Section",ExpressionUUID->"8e1fb886-9581-48a5-92d0-317b2e506d58",
+Cell[2349, 57, 1000, 22, 68, "Section",ExpressionUUID->"8e1fb886-9581-48a5-92d0-317b2e506d58",
  CellTags->"Definition",
  CellID->474513213],
 Cell[CellGroupData[{
-Cell[3324, 82, 1963, 52, 147, "Input",ExpressionUUID->"85f59cc9-a773-4ab3-83d0-449f8bfb1816",
+Cell[3374, 83, 1992, 52, 147, "Input",ExpressionUUID->"85f59cc9-a773-4ab3-83d0-449f8bfb1816",
  CellTags->"TabNext",
  CellID->778396829],
-Cell[5290, 136, 347, 8, 34, "Output",ExpressionUUID->"d1040658-cf25-4966-a61d-45e5fe50383c",
+Cell[5369, 137, 373, 9, 34, "Output",ExpressionUUID->"c9684e24-0679-4b66-ae1e-474b984ebbca",
  CellTags->"TabNext",
- CellID->2127380909]
+ CellID->1202887271]
 }, Open  ]],
-Cell[5652, 147, 1428, 32, 140, "Input",ExpressionUUID->"e3de4c6f-fdfd-4afb-9bf4-c159eb6b5a3d",
+Cell[5757, 149, 1428, 32, 140, "Input",ExpressionUUID->"e3de4c6f-fdfd-4afb-9bf4-c159eb6b5a3d",
  CellID->995839409],
-Cell[7083, 181, 764, 19, 52, "Input",ExpressionUUID->"713363e5-f310-4397-9e9c-8b48d2eb9767",
+Cell[7188, 183, 764, 19, 52, "Input",ExpressionUUID->"713363e5-f310-4397-9e9c-8b48d2eb9767",
  CellID->1359298832],
-Cell[7850, 202, 1645, 47, 136, "Input",ExpressionUUID->"ab95a23a-b4fb-4357-acf2-766d9bbfd838",
+Cell[7955, 204, 453, 9, 30, "Input",ExpressionUUID->"c20cb7d7-e1e9-44f9-981c-90cb4ae16d19",
+ CellID->878423629],
+Cell[8411, 215, 2462, 66, 178, "Input",ExpressionUUID->"ab95a23a-b4fb-4357-acf2-766d9bbfd838",
  CellID->1248888415]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9532, 254, 154, 3, 67, "Section",ExpressionUUID->"cdbfb038-ece5-4cbc-bc4b-5eebf6c0d4e0",
+Cell[10910, 286, 154, 3, 67, "Section",ExpressionUUID->"cdbfb038-ece5-4cbc-bc4b-5eebf6c0d4e0",
  CellTags->"Documentation",
  CellID->855965831],
 Cell[CellGroupData[{
-Cell[9711, 261, 1728, 43, 54, "Subsection",ExpressionUUID->"4e817e76-34d2-4370-85cf-6baa61b42b04",
+Cell[11089, 293, 1728, 43, 54, "Subsection",ExpressionUUID->"4e817e76-34d2-4370-85cf-6baa61b42b04",
  CellTags->"Usage",
  CellID->310800389],
 Cell[CellGroupData[{
-Cell[11464, 308, 576, 11, 27, "UsageInputs",ExpressionUUID->"a2043e01-a3e4-461b-bee4-10b659efd70d",
+Cell[12842, 340, 576, 11, 27, "UsageInputs",ExpressionUUID->"a2043e01-a3e4-461b-bee4-10b659efd70d",
  CellTags->"TabNext",
  CellID->410373307],
-Cell[12043, 321, 774, 15, 27, "UsageDescription",ExpressionUUID->"85c4835f-e8c4-4145-860e-3bd7a91a8672",
+Cell[13421, 353, 774, 15, 27, "UsageDescription",ExpressionUUID->"85c4835f-e8c4-4145-860e-3bd7a91a8672",
  CellTags->"TabNext",
  CellID->584004037]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12854, 341, 690, 14, 64, "UsageInputs",ExpressionUUID->"eec1b870-7271-4a1b-89ce-d3313c254db6",
+Cell[14232, 373, 747, 15, 27, "UsageInputs",ExpressionUUID->"eec1b870-7271-4a1b-89ce-d3313c254db6",
  CellTags->"TabNext",
  CellID->1120296453],
-Cell[13547, 357, 828, 16, 27, "UsageDescription",ExpressionUUID->"c9a63194-86c6-4ce1-9b89-4fac589d2bb6",
+Cell[14982, 390, 828, 16, 27, "UsageDescription",ExpressionUUID->"c9a63194-86c6-4ce1-9b89-4fac589d2bb6",
  CellTags->"TabNext",
  CellID->1833352322]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14424, 379, 1244, 25, 54, "Subsection",ExpressionUUID->"cb5cca6c-a76b-48ca-b74d-b4b879f1aef9",
+Cell[15859, 412, 1244, 25, 54, "Subsection",ExpressionUUID->"cb5cca6c-a76b-48ca-b74d-b4b879f1aef9",
  CellTags->"Details & Options",
  CellID->66019318],
 Cell[CellGroupData[{
-Cell[15693, 408, 831, 14, 32, "Notes",ExpressionUUID->"5966f3ed-587c-4c1e-85d5-3f7f1f54c921",
+Cell[17128, 441, 831, 14, 32, "Notes",ExpressionUUID->"5966f3ed-587c-4c1e-85d5-3f7f1f54c921",
  CellTags->"TabNext",
  CellID->521904482],
-Cell[16527, 424, 813, 14, 70, "TableNotes",ExpressionUUID->"cc84d2c2-58b9-4f7e-9477-377244b65f5b",
+Cell[17962, 457, 813, 14, 70, "TableNotes",ExpressionUUID->"cc84d2c2-58b9-4f7e-9477-377244b65f5b",
  CellID->1532378813],
-Cell[17343, 440, 241, 4, 32, "Notes",ExpressionUUID->"9121b017-f399-4925-8288-ebf9195c57de",
- CellID->1094618737]
+Cell[18778, 473, 518, 9, 74, "Notes",ExpressionUUID->"9121b017-f399-4925-8288-ebf9195c57de",
+ CellID->1094618737],
+Cell[19299, 484, 355, 4, 32, "Notes",ExpressionUUID->"1e3905d7-f122-4bbf-89a2-29d2e9e98c9a",
+ CellID->1734633867],
+Cell[19657, 490, 400, 7, 32, "Notes",ExpressionUUID->"3f3db445-9409-47ae-84a8-5ea571ce8f1f",
+ CellID->496278082]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[17645, 451, 6513, 144, 68, "Section",ExpressionUUID->"e85ad04e-5335-4358-ab34-db73ba4c044c",
+Cell[20118, 504, 6513, 144, 68, "Section",ExpressionUUID->"e85ad04e-5335-4358-ab34-db73ba4c044c",
  CellTags->"Examples",
  CellID->180595041],
 Cell[CellGroupData[{
-Cell[24183, 599, 111, 1, 54, "Subsection",ExpressionUUID->"b155a3da-7d07-46e7-a94b-92e139d07cda",
+Cell[26656, 652, 111, 1, 54, "Subsection",ExpressionUUID->"b155a3da-7d07-46e7-a94b-92e139d07cda",
  CellID->462042388],
-Cell[24297, 602, 113, 1, 35, "Text",ExpressionUUID->"208d9639-f29f-488b-ae2a-71ece4a2f3fa",
- CellID->13078159]
+Cell[26770, 655, 304, 6, 35, "Text",ExpressionUUID->"208d9639-f29f-488b-ae2a-71ece4a2f3fa",
+ CellID->13078159],
+Cell[27077, 663, 365, 10, 30, "Input",ExpressionUUID->"217e11c5-8125-430b-89f6-cede4370d008",
+ CellID->771105549],
+Cell[27445, 675, 823, 20, 35, "Text",ExpressionUUID->"327f1fe7-75cf-4333-b676-ae9aaa6b8e6f",
+ CellID->942238246],
+Cell[CellGroupData[{
+Cell[28293, 699, 394, 9, 30, "Input",ExpressionUUID->"55b911ae-749d-44c1-be4e-23c398f99ad3",
+ CellID->524633794],
+Cell[28690, 710, 1208, 28, 173, "Output",ExpressionUUID->"c7fdba19-b56f-42d6-8338-8935b5244929",
+ CellID->1493512065]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24447, 608, 102, 1, 54, "Subsection",ExpressionUUID->"b3b27b8c-d501-47c1-9e03-c4a420ba3634",
- CellID->964056545],
-Cell[24552, 611, 204, 4, 35, "Text",ExpressionUUID->"1789e969-679f-44d4-b129-d4c6354aec01",
- CellID->649685796],
+Cell[29935, 743, 387, 7, 30, "Input",ExpressionUUID->"c8881773-b730-44db-8e48-5c7e35a5f99f",
+ CellID->312766755],
+Cell[30325, 752, 211, 3, 34, "Output",ExpressionUUID->"f1eaf406-9f32-4e32-b95d-a39d5622b6ac",
+ CellID->291422056]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[24781, 619, 195, 4, 30, "Input",ExpressionUUID->"02f8f9ff-c4b2-4f04-9fda-3a4a030ea1ab",
- CellID->836153427],
-Cell[24979, 625, 159, 3, 34, "Output",ExpressionUUID->"2832512c-cf49-4400-8885-34aa8a40b63b",
- CellID->147179208]
+Cell[30573, 760, 381, 7, 30, "Input",ExpressionUUID->"27d63c69-d10b-4f49-b52d-4799afafafce",
+ CellID->1422437180],
+Cell[30957, 769, 237, 4, 34, "Output",ExpressionUUID->"01df8033-1936-4dfc-b038-4f5922f08d05",
+ CellID->1350374589]
 }, Open  ]]
 }, Open  ]],
-Cell[25165, 632, 104, 1, 54, "Subsection",ExpressionUUID->"2bc86887-d4d2-4059-aed5-19bce6de1c62",
+Cell[31221, 777, 102, 1, 54, "Subsection",ExpressionUUID->"b3b27b8c-d501-47c1-9e03-c4a420ba3634",
+ CellID->964056545],
+Cell[31326, 780, 104, 1, 38, "Subsection",ExpressionUUID->"2bc86887-d4d2-4059-aed5-19bce6de1c62",
  CellID->776923543],
-Cell[25272, 635, 109, 1, 38, "Subsection",ExpressionUUID->"c1a04389-b64a-4a08-af9b-df43a83eb84c",
+Cell[CellGroupData[{
+Cell[31455, 785, 109, 1, 38, "Subsection",ExpressionUUID->"c1a04389-b64a-4a08-af9b-df43a83eb84c",
  CellID->568056528],
-Cell[25384, 638, 121, 1, 38, "Subsection",ExpressionUUID->"30d13a14-9898-461a-8013-9418c25d2d90",
- CellID->754506620],
-Cell[25508, 641, 111, 1, 38, "Subsection",ExpressionUUID->"ff5dab84-6c7e-4102-8846-c3a116b23498",
- CellID->92483860],
-Cell[25622, 644, 110, 1, 38, "Subsection",ExpressionUUID->"7ab08ca2-9e34-4ad8-ad4a-87a6923637f5",
- CellID->540091361]
+Cell[31567, 788, 189, 2, 35, "Text",ExpressionUUID->"cdb2d34e-aa84-4124-bdb3-2195a74c1c5a",
+ CellID->1900504355],
+Cell[31759, 792, 572, 16, 30, "Input",ExpressionUUID->"eaaf6197-6673-46bc-b20d-12088ecf8a2f",
+ CellID->2111465485],
+Cell[CellGroupData[{
+Cell[32356, 812, 1247, 30, 34, "Input",ExpressionUUID->"038ed863-f952-4ce7-953a-29e0c76f9020",
+ CellID->1158032380],
+Cell[33606, 844, 1028, 25, 148, "Output",ExpressionUUID->"32638958-dc08-4d4a-95e0-b388f12fc2b1",
+ CellID->348012917]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25769, 650, 190, 3, 67, "Section",ExpressionUUID->"c3abe781-6489-41c3-ab47-17dead7e7d4b",
+Cell[34671, 874, 301, 5, 30, "Input",ExpressionUUID->"9d333d31-2943-4803-8880-affd12a7e5a2",
+ CellID->1195759581],
+Cell[34975, 881, 234, 4, 34, "Output",ExpressionUUID->"dcf9cb4d-886c-4179-9618-112020b789b5",
+ CellID->444432742]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35246, 890, 243, 5, 33, "ExampleDelimiter",ExpressionUUID->"20e4dbf9-58d2-45e6-a7d5-7978a80f306d",
+ CellID->1971152477],
+Cell[35492, 897, 641, 11, 35, "Text",ExpressionUUID->"fb47fdf5-65a2-406a-813a-7c5f20a69782",
+ CellID->1325606945],
+Cell[36136, 910, 368, 9, 30, "Input",ExpressionUUID->"16bc600b-dc42-44ca-9537-53c7d8f64d1a",
+ CellID->417726745],
+Cell[36507, 921, 450, 10, 30, "Input",ExpressionUUID->"a22b6157-0312-4ab3-9eeb-8b0aae24145a",
+ CellID->380525297],
+Cell[CellGroupData[{
+Cell[36982, 935, 1364, 32, 34, "Input",ExpressionUUID->"ae3f9374-c582-4a48-bc7e-4b605849a5e4",
+ CellID->969916519],
+Cell[38349, 969, 1162, 28, 249, "Output",ExpressionUUID->"4827515b-25d3-4694-a1b4-b051d15658c7",
+ CellID->618219413]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39548, 1002, 248, 4, 30, "Input",ExpressionUUID->"d25c92d9-680c-425c-b52e-630a56101b60",
+ CellID->420887977],
+Cell[39799, 1008, 248, 4, 34, "Output",ExpressionUUID->"1a88f2bb-abe5-4ebb-864a-92284c78abb3",
+ CellID->646852565]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[40086, 1017, 121, 1, 54, "Subsection",ExpressionUUID->"30d13a14-9898-461a-8013-9418c25d2d90",
+ CellID->754506620],
+Cell[40210, 1020, 111, 1, 38, "Subsection",ExpressionUUID->"ff5dab84-6c7e-4102-8846-c3a116b23498",
+ CellID->92483860],
+Cell[CellGroupData[{
+Cell[40346, 1025, 110, 1, 38, "Subsection",ExpressionUUID->"7ab08ca2-9e34-4ad8-ad4a-87a6923637f5",
+ CellID->540091361],
+Cell[40459, 1028, 214, 2, 35, "Text",ExpressionUUID->"b2528be7-aa0b-4782-b342-e3daeaf1c2b4",
+ CellID->423730456],
+Cell[40676, 1032, 762, 18, 30, "Input",ExpressionUUID->"a7d3e1b0-9e10-4038-8b9e-1bd1d9d228f8",
+ CellID->1520492122],
+Cell[CellGroupData[{
+Cell[41463, 1054, 332, 6, 30, "Input",ExpressionUUID->"6251a87f-e93d-467e-9f48-a49ba56b40e3",
+ CellID->1177328354],
+Cell[41798, 1062, 12588, 212, 187, "Output",ExpressionUUID->"041ceddd-8a08-450b-9ea3-1377eab86091",
+ CellID->824894767]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54423, 1279, 375, 8, 30, "Input",ExpressionUUID->"36429b0a-d896-4519-9fdd-55a936f3441b",
+ CellID->894430390],
+Cell[54801, 1289, 350, 7, 34, "Output",ExpressionUUID->"b0334a9a-255f-4ee9-b938-661cd7b0e32d",
+ CellID->548016783]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55188, 1301, 527, 13, 30, "Input",ExpressionUUID->"5a7f631e-67c8-4942-a7c2-ddb70ac11d74",
+ CellID->673970004],
+Cell[55718, 1316, 24099, 401, 187, "Output",ExpressionUUID->"c1937a67-4ff1-4e73-8f62-49417a8ddf89",
+ CellID->191997478]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[79878, 1724, 190, 3, 67, "Section",ExpressionUUID->"c3abe781-6489-41c3-ab47-17dead7e7d4b",
  CellTags->"Source & Additional Information",
  CellID->318391102],
 Cell[CellGroupData[{
-Cell[25984, 657, 796, 19, 70, "Subsection",ExpressionUUID->"6a6e6ff9-c602-4fb2-a56e-b84e9ad6b210",
+Cell[80093, 1731, 796, 19, 54, "Subsection",ExpressionUUID->"6a6e6ff9-c602-4fb2-a56e-b84e9ad6b210",
  CellTags->"Contributed By",
  CellID->127820888],
-Cell[26783, 678, 829, 14, 70, "Text",ExpressionUUID->"ad2bcd99-1169-417d-84ea-a58bff44b935",
+Cell[80892, 1752, 949, 19, 81, "Text",ExpressionUUID->"ad2bcd99-1169-417d-84ea-a58bff44b935",
  CellTags->"TabNext",
  CellID->832483124]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27649, 697, 797, 19, 70, "Subsection",ExpressionUUID->"3e661b9c-b693-4d9b-9f1d-1f56a36eb822",
+Cell[81878, 1776, 797, 19, 54, "Subsection",ExpressionUUID->"3e661b9c-b693-4d9b-9f1d-1f56a36eb822",
  CellTags->"Keywords",
  CellID->547400482],
-Cell[28449, 718, 519, 8, 70, "Item",ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49",
+Cell[CellGroupData[{
+Cell[82700, 1799, 637, 10, 32, "Item",ExpressionUUID->"9479187f-ac38-478a-b788-f109ff7bfd49",
  CellTags->"TabNext",
- CellID->123227828]
+ CellID->123227828],
+Cell[83340, 1811, 614, 9, 32, "Item",ExpressionUUID->"b04f5bdb-0386-40ee-b8c5-ba5b42e5e901",
+ CellID->1521394149]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29005, 731, 181, 4, 70, "Subsection",ExpressionUUID->"8415715c-042d-4012-a6b6-4af762a4edef",
+Cell[84003, 1826, 181, 4, 54, "Subsection",ExpressionUUID->"8415715c-042d-4012-a6b6-4af762a4edef",
  CellTags->"Categories",
  CellID->749076926],
-Cell[29189, 737, 4367, 128, 70, "Output",ExpressionUUID->"4120fccc-9be7-4253-a46a-5ee8530f4e2d",
+Cell[84187, 1832, 4589, 134, 326, "Output",ExpressionUUID->"4120fccc-9be7-4253-a46a-5ee8530f4e2d",
  CellTags->"CategoriesCell",
  CellID->184433961]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[33593, 870, 774, 19, 70, "Subsection",ExpressionUUID->"15dcfa82-bd63-4d06-b01f-0e3abfb92cf6",
+Cell[88791, 1969, 774, 19, 54, "Subsection",ExpressionUUID->"15dcfa82-bd63-4d06-b01f-0e3abfb92cf6",
  CellTags->"Related Symbols",
  CellID->161079978],
-Cell[34370, 891, 556, 8, 70, "Item",ExpressionUUID->"4a292c27-f96c-44ca-8739-842647763c2b",
- CellTags->"TabNext",
- CellID->79477165]
-}, Open  ]],
 Cell[CellGroupData[{
-Cell[34963, 904, 824, 19, 70, "Subsection",ExpressionUUID->"4041ebf6-f032-4e7d-863d-2ac18b187d00",
+Cell[89590, 1992, 824, 19, 38, "Subsection",ExpressionUUID->"4041ebf6-f032-4e7d-863d-2ac18b187d00",
  CellTags->"Related Resource Objects",
  CellID->588449267],
-Cell[35790, 925, 563, 8, 70, "Item",ExpressionUUID->"79b0898f-f2a8-44d2-aa64-01d13bc72283",
+Cell[90417, 2013, 600, 9, 32, "Item",ExpressionUUID->"79b0898f-f2a8-44d2-aa64-01d13bc72283",
  CellTags->"TabNext",
  CellID->960273585]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36390, 938, 875, 20, 70, "Subsection",ExpressionUUID->"69e1f83b-81b6-4eff-9c2b-108d89cd65d9",
+Cell[91054, 2027, 875, 20, 54, "Subsection",ExpressionUUID->"69e1f83b-81b6-4eff-9c2b-108d89cd65d9",
  CellTags->"Source/Reference Citation",
  CellID->642091068],
-Cell[37268, 960, 551, 8, 70, "Text",ExpressionUUID->"f5554af3-d6c2-425d-ae13-71ac514eecbd",
+Cell[91932, 2049, 551, 8, 35, "Text",ExpressionUUID->"f5554af3-d6c2-425d-ae13-71ac514eecbd",
  CellTags->"TabNext",
  CellID->343081869]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[37856, 973, 727, 19, 70, "Subsection",ExpressionUUID->"4ec56e69-a766-41d4-b175-fd0afe91cd42",
+Cell[92498, 2060, 727, 19, 54, "Subsection",ExpressionUUID->"4ec56e69-a766-41d4-b175-fd0afe91cd42",
  CellTags->"Links",
  CellID->521525586],
-Cell[38586, 994, 540, 8, 70, "Item",ExpressionUUID->"8c63868e-c42c-4642-9227-9e587b62096d",
- CellTags->"TabNext",
- CellID->485448166]
+Cell[93228, 2081, 880, 21, 38, "Subsection",ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d",
+ CellTags->"Tests",
+ CellID->74308299]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[39163, 1007, 880, 21, 70, "Subsection",ExpressionUUID->"ebd51540-a31b-48a2-9066-ec87b4e1562d",
- CellTags->"Tests",
- CellID->74308299],
-Cell[CellGroupData[{
-Cell[40068, 1032, 184, 4, 70, "Input",ExpressionUUID->"8c9ca38d-165e-4ce1-bc53-86d018f1e7dc",
- CellID->667877521],
-Cell[40255, 1038, 148, 3, 70, "Output",ExpressionUUID->"b6ff8436-fa57-4306-8712-e004dc9e28c1",
- CellID->993233288]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[40464, 1048, 182, 4, 53, "Section",ExpressionUUID->"ea5fdfa5-c833-41ef-a7d4-c67515be6d63",
+Cell[94145, 2107, 182, 4, 67, "Section",ExpressionUUID->"ea5fdfa5-c833-41ef-a7d4-c67515be6d63",
  CellTags->"Author Notes",
  CellID->795110225],
-Cell[40649, 1054, 564, 8, 35, "Text",ExpressionUUID->"5c151f60-a831-4f7e-bc9c-ae0ed94637e8",
+Cell[94330, 2113, 783, 13, 58, "Text",ExpressionUUID->"5c151f60-a831-4f7e-bc9c-ae0ed94637e8",
  CellTags->"TabNext",
  CellID->567921317]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[41250, 1067, 833, 20, 68, "Section",ExpressionUUID->"bb783bcb-466e-44cb-9677-e04391f7026b",
+Cell[95150, 2131, 833, 20, 68, "Section",ExpressionUUID->"bb783bcb-466e-44cb-9677-e04391f7026b",
  CellTags->"Submission Notes",
  CellID->843283583],
-Cell[42086, 1089, 550, 8, 35, "Text",ExpressionUUID->"474ada64-d939-4c2d-bb29-a64490b84a22",
+Cell[95986, 2153, 550, 8, 35, "Text",ExpressionUUID->"474ada64-d939-4c2d-bb29-a64490b84a22",
  CellTags->"TabNext",
  CellID->920818074]
 }, Open  ]]
