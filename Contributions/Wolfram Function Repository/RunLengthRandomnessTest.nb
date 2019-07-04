@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    230324,       4669]
-NotebookOptionsPosition[    133553,       2733]
-NotebookOutlinePosition[    220068,       4430]
-CellTagsIndexPosition[    219349,       4406]
+NotebookDataLength[    289945,       5785]
+NotebookOptionsPosition[    134343,       2748]
+NotebookOutlinePosition[    279573,       5544]
+CellTagsIndexPosition[    278854,       5520]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -148,12 +148,13 @@ Cell[BoxData[{
    
    RowBox[{
     RowBox[{
-     RowBox[{"Min", "[", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"1", "-", 
-         RowBox[{"CDF", "[", "##", "]"}]}], ",", 
-        RowBox[{"CDF", "[", "##", "]"}]}], "}"}], "]"}], "&"}], "[", 
+     RowBox[{"2", 
+      RowBox[{"Min", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"1", "-", 
+          RowBox[{"CDF", "[", "##", "]"}]}], ",", 
+         RowBox[{"CDF", "[", "##", "]"}]}], "}"}], "]"}]}], "&"}], "[", 
     RowBox[{
      RowBox[{"NormalDistribution", "[", 
       RowBox[{
@@ -225,10 +226,12 @@ Cell[BoxData[{
      "\"\<TestStatistic\>\""}], "]"}], ":=", 
    RowBox[{"stat", "[", "seq", "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.771236497267365*^9, 3.7712364977554293`*^9}, {
-  3.771238868511907*^9, 3.771239082094352*^9}, {3.771239253777796*^9, 
-  3.7712392553066673`*^9}, {3.7712396342122726`*^9, 3.771239646609251*^9}, {
-  3.7712397026054688`*^9, 3.771239739431881*^9}, {3.771239883675467*^9, 
-  3.771239898600957*^9}, {3.7712400331372128`*^9, 3.771240068591927*^9}},
+   3.771238868511907*^9, 3.771239082094352*^9}, {3.771239253777796*^9, 
+   3.7712392553066673`*^9}, {3.7712396342122726`*^9, 3.771239646609251*^9}, {
+   3.7712397026054688`*^9, 3.771239739431881*^9}, {3.771239883675467*^9, 
+   3.771239898600957*^9}, {3.7712400331372128`*^9, 3.771240068591927*^9}, 
+   3.7712413863577213`*^9, 3.7712415444501266`*^9},
+ CellLabel->"In[444]:=",
  CellID->2093221569,ExpressionUUID->"bb1578f3-1722-44a0-a4c1-8b95694164b7"]
 }, Open  ]],
 
@@ -2567,8 +2570,20 @@ Cell["ChiSquareRandomnessTest", "Item",
        WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
        SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
    PassEventsDown -> False, PassEventsUp -> False},
- CellChangeTimes->{{3.771240246312072*^9, 3.771240266924901*^9}},
- CellID->167233020,ExpressionUUID->"e701a343-7cf2-47ff-b4dc-5e163d33b530"]
+ CellChangeTimes->{{3.771240246312072*^9, 3.771240266924901*^9}, {
+  3.771242926954362*^9, 3.771242926957294*^9}},
+ CellID->167233020,ExpressionUUID->"e701a343-7cf2-47ff-b4dc-5e163d33b530"],
+
+Cell["RunCountRandomnessTest", "Item",
+ CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+       SelectedNotebook[], After, Cell]; NotebookFind[
+       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
+       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
+       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
+   PassEventsDown -> False, PassEventsUp -> False},
+ CellChangeTimes->{{3.771240246312072*^9, 3.771240266924901*^9}, {
+  3.7712429285153933`*^9, 3.7712429320538197`*^9}},
+ CellID->1407866132,ExpressionUUID->"3b253ae7-ee4d-4ff7-a22c-60ccea692959"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2732,7 +2747,7 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{808, 683},
-WindowMargins->{{269, Automatic}, {Automatic, 0}},
+WindowMargins->{{1, Automatic}, {Automatic, 0}},
 Visible->True,
 DockedCells->{
   Cell[
@@ -2912,6 +2927,1108 @@ DockedCells->{
       FunctionResource`DefinitionNotebook`Private`$checkStripe], "Text", 
      FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
    "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771240656987882`16.329059236407*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Deployed for this computer\"", 
+                    TemplateBox[{
+                    ButtonBox[
+                    TagBox[
+                    TemplateBox[{"\"\[RightGuillemet]\"", 
+                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
+                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
+                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
+                     ButtonFunction :> 
+                    FunctionResource`DocumentationNotebook`\
+ViewDocumentationNotebook[
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "ShortName" -> 
+                    "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
+                    Automatic, Method -> "Queued"], "\"View Documentation\""},
+                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"RunLengthRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"property\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and reutnrs an associated property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
+                    521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test statistic is generated by creating a chi \
+square-like statistic that measures the difference between the lengths of \
+runs up in a sequence and the expected mean lengths of runs up in the \
+sequence.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.77118111310741*^9, 
+                    3.7711811131111183`*^9}, {3.771239315898922*^9, 
+                    3.7712393795559597`*^9}}, CellID -> 1094618737], 
+                    Cell[
+                    "The test only works for sequences of of random reals \
+between 0 and 1.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "RunLengthRandomnessTest results are valid only for \
+sequence lengths greater than 600.", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165393371*^9, 
+                    3.771240165396565*^9}}, CellID -> 496278082], 
+                    Cell[
+                    "The RunLengthRandomnessTest function performs a \
+two-tailed test on the test statistic. ", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165656638*^9, 
+                    3.771240196615286*^9}}, CellID -> 306634287]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["jv6wa_shm", 3, 1]], 312], 
+                    "ExternalLinks" -> {
+                    Hyperlink["Wikipedia", 
+                    "https://en.wikipedia.org/wiki/Randomness_tests"]}, 
+                    "FunctionLocation" -> 
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5/download/DefinitionData"], 
+                    "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest"}, 
+                    "ShortName" -> "RunLengthRandomnessTest", 
+                    "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Knuth, Donald E. The Art of Computer Programing."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "ResourceLocations" -> {
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5"]}]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    
+                    RowBox[{"LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "a222a904-e4fd-49ce-aa84-a3b59e200888"]), Appearance -> 
+                    None, BoxID -> "a222a904-e4fd-49ce-aa84-a3b59e200888", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771240656987882`16.329059236407*^9, TimeZone -> 0]], {
+                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Deployed for this computer\"", 
+                    TemplateBox[{
+                    ButtonBox[
+                    TagBox[
+                    TemplateBox[{"\"\[RightGuillemet]\"", 
+                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
+                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
+                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
+                     ButtonFunction :> 
+                    FunctionResource`DocumentationNotebook`\
+ViewDocumentationNotebook[
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "ShortName" -> 
+                    "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
+                    Automatic, Method -> "Queued"], "\"View Documentation\""},
+                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"RunLengthRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"property\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and reutnrs an associated property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
+                    521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test statistic is generated by creating a chi \
+square-like statistic that measures the difference between the lengths of \
+runs up in a sequence and the expected mean lengths of runs up in the \
+sequence.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.77118111310741*^9, 
+                    3.7711811131111183`*^9}, {3.771239315898922*^9, 
+                    3.7712393795559597`*^9}}, CellID -> 1094618737], 
+                    Cell[
+                    "The test only works for sequences of of random reals \
+between 0 and 1.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "RunLengthRandomnessTest results are valid only for \
+sequence lengths greater than 600.", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165393371*^9, 
+                    3.771240165396565*^9}}, CellID -> 496278082], 
+                    Cell[
+                    "The RunLengthRandomnessTest function performs a \
+two-tailed test on the test statistic. ", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165656638*^9, 
+                    3.771240196615286*^9}}, CellID -> 306634287]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["jv6wa_shm", 3, 1]], 312], 
+                    "ExternalLinks" -> {
+                    Hyperlink[
+                    "Wikipedia", 
+                    "https://en.wikipedia.org/wiki/Randomness_tests"]}, 
+                    "FunctionLocation" -> 
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5/download/DefinitionData"], 
+                    "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest"}, 
+                    "ShortName" -> "RunLengthRandomnessTest", 
+                    "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Knuth, Donald E. The Art of Computer Programing."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "ResourceLocations" -> {
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5"]}]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    
+                    RowBox[{"LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "a222a904-e4fd-49ce-aa84-a3b59e200888"]), Appearance -> 
+                    None, BoxID -> "a222a904-e4fd-49ce-aa84-a3b59e200888", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Local object:\"", 
+                    TemplateBox[{
+                    
+                    RowBox[{"LocalObject", "[", 
+                    "\"file://\[Ellipsis]/DeployedResources/Function/\
+RunLengthRandomnessTest\"", "]"}], 
+                    RawBoxes[
+                    
+                    RowBox[{"LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}]]}, 
+                    "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
+                    LineBreakWithin -> False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"RunLengthRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "ShortName" -> 
+                    "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
+                     "]"}], 
+                    RawBoxes[
+                    RowBox[{"ResourceObject", "[", 
+                    RowBox[{"ResourceFunction", "[", 
+                    
+                    RowBox[{"LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}], "]"}], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Style[
+              Dynamic[
+               DateString[
+                TimeZoneConvert[
+                 DateObject[
+                 3.771240656987882`16.329059236407*^9, TimeZone -> 0]], {
+                "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
+              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
+              "   ", 
+             Grid[{{"Deployed for this computer", 
+                RawBoxes[
+                 TemplateBox[{
+                   ButtonBox[
+                    TagBox[
+                    TemplateBox[{"\"\[RightGuillemet]\"", 
+                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
+                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
+                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
+                     ButtonFunction :> 
+                    FunctionResource`DocumentationNotebook`\
+ViewDocumentationNotebook[
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "ShortName" -> 
+                    "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
+                    Automatic, Method -> "Queued"], "\"View Documentation\""},
+                   "PrettyTooltipTemplate"]]}}, Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"RunLengthRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"property\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "uses lengths of runs up to test the randomness of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and reutnrs an associated property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}}, CellTags -> "TabNext", CellID -> 
+                    521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test statistic is generated by creating a chi \
+square-like statistic that measures the difference between the lengths of \
+runs up in a sequence and the expected mean lengths of runs up in the \
+sequence.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.77118111310741*^9, 
+                    3.7711811131111183`*^9}, {3.771239315898922*^9, 
+                    3.7712393795559597`*^9}}, CellID -> 1094618737], 
+                    Cell[
+                    "The test only works for sequences of of random reals \
+between 0 and 1.", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "RunLengthRandomnessTest results are valid only for \
+sequence lengths greater than 600.", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165393371*^9, 
+                    3.771240165396565*^9}}, CellID -> 496278082], 
+                    Cell[
+                    "The RunLengthRandomnessTest function performs a \
+two-tailed test on the test statistic. ", "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181458939981*^9, 
+                    3.771181492352972*^9}, {3.771239448873642*^9, 
+                    3.771239450053937*^9}, {3.771239598674303*^9, 
+                    3.771239601672846*^9}, {3.771240165656638*^9, 
+                    3.771240196615286*^9}}, CellID -> 306634287]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["jv6wa_shm", 3, 1]], 312], 
+                    "ExternalLinks" -> {
+                    Hyperlink[
+                    "Wikipedia", 
+                    "https://en.wikipedia.org/wiki/Randomness_tests"]}, 
+                    "FunctionLocation" -> 
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5/download/DefinitionData"], 
+                    "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest"}, 
+                    "ShortName" -> "RunLengthRandomnessTest", 
+                    "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Knuth, Donald E. The Art of Computer Programing."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "ResourceLocations" -> {
+                    LocalObject[
+                    "file:///Users/noahb32/Library/Wolfram/Objects/Resources/\
+2ce/2ce4a80f-68a0-4909-b464-c9c8c08308a5"]}]]], Selectable -> False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    
+                    RowBox[{
+                    "LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}], "]"}]]}, 
+                  "ClickToCopyTemplate"]]}}], "", 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "a222a904-e4fd-49ce-aa84-a3b59e200888"], Appearance -> None, 
+               BoxID -> "a222a904-e4fd-49ce-aa84-a3b59e200888"], 
+              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
+              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
+           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Local object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    
+                    RowBox[{
+                    "LocalObject", "[", 
+                    "\"file://\[Ellipsis]/DeployedResources/Function/\
+RunLengthRandomnessTest\"", "]"}], 
+                    RawBoxes[
+                    
+                    RowBox[{
+                    "LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}]]}, 
+                   "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"RunLengthRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"RunLengthRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RunLengthRandomnessTest", "ShortName" -> 
+                    "RunLengthRandomnessTest", "UUID" -> 
+                    "2ce4a80f-68a0-4909-b464-c9c8c08308a5", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a runs up-based randomness test on a sequence \
+of random reals between 0 and 1.", "SymbolName" -> 
+                    "FunctionRepository`$2ce4a80f68a04909b464c9c8c08308a5`\
+RunLengthRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
+                     "]"}], 
+                    RawBoxes[
+                    RowBox[{"ResourceObject", "[", 
+                    RowBox[{"ResourceFunction", "[", 
+                    
+                    RowBox[{
+                    "LocalObject", "[", 
+                    "\"file:///Users/noahb32/Library/Wolfram/Objects/\
+DeployedResources/Function/RunLengthRandomnessTest\"", "]"}], "]"}], "]"}]]}, 
+                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
@@ -3124,9 +4241,8 @@ kI/iXyC/aX6cGIOFCJwPdp+oMJwPDt/PgnA+2D1PBOB8WHygxy8Abafrpg==
             GridBoxSpacings -> {"Columns" -> {{0.4}}}], "Grid"], True -> 
          DynamicModuleBox[{
            FunctionResourceTools`BuildDefinitionNotebook`Private`clickTime$$ = 
-            0., 
-            FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$ = 
-            3.}, 
+            0., FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$\
+$ = 3.}, 
            TagBox[
             GridBox[{{#, 
                TagBox[
@@ -3575,7 +4691,6 @@ uhowAooDZRnAgBhlRJpGvNuI9Cnx4UZMLBATpwBrEHs/
                   FaceForm[{
                     RGBColor[1., 1., 1.], 
                     Opacity[1.]}], 
-                  
                   FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
                     3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
                     3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
@@ -3803,6 +4918,7 @@ FunctionResource`DefinitionNotebook`Private`getResource[System`ButtonNotebook[\
                     GraphicsBox[{
                     Thickness[0.06349206349206349], 
                     StyleBox[{
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -3843,8 +4959,7 @@ eU8aPfbS9kxawAvxnrSCx3c3XzbS6JX4RFrAS34B53ckaw==
                     AspectRatio -> 1.15], "\"Submit Update\""}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, 
-                    GridBoxItemSize -> {
+                    False, GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {
                     "Columns" -> {{0}}, "ColumnsIndexed" -> {2 -> 0.5}, 
@@ -4089,7 +5204,6 @@ TQ0EAcWBsgxgQIwyIk0j3m1E+pT4cCMmFoiJUwBDsjmM
                     Directive[#5, 
                     Thickness[0.025]]], 
                     FaceForm[#2], 
-                    
                     RectangleBox[{-1.75, -2}, {1.75, 2}, RoundingRadius -> 
                     0.2], 
                     Thickness[0.15], 
@@ -4290,43 +5404,43 @@ CellTagsIndex->{
   Cell[1197, 33, 955, 17, 35, "Text",ExpressionUUID->"c998d3d2-1ea7-4b2c-8b78-5442b7b0e1b3",
    CellTags->{"Description", "TabNext"},
    CellID->450900334],
-  Cell[10733, 290, 271, 5, 27, "UsageInputs",ExpressionUUID->"ab93a38f-671d-4310-aa35-d2f4b846e768",
+  Cell[10841, 293, 271, 5, 27, "UsageInputs",ExpressionUUID->"ab93a38f-671d-4310-aa35-d2f4b846e768",
    CellTags->"TabNext",
    CellID->410373307],
-  Cell[11007, 297, 842, 17, 27, "UsageDescription",ExpressionUUID->"8ddf4c29-1b68-433b-904a-b7b38dc438f0",
+  Cell[11115, 300, 842, 17, 27, "UsageDescription",ExpressionUUID->"8ddf4c29-1b68-433b-904a-b7b38dc438f0",
    CellTags->"TabNext",
    CellID->584004037],
-  Cell[11886, 319, 682, 13, 27, "UsageInputs",ExpressionUUID->"eb3b07cb-7726-49b4-ae11-572d7879319d",
+  Cell[11994, 322, 682, 13, 27, "UsageInputs",ExpressionUUID->"eb3b07cb-7726-49b4-ae11-572d7879319d",
    CellTags->"TabNext",
    CellID->1316218884],
-  Cell[12571, 334, 987, 22, 27, "UsageDescription",ExpressionUUID->"5e90061e-db45-4535-8234-81782c7e30c2",
+  Cell[12679, 337, 987, 22, 27, "UsageDescription",ExpressionUUID->"5e90061e-db45-4535-8234-81782c7e30c2",
    CellTags->"TabNext",
    CellID->461735641],
-  Cell[14876, 391, 831, 14, 32, "Notes",ExpressionUUID->"e2f3a709-776e-46bf-bdcb-3b373e0f2689",
+  Cell[14984, 394, 831, 14, 32, "Notes",ExpressionUUID->"e2f3a709-776e-46bf-bdcb-3b373e0f2689",
    CellTags->"TabNext",
    CellID->521904482],
-  Cell[116161, 2283, 641, 13, 81, "Text",ExpressionUUID->"0652d603-6e39-411d-834e-26452aea7b0b",
+  Cell[116269, 2286, 641, 13, 81, "Text",ExpressionUUID->"0652d603-6e39-411d-834e-26452aea7b0b",
    CellTags->"TabNext",
    CellID->832483124],
-  Cell[117661, 2324, 588, 9, 32, "Item",ExpressionUUID->"fad0dd2f-3274-41fd-a9e8-953d0d0473b0",
+  Cell[117769, 2327, 588, 9, 32, "Item",ExpressionUUID->"fad0dd2f-3274-41fd-a9e8-953d0d0473b0",
    CellTags->"TabNext",
    CellID->123227828],
-  Cell[124404, 2514, 598, 9, 32, "Item",ExpressionUUID->"ab00098b-a4ea-4beb-af81-801434c9cb65",
+  Cell[124512, 2517, 598, 9, 32, "Item",ExpressionUUID->"ab00098b-a4ea-4beb-af81-801434c9cb65",
    CellTags->"TabNext",
    CellID->79477165],
-  Cell[125888, 2551, 596, 9, 32, "Item",ExpressionUUID->"89f4f467-3e95-46de-8510-283bc866d817",
+  Cell[125996, 2554, 596, 9, 32, "Item",ExpressionUUID->"89f4f467-3e95-46de-8510-283bc866d817",
    CellTags->"TabNext",
    CellID->960273585],
-  Cell[127991, 2598, 889, 14, 35, "Text",ExpressionUUID->"613f4aae-3d01-4a77-ab0f-71f3d07c56ae",
+  Cell[128781, 2613, 889, 14, 35, "Text",ExpressionUUID->"613f4aae-3d01-4a77-ab0f-71f3d07c56ae",
    CellTags->"TabNext",
    CellID->343081869],
-  Cell[129647, 2638, 774, 13, 32, "Item",ExpressionUUID->"940ef38d-449f-4c91-b863-590d0b736141",
+  Cell[130437, 2653, 774, 13, 32, "Item",ExpressionUUID->"940ef38d-449f-4c91-b863-590d0b736141",
    CellTags->"TabNext",
    CellID->485448166],
-  Cell[131538, 2686, 564, 8, 35, "Text",ExpressionUUID->"865bffb6-5792-4cfa-9635-ef899d710d14",
+  Cell[132328, 2701, 564, 8, 35, "Text",ExpressionUUID->"865bffb6-5792-4cfa-9635-ef899d710d14",
    CellTags->"TabNext",
    CellID->567921317],
-  Cell[132975, 2721, 550, 8, 35, "Text",ExpressionUUID->"f2aed437-32f3-4f93-9d7a-68288bf1f8d6",
+  Cell[133765, 2736, 550, 8, 35, "Text",ExpressionUUID->"f2aed437-32f3-4f93-9d7a-68288bf1f8d6",
    CellTags->"TabNext",
    CellID->920818074]},
  "Description"->{
@@ -4338,93 +5452,93 @@ CellTagsIndex->{
    CellTags->"Definition",
    CellID->474513213]},
  "Documentation"->{
-  Cell[8801, 236, 154, 3, 67, "Section",ExpressionUUID->"7235937b-efba-4379-867a-6cae734444ed",
+  Cell[8909, 239, 154, 3, 67, "Section",ExpressionUUID->"7235937b-efba-4379-867a-6cae734444ed",
    CellTags->"Documentation",
    CellID->855965831]},
  "Usage"->{
-  Cell[8980, 243, 1728, 43, 54, "Subsection",ExpressionUUID->"aeaee510-38a2-493c-a2bf-b6e652559d14",
+  Cell[9088, 246, 1728, 43, 54, "Subsection",ExpressionUUID->"aeaee510-38a2-493c-a2bf-b6e652559d14",
    CellTags->"Usage",
    CellID->310800389]},
  "Details & Options"->{
-  Cell[13607, 362, 1244, 25, 54, "Subsection",ExpressionUUID->"6722db7e-08a3-4cb3-b7c7-44a6b76146fc",
+  Cell[13715, 365, 1244, 25, 54, "Subsection",ExpressionUUID->"6722db7e-08a3-4cb3-b7c7-44a6b76146fc",
    CellTags->"Details & Options",
    CellID->66019318]},
  "Examples"->{
-  Cell[18728, 470, 6513, 144, 68, "Section",ExpressionUUID->"7595c1c5-8347-4893-9ab2-ea9f336b0e68",
+  Cell[18836, 473, 6513, 144, 68, "Section",ExpressionUUID->"7595c1c5-8347-4893-9ab2-ea9f336b0e68",
    CellTags->"Examples",
    CellID->180595041]},
  "Source & Additional Information"->{
-  Cell[115147, 2255, 190, 3, 67, "Section",ExpressionUUID->"3d842b3a-e513-4986-8e82-0a9ad9a27b97",
+  Cell[115255, 2258, 190, 3, 67, "Section",ExpressionUUID->"3d842b3a-e513-4986-8e82-0a9ad9a27b97",
    CellTags->"Source & Additional Information",
    CellID->318391102]},
  "Contributed By"->{
-  Cell[115362, 2262, 796, 19, 54, "Subsection",ExpressionUUID->"bf6be932-8b26-4884-8bb3-b26a18187f8a",
+  Cell[115470, 2265, 796, 19, 54, "Subsection",ExpressionUUID->"bf6be932-8b26-4884-8bb3-b26a18187f8a",
    CellTags->"Contributed By",
    CellID->127820888]},
  "Keywords"->{
-  Cell[116839, 2301, 797, 19, 54, "Subsection",ExpressionUUID->"d8352f4f-78fa-4556-a157-18b96d49122c",
+  Cell[116947, 2304, 797, 19, 54, "Subsection",ExpressionUUID->"d8352f4f-78fa-4556-a157-18b96d49122c",
    CellTags->"Keywords",
    CellID->547400482]},
  "Categories"->{
-  Cell[118866, 2349, 181, 4, 54, "Subsection",ExpressionUUID->"ff74cb6f-eedb-4998-8718-b169375ade01",
+  Cell[118974, 2352, 181, 4, 54, "Subsection",ExpressionUUID->"ff74cb6f-eedb-4998-8718-b169375ade01",
    CellTags->"Categories",
    CellID->749076926]},
  "CategoriesCell"->{
-  Cell[119050, 2355, 4540, 133, 326, "Output",ExpressionUUID->"4ffd86b9-308a-451b-a536-8d38069f8def",
+  Cell[119158, 2358, 4540, 133, 326, "Output",ExpressionUUID->"4ffd86b9-308a-451b-a536-8d38069f8def",
    CellTags->"CategoriesCell",
    CellID->379366600]},
  "Related Symbols"->{
-  Cell[123627, 2493, 774, 19, 54, "Subsection",ExpressionUUID->"6c49c481-33f5-4e03-8255-1d9a363464c8",
+  Cell[123735, 2496, 774, 19, 54, "Subsection",ExpressionUUID->"6c49c481-33f5-4e03-8255-1d9a363464c8",
    CellTags->"Related Symbols",
    CellID->161079978]},
  "Related Resource Objects"->{
-  Cell[125039, 2528, 824, 19, 54, "Subsection",ExpressionUUID->"44885db2-cb54-4370-ae8f-238fe1c9fa47",
+  Cell[125147, 2531, 824, 19, 54, "Subsection",ExpressionUUID->"44885db2-cb54-4370-ae8f-238fe1c9fa47",
    CellTags->"Related Resource Objects",
    CellID->588449267]},
  "Source/Reference Citation"->{
-  Cell[127113, 2576, 875, 20, 54, "Subsection",ExpressionUUID->"649ddf8c-3d46-4ce7-a571-c6c443b4f3e4",
+  Cell[127903, 2591, 875, 20, 54, "Subsection",ExpressionUUID->"649ddf8c-3d46-4ce7-a571-c6c443b4f3e4",
    CellTags->"Source/Reference Citation",
    CellID->642091068]},
  "Links"->{
-  Cell[128917, 2617, 727, 19, 54, "Subsection",ExpressionUUID->"6bf2bd55-c076-4615-9e92-604737f27746",
+  Cell[129707, 2632, 727, 19, 54, "Subsection",ExpressionUUID->"6bf2bd55-c076-4615-9e92-604737f27746",
    CellTags->"Links",
    CellID->521525586]},
  "Tests"->{
-  Cell[130436, 2654, 880, 21, 54, "Subsection",ExpressionUUID->"366cc737-8681-457e-b6e3-024f8eea1200",
+  Cell[131226, 2669, 880, 21, 54, "Subsection",ExpressionUUID->"366cc737-8681-457e-b6e3-024f8eea1200",
    CellTags->"Tests",
    CellID->74308299]},
  "Author Notes"->{
-  Cell[131353, 2680, 182, 4, 67, "Section",ExpressionUUID->"c75ac2ce-92ff-4a65-a3e8-ebb724fd9ef9",
+  Cell[132143, 2695, 182, 4, 67, "Section",ExpressionUUID->"c75ac2ce-92ff-4a65-a3e8-ebb724fd9ef9",
    CellTags->"Author Notes",
    CellID->795110225]},
  "Submission Notes"->{
-  Cell[132139, 2699, 833, 20, 68, "Section",ExpressionUUID->"b4d892bc-fe24-41f2-824b-779b11e8d8fc",
+  Cell[132929, 2714, 833, 20, 68, "Section",ExpressionUUID->"b4d892bc-fe24-41f2-824b-779b11e8d8fc",
    CellTags->"Submission Notes",
    CellID->843283583]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 213785, 4281},
- {"TabNext", 213950, 4285},
- {"Description", 216171, 4331},
- {"Definition", 216346, 4335},
- {"Documentation", 216514, 4339},
- {"Usage", 216676, 4343},
- {"Details & Options", 216847, 4347},
- {"Examples", 217021, 4351},
- {"Source & Additional Information", 217208, 4355},
- {"Contributed By", 217400, 4359},
- {"Keywords", 217573, 4363},
- {"Categories", 217742, 4367},
- {"CategoriesCell", 217916, 4371},
- {"Related Symbols", 218095, 4375},
- {"Related Resource Objects", 218285, 4379},
- {"Source/Reference Citation", 218485, 4383},
- {"Links", 218666, 4387},
- {"Tests", 218827, 4391},
- {"Author Notes", 218994, 4395},
- {"Submission Notes", 219169, 4399}
+ {"Title", 273290, 5395},
+ {"TabNext", 273455, 5399},
+ {"Description", 275676, 5445},
+ {"Definition", 275851, 5449},
+ {"Documentation", 276019, 5453},
+ {"Usage", 276181, 5457},
+ {"Details & Options", 276352, 5461},
+ {"Examples", 276526, 5465},
+ {"Source & Additional Information", 276713, 5469},
+ {"Contributed By", 276905, 5473},
+ {"Keywords", 277078, 5477},
+ {"Categories", 277247, 5481},
+ {"CategoriesCell", 277421, 5485},
+ {"Related Symbols", 277600, 5489},
+ {"Related Resource Objects", 277790, 5493},
+ {"Source/Reference Citation", 277990, 5497},
+ {"Links", 278171, 5501},
+ {"Tests", 278332, 5505},
+ {"Author Notes", 278499, 5509},
+ {"Submission Notes", 278674, 5513}
  }
 *)
 (*NotebookFileOutline
@@ -4440,233 +5554,235 @@ Cell[CellGroupData[{
 Cell[2177, 54, 1000, 22, 68, "Section",ExpressionUUID->"00129f6f-603f-4e9e-8578-308741e17969",
  CellTags->"Definition",
  CellID->474513213],
-Cell[3180, 78, 5584, 153, 518, "Input",ExpressionUUID->"bb1578f3-1722-44a0-a4c1-8b95694164b7",
+Cell[3180, 78, 5692, 156, 518, "Input",ExpressionUUID->"bb1578f3-1722-44a0-a4c1-8b95694164b7",
  CellID->2093221569]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8801, 236, 154, 3, 67, "Section",ExpressionUUID->"7235937b-efba-4379-867a-6cae734444ed",
+Cell[8909, 239, 154, 3, 67, "Section",ExpressionUUID->"7235937b-efba-4379-867a-6cae734444ed",
  CellTags->"Documentation",
  CellID->855965831],
 Cell[CellGroupData[{
-Cell[8980, 243, 1728, 43, 54, "Subsection",ExpressionUUID->"aeaee510-38a2-493c-a2bf-b6e652559d14",
+Cell[9088, 246, 1728, 43, 54, "Subsection",ExpressionUUID->"aeaee510-38a2-493c-a2bf-b6e652559d14",
  CellTags->"Usage",
  CellID->310800389],
 Cell[CellGroupData[{
-Cell[10733, 290, 271, 5, 27, "UsageInputs",ExpressionUUID->"ab93a38f-671d-4310-aa35-d2f4b846e768",
+Cell[10841, 293, 271, 5, 27, "UsageInputs",ExpressionUUID->"ab93a38f-671d-4310-aa35-d2f4b846e768",
  CellTags->"TabNext",
  CellID->410373307],
-Cell[11007, 297, 842, 17, 27, "UsageDescription",ExpressionUUID->"8ddf4c29-1b68-433b-904a-b7b38dc438f0",
+Cell[11115, 300, 842, 17, 27, "UsageDescription",ExpressionUUID->"8ddf4c29-1b68-433b-904a-b7b38dc438f0",
  CellTags->"TabNext",
  CellID->584004037]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11886, 319, 682, 13, 27, "UsageInputs",ExpressionUUID->"eb3b07cb-7726-49b4-ae11-572d7879319d",
+Cell[11994, 322, 682, 13, 27, "UsageInputs",ExpressionUUID->"eb3b07cb-7726-49b4-ae11-572d7879319d",
  CellTags->"TabNext",
  CellID->1316218884],
-Cell[12571, 334, 987, 22, 27, "UsageDescription",ExpressionUUID->"5e90061e-db45-4535-8234-81782c7e30c2",
+Cell[12679, 337, 987, 22, 27, "UsageDescription",ExpressionUUID->"5e90061e-db45-4535-8234-81782c7e30c2",
  CellTags->"TabNext",
  CellID->461735641]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13607, 362, 1244, 25, 54, "Subsection",ExpressionUUID->"6722db7e-08a3-4cb3-b7c7-44a6b76146fc",
+Cell[13715, 365, 1244, 25, 54, "Subsection",ExpressionUUID->"6722db7e-08a3-4cb3-b7c7-44a6b76146fc",
  CellTags->"Details & Options",
  CellID->66019318],
 Cell[CellGroupData[{
-Cell[14876, 391, 831, 14, 32, "Notes",ExpressionUUID->"e2f3a709-776e-46bf-bdcb-3b373e0f2689",
+Cell[14984, 394, 831, 14, 32, "Notes",ExpressionUUID->"e2f3a709-776e-46bf-bdcb-3b373e0f2689",
  CellTags->"TabNext",
  CellID->521904482],
-Cell[15710, 407, 813, 14, 70, "TableNotes",ExpressionUUID->"299ae205-1556-4170-9bc5-f7e257d6263f",
+Cell[15818, 410, 813, 14, 70, "TableNotes",ExpressionUUID->"299ae205-1556-4170-9bc5-f7e257d6263f",
  CellID->1532378813],
-Cell[16526, 423, 525, 8, 53, "Notes",ExpressionUUID->"f8fb14c3-dcb0-488e-acb6-56f77527a03d",
+Cell[16634, 426, 525, 8, 53, "Notes",ExpressionUUID->"f8fb14c3-dcb0-488e-acb6-56f77527a03d",
  CellID->1094618737],
-Cell[17054, 433, 511, 8, 32, "Notes",ExpressionUUID->"7e72f51b-baa5-41a5-ad30-004e4a83e2f5",
+Cell[17162, 436, 511, 8, 32, "Notes",ExpressionUUID->"7e72f51b-baa5-41a5-ad30-004e4a83e2f5",
  CellID->1734633867],
-Cell[17568, 443, 547, 9, 32, "Notes",ExpressionUUID->"c7be4480-a75f-479a-aa1a-cf8b292b131c",
+Cell[17676, 446, 547, 9, 32, "Notes",ExpressionUUID->"c7be4480-a75f-479a-aa1a-cf8b292b131c",
  CellID->496278082],
-Cell[18118, 454, 549, 9, 32, "Notes",ExpressionUUID->"7c16f923-9f10-4af3-ba07-703a628d2495",
+Cell[18226, 457, 549, 9, 32, "Notes",ExpressionUUID->"7c16f923-9f10-4af3-ba07-703a628d2495",
  CellID->306634287]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18728, 470, 6513, 144, 68, "Section",ExpressionUUID->"7595c1c5-8347-4893-9ab2-ea9f336b0e68",
+Cell[18836, 473, 6513, 144, 68, "Section",ExpressionUUID->"7595c1c5-8347-4893-9ab2-ea9f336b0e68",
  CellTags->"Examples",
  CellID->180595041],
 Cell[CellGroupData[{
-Cell[25266, 618, 111, 1, 54, "Subsection",ExpressionUUID->"0197e7c5-8588-4df7-bfff-a2021c43fc2a",
+Cell[25374, 621, 111, 1, 54, "Subsection",ExpressionUUID->"0197e7c5-8588-4df7-bfff-a2021c43fc2a",
  CellID->462042388],
-Cell[25380, 621, 338, 6, 35, "Text",ExpressionUUID->"923c389f-b13a-4515-91f1-6e812612a2ba",
+Cell[25488, 624, 338, 6, 35, "Text",ExpressionUUID->"923c389f-b13a-4515-91f1-6e812612a2ba",
  CellID->13078159],
-Cell[25721, 629, 412, 11, 30, "Input",ExpressionUUID->"610f4eaa-7eeb-4157-ba7e-cac2b7f5430c",
+Cell[25829, 632, 412, 11, 30, "Input",ExpressionUUID->"610f4eaa-7eeb-4157-ba7e-cac2b7f5430c",
  CellID->771105549],
-Cell[26136, 642, 823, 20, 35, "Text",ExpressionUUID->"79bbea2a-1890-4b7e-81c9-7f9e7ca77899",
+Cell[26244, 645, 823, 20, 35, "Text",ExpressionUUID->"79bbea2a-1890-4b7e-81c9-7f9e7ca77899",
  CellID->942238246],
 Cell[CellGroupData[{
-Cell[26984, 666, 1332, 31, 34, "Input",ExpressionUUID->"02534b27-d5d3-4d8f-a746-f031425c710a",
+Cell[27092, 669, 1332, 31, 34, "Input",ExpressionUUID->"02534b27-d5d3-4d8f-a746-f031425c710a",
  CellID->524633794],
-Cell[28319, 699, 31237, 520, 183, "Output",ExpressionUUID->"ed6d576f-fbe5-4d9c-be80-9b368b1da2bb",
+Cell[28427, 702, 31237, 520, 183, "Output",ExpressionUUID->"ed6d576f-fbe5-4d9c-be80-9b368b1da2bb",
  CellID->1225426347]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[59593, 1224, 439, 7, 30, "Input",ExpressionUUID->"9a277def-0874-4db2-a334-785f9f521055",
+Cell[59701, 1227, 439, 7, 30, "Input",ExpressionUUID->"9a277def-0874-4db2-a334-785f9f521055",
  CellID->312766755],
-Cell[60035, 1233, 290, 5, 34, "Output",ExpressionUUID->"07faa2e6-6f16-4d08-8d93-106259517b90",
+Cell[60143, 1236, 290, 5, 34, "Output",ExpressionUUID->"07faa2e6-6f16-4d08-8d93-106259517b90",
  CellID->1793337878]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[60362, 1243, 433, 7, 30, "Input",ExpressionUUID->"4326dc61-88f0-4cd6-876e-8ef418579ad3",
+Cell[60470, 1246, 433, 7, 30, "Input",ExpressionUUID->"4326dc61-88f0-4cd6-876e-8ef418579ad3",
  CellID->1422437180],
-Cell[60798, 1252, 288, 5, 34, "Output",ExpressionUUID->"4fbf1772-6308-40a4-b941-6001bb9f84ed",
+Cell[60906, 1255, 288, 5, 34, "Output",ExpressionUUID->"4fbf1772-6308-40a4-b941-6001bb9f84ed",
  CellID->226124323]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[61135, 1263, 102, 1, 54, "Subsection",ExpressionUUID->"f6cf87cf-f8b3-4601-817f-b2eb01190877",
+Cell[61243, 1266, 102, 1, 54, "Subsection",ExpressionUUID->"f6cf87cf-f8b3-4601-817f-b2eb01190877",
  CellID->964056545],
-Cell[61240, 1266, 641, 11, 35, "Text",ExpressionUUID->"65463077-9719-4e11-8d52-698ac0dc67bd",
+Cell[61348, 1269, 641, 11, 35, "Text",ExpressionUUID->"65463077-9719-4e11-8d52-698ac0dc67bd",
  CellID->1325606945],
-Cell[61884, 1279, 416, 10, 30, "Input",ExpressionUUID->"442b1ef2-71a7-403b-a283-bb7a6e526111",
+Cell[61992, 1282, 416, 10, 30, "Input",ExpressionUUID->"442b1ef2-71a7-403b-a283-bb7a6e526111",
  CellID->417726745],
-Cell[62303, 1291, 450, 10, 30, "Input",ExpressionUUID->"509e01fe-65d9-480a-9baa-80fe176cb9a3",
+Cell[62411, 1294, 450, 10, 30, "Input",ExpressionUUID->"509e01fe-65d9-480a-9baa-80fe176cb9a3",
  CellID->380525297],
 Cell[CellGroupData[{
-Cell[62778, 1305, 1364, 32, 34, "Input",ExpressionUUID->"57f17050-c588-49c2-b714-2f585a3fc959",
+Cell[62886, 1308, 1364, 32, 34, "Input",ExpressionUUID->"57f17050-c588-49c2-b714-2f585a3fc959",
  CellID->969916519],
-Cell[64145, 1339, 4134, 76, 251, "Output",ExpressionUUID->"37f63860-a7e6-4950-b8c7-d86334876a83",
+Cell[64253, 1342, 4134, 76, 251, "Output",ExpressionUUID->"37f63860-a7e6-4950-b8c7-d86334876a83",
  CellID->34103964]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68316, 1420, 293, 5, 30, "Input",ExpressionUUID->"444faf55-8d50-4a46-b63a-fbe0ab042450",
+Cell[68424, 1423, 293, 5, 30, "Input",ExpressionUUID->"444faf55-8d50-4a46-b63a-fbe0ab042450",
  CellID->1265375035],
-Cell[68612, 1427, 214, 3, 34, "Output",ExpressionUUID->"8c3e3854-e661-47b1-9bf8-cd7351db256a",
+Cell[68720, 1430, 214, 3, 34, "Output",ExpressionUUID->"8c3e3854-e661-47b1-9bf8-cd7351db256a",
  CellID->193880169]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68863, 1435, 288, 5, 30, "Input",ExpressionUUID->"217530e8-cd53-437e-a0d8-767a766be3c5",
+Cell[68971, 1438, 288, 5, 30, "Input",ExpressionUUID->"217530e8-cd53-437e-a0d8-767a766be3c5",
  CellID->2071666640],
-Cell[69154, 1442, 192, 3, 34, "Output",ExpressionUUID->"7dff6fee-d09e-4f41-9bc8-d72811788bb4",
+Cell[69262, 1445, 192, 3, 34, "Output",ExpressionUUID->"7dff6fee-d09e-4f41-9bc8-d72811788bb4",
  CellID->658067980]
 }, Open  ]]
 }, Open  ]],
-Cell[69373, 1449, 109, 1, 54, "Subsection",ExpressionUUID->"285f49c1-e88c-48be-8c44-077be8283af5",
+Cell[69481, 1452, 109, 1, 54, "Subsection",ExpressionUUID->"285f49c1-e88c-48be-8c44-077be8283af5",
  CellID->568056528],
-Cell[69485, 1452, 121, 1, 38, "Subsection",ExpressionUUID->"4068b068-eb29-41ec-a41d-d20303fae587",
+Cell[69593, 1455, 121, 1, 38, "Subsection",ExpressionUUID->"4068b068-eb29-41ec-a41d-d20303fae587",
  CellID->754506620],
-Cell[69609, 1455, 111, 1, 38, "Subsection",ExpressionUUID->"17502599-7e47-47c8-b79e-8075f469d994",
+Cell[69717, 1458, 111, 1, 38, "Subsection",ExpressionUUID->"17502599-7e47-47c8-b79e-8075f469d994",
  CellID->92483860],
 Cell[CellGroupData[{
-Cell[69745, 1460, 110, 1, 38, "Subsection",ExpressionUUID->"da593db1-9b28-4bc1-bd6b-d9c03173ae29",
+Cell[69853, 1463, 110, 1, 38, "Subsection",ExpressionUUID->"da593db1-9b28-4bc1-bd6b-d9c03173ae29",
  CellID->540091361],
-Cell[69858, 1463, 214, 2, 35, "Text",ExpressionUUID->"e06a1397-5205-402c-8491-5290e873dc9e",
+Cell[69966, 1466, 214, 2, 35, "Text",ExpressionUUID->"e06a1397-5205-402c-8491-5290e873dc9e",
  CellID->423730456],
-Cell[70075, 1467, 812, 19, 30, "Input",ExpressionUUID->"2fbc2172-c5a3-4180-8a0a-9bd8fe0ddfb5",
+Cell[70183, 1470, 812, 19, 30, "Input",ExpressionUUID->"2fbc2172-c5a3-4180-8a0a-9bd8fe0ddfb5",
  CellID->1520492122],
 Cell[CellGroupData[{
-Cell[70912, 1490, 332, 6, 30, "Input",ExpressionUUID->"96f41dd7-5bbd-411a-bff0-e44d0e1391b2",
+Cell[71020, 1493, 332, 6, 30, "Input",ExpressionUUID->"96f41dd7-5bbd-411a-bff0-e44d0e1391b2",
  CellID->1177328354],
-Cell[71247, 1498, 16074, 269, 177, "Output",ExpressionUUID->"f764808e-dd9f-4b98-8fd5-77ed3ff558e4",
+Cell[71355, 1501, 16074, 269, 177, "Output",ExpressionUUID->"f764808e-dd9f-4b98-8fd5-77ed3ff558e4",
  CellID->1692650378]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[87358, 1772, 425, 9, 30, "Input",ExpressionUUID->"d6ff9983-e11a-43b7-a3db-074b108311ae",
+Cell[87466, 1775, 425, 9, 30, "Input",ExpressionUUID->"d6ff9983-e11a-43b7-a3db-074b108311ae",
  CellID->894430390],
-Cell[87786, 1783, 372, 7, 34, "Output",ExpressionUUID->"59e75477-a791-4718-91e4-4d1923c3a195",
+Cell[87894, 1786, 372, 7, 34, "Output",ExpressionUUID->"59e75477-a791-4718-91e4-4d1923c3a195",
  CellID->402214425]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[88195, 1795, 629, 15, 30, "Input",ExpressionUUID->"b11dbb76-52a7-46ff-97b9-1a85d1ddf015",
+Cell[88303, 1798, 629, 15, 30, "Input",ExpressionUUID->"b11dbb76-52a7-46ff-97b9-1a85d1ddf015",
  CellID->673970004],
-Cell[88827, 1812, 26259, 436, 177, "Output",ExpressionUUID->"1322ab3f-9d9d-4cce-8227-3533308ba72a",
+Cell[88935, 1815, 26259, 436, 177, "Output",ExpressionUUID->"1322ab3f-9d9d-4cce-8227-3533308ba72a",
  CellID->1327194391]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[115147, 2255, 190, 3, 67, "Section",ExpressionUUID->"3d842b3a-e513-4986-8e82-0a9ad9a27b97",
+Cell[115255, 2258, 190, 3, 67, "Section",ExpressionUUID->"3d842b3a-e513-4986-8e82-0a9ad9a27b97",
  CellTags->"Source & Additional Information",
  CellID->318391102],
 Cell[CellGroupData[{
-Cell[115362, 2262, 796, 19, 54, "Subsection",ExpressionUUID->"bf6be932-8b26-4884-8bb3-b26a18187f8a",
+Cell[115470, 2265, 796, 19, 54, "Subsection",ExpressionUUID->"bf6be932-8b26-4884-8bb3-b26a18187f8a",
  CellTags->"Contributed By",
  CellID->127820888],
-Cell[116161, 2283, 641, 13, 81, "Text",ExpressionUUID->"0652d603-6e39-411d-834e-26452aea7b0b",
+Cell[116269, 2286, 641, 13, 81, "Text",ExpressionUUID->"0652d603-6e39-411d-834e-26452aea7b0b",
  CellTags->"TabNext",
  CellID->832483124]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116839, 2301, 797, 19, 54, "Subsection",ExpressionUUID->"d8352f4f-78fa-4556-a157-18b96d49122c",
+Cell[116947, 2304, 797, 19, 54, "Subsection",ExpressionUUID->"d8352f4f-78fa-4556-a157-18b96d49122c",
  CellTags->"Keywords",
  CellID->547400482],
 Cell[CellGroupData[{
-Cell[117661, 2324, 588, 9, 32, "Item",ExpressionUUID->"fad0dd2f-3274-41fd-a9e8-953d0d0473b0",
+Cell[117769, 2327, 588, 9, 32, "Item",ExpressionUUID->"fad0dd2f-3274-41fd-a9e8-953d0d0473b0",
  CellTags->"TabNext",
  CellID->123227828],
-Cell[118252, 2335, 565, 8, 32, "Item",ExpressionUUID->"0aa63417-adb2-4c2a-8b11-7bc1ce844dd1",
+Cell[118360, 2338, 565, 8, 32, "Item",ExpressionUUID->"0aa63417-adb2-4c2a-8b11-7bc1ce844dd1",
  CellID->1670085791]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[118866, 2349, 181, 4, 54, "Subsection",ExpressionUUID->"ff74cb6f-eedb-4998-8718-b169375ade01",
+Cell[118974, 2352, 181, 4, 54, "Subsection",ExpressionUUID->"ff74cb6f-eedb-4998-8718-b169375ade01",
  CellTags->"Categories",
  CellID->749076926],
-Cell[119050, 2355, 4540, 133, 326, "Output",ExpressionUUID->"4ffd86b9-308a-451b-a536-8d38069f8def",
+Cell[119158, 2358, 4540, 133, 326, "Output",ExpressionUUID->"4ffd86b9-308a-451b-a536-8d38069f8def",
  CellTags->"CategoriesCell",
  CellID->379366600]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[123627, 2493, 774, 19, 54, "Subsection",ExpressionUUID->"6c49c481-33f5-4e03-8255-1d9a363464c8",
+Cell[123735, 2496, 774, 19, 54, "Subsection",ExpressionUUID->"6c49c481-33f5-4e03-8255-1d9a363464c8",
  CellTags->"Related Symbols",
  CellID->161079978],
-Cell[124404, 2514, 598, 9, 32, "Item",ExpressionUUID->"ab00098b-a4ea-4beb-af81-801434c9cb65",
+Cell[124512, 2517, 598, 9, 32, "Item",ExpressionUUID->"ab00098b-a4ea-4beb-af81-801434c9cb65",
  CellTags->"TabNext",
  CellID->79477165]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[125039, 2528, 824, 19, 54, "Subsection",ExpressionUUID->"44885db2-cb54-4370-ae8f-238fe1c9fa47",
+Cell[125147, 2531, 824, 19, 54, "Subsection",ExpressionUUID->"44885db2-cb54-4370-ae8f-238fe1c9fa47",
  CellTags->"Related Resource Objects",
  CellID->588449267],
 Cell[CellGroupData[{
-Cell[125888, 2551, 596, 9, 32, "Item",ExpressionUUID->"89f4f467-3e95-46de-8510-283bc866d817",
+Cell[125996, 2554, 596, 9, 32, "Item",ExpressionUUID->"89f4f467-3e95-46de-8510-283bc866d817",
  CellTags->"TabNext",
  CellID->960273585],
-Cell[126487, 2562, 577, 8, 32, "Item",ExpressionUUID->"e701a343-7cf2-47ff-b4dc-5e163d33b530",
- CellID->167233020]
+Cell[126595, 2565, 626, 9, 32, "Item",ExpressionUUID->"e701a343-7cf2-47ff-b4dc-5e163d33b530",
+ CellID->167233020],
+Cell[127224, 2576, 630, 9, 32, "Item",ExpressionUUID->"3b253ae7-ee4d-4ff7-a22c-60ccea692959",
+ CellID->1407866132]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[127113, 2576, 875, 20, 54, "Subsection",ExpressionUUID->"649ddf8c-3d46-4ce7-a571-c6c443b4f3e4",
+Cell[127903, 2591, 875, 20, 54, "Subsection",ExpressionUUID->"649ddf8c-3d46-4ce7-a571-c6c443b4f3e4",
  CellTags->"Source/Reference Citation",
  CellID->642091068],
-Cell[127991, 2598, 889, 14, 35, "Text",ExpressionUUID->"613f4aae-3d01-4a77-ab0f-71f3d07c56ae",
+Cell[128781, 2613, 889, 14, 35, "Text",ExpressionUUID->"613f4aae-3d01-4a77-ab0f-71f3d07c56ae",
  CellTags->"TabNext",
  CellID->343081869]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[128917, 2617, 727, 19, 54, "Subsection",ExpressionUUID->"6bf2bd55-c076-4615-9e92-604737f27746",
+Cell[129707, 2632, 727, 19, 54, "Subsection",ExpressionUUID->"6bf2bd55-c076-4615-9e92-604737f27746",
  CellTags->"Links",
  CellID->521525586],
-Cell[129647, 2638, 774, 13, 32, "Item",ExpressionUUID->"940ef38d-449f-4c91-b863-590d0b736141",
+Cell[130437, 2653, 774, 13, 32, "Item",ExpressionUUID->"940ef38d-449f-4c91-b863-590d0b736141",
  CellTags->"TabNext",
  CellID->485448166]
 }, Open  ]],
-Cell[130436, 2654, 880, 21, 54, "Subsection",ExpressionUUID->"366cc737-8681-457e-b6e3-024f8eea1200",
+Cell[131226, 2669, 880, 21, 54, "Subsection",ExpressionUUID->"366cc737-8681-457e-b6e3-024f8eea1200",
  CellTags->"Tests",
  CellID->74308299]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[131353, 2680, 182, 4, 67, "Section",ExpressionUUID->"c75ac2ce-92ff-4a65-a3e8-ebb724fd9ef9",
+Cell[132143, 2695, 182, 4, 67, "Section",ExpressionUUID->"c75ac2ce-92ff-4a65-a3e8-ebb724fd9ef9",
  CellTags->"Author Notes",
  CellID->795110225],
-Cell[131538, 2686, 564, 8, 35, "Text",ExpressionUUID->"865bffb6-5792-4cfa-9635-ef899d710d14",
+Cell[132328, 2701, 564, 8, 35, "Text",ExpressionUUID->"865bffb6-5792-4cfa-9635-ef899d710d14",
  CellTags->"TabNext",
  CellID->567921317]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[132139, 2699, 833, 20, 68, "Section",ExpressionUUID->"b4d892bc-fe24-41f2-824b-779b11e8d8fc",
+Cell[132929, 2714, 833, 20, 68, "Section",ExpressionUUID->"b4d892bc-fe24-41f2-824b-779b11e8d8fc",
  CellTags->"Submission Notes",
  CellID->843283583],
-Cell[132975, 2721, 550, 8, 35, "Text",ExpressionUUID->"f2aed437-32f3-4f93-9d7a-68288bf1f8d6",
+Cell[133765, 2736, 550, 8, 35, "Text",ExpressionUUID->"f2aed437-32f3-4f93-9d7a-68288bf1f8d6",
  CellTags->"TabNext",
  CellID->920818074]
 }, Open  ]]
