@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    221060,       4657]
-NotebookOptionsPosition[    128491,       2798]
-NotebookOutlinePosition[    206605,       4330]
-CellTagsIndexPosition[    205886,       4306]
+NotebookDataLength[    220355,       4632]
+NotebookOptionsPosition[    128085,       2781]
+NotebookOutlinePosition[    206199,       4313]
+CellTagsIndexPosition[    205480,       4289]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2698,8 +2698,6 @@ Cell[TextData[ButtonBox["Wikipedia",
  CellID->485448166,ExpressionUUID->"67f99785-ff0a-49a3-b424-2a3038255187"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[TextData[{
  "Tests",
  Cell[BoxData[
@@ -2721,22 +2719,7 @@ additional options.", "MoreInfoText"], Background -> GrayLevel[0.95],
  Deletable->False,
  DefaultNewCellStyle->"Input",
  CellTags->"Tests",
- CellID->74308299,ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"MyFunction", "[", 
-  RowBox[{"x", ",", "y"}], "]"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->667877521,ExpressionUUID->"00cb74c4-6d31-4277-b1e2-78e52553571b"],
-
-Cell[BoxData[
- RowBox[{"x", " ", "y"}]], "Output",
- CellLabel->"Out[3]=",
- CellID->993233288,ExpressionUUID->"59f26a56-02a0-4bd9-9906-8e04d3d03048"]
-}, Open  ]]
-}, Open  ]]
+ CellID->74308299,ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4223,10 +4206,10 @@ CellTagsIndex->{
   Cell[124086, 2684, 774, 13, 32, "Item",ExpressionUUID->"67f99785-ff0a-49a3-b424-2a3038255187",
    CellTags->"TabNext",
    CellID->485448166],
-  Cell[126383, 2749, 657, 10, 35, "Text",ExpressionUUID->"d0acae57-7f6e-4a05-8205-11f36913f54f",
+  Cell[125977, 2732, 657, 10, 35, "Text",ExpressionUUID->"d0acae57-7f6e-4a05-8205-11f36913f54f",
    CellTags->"TabNext",
    CellID->567921317],
-  Cell[127913, 2786, 550, 8, 35, "Text",ExpressionUUID->"15cecb95-0f4d-4a33-95ab-1bcce4f5fbfc",
+  Cell[127507, 2769, 550, 8, 35, "Text",ExpressionUUID->"15cecb95-0f4d-4a33-95ab-1bcce4f5fbfc",
    CellTags->"TabNext",
    CellID->920818074]},
  "Description"->{
@@ -4290,41 +4273,41 @@ CellTagsIndex->{
    CellTags->"Links",
    CellID->521525586]},
  "Tests"->{
-  Cell[124897, 2702, 880, 21, 54, "Subsection",ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0",
+  Cell[124875, 2700, 880, 21, 54, "Subsection",ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0",
    CellTags->"Tests",
    CellID->74308299]},
  "Author Notes"->{
-  Cell[126198, 2743, 182, 4, 67, "Section",ExpressionUUID->"1e55d458-1ee5-4750-8ece-4148fb98a7a6",
+  Cell[125792, 2726, 182, 4, 67, "Section",ExpressionUUID->"1e55d458-1ee5-4750-8ece-4148fb98a7a6",
    CellTags->"Author Notes",
    CellID->795110225]},
  "Submission Notes"->{
-  Cell[127077, 2764, 833, 20, 68, "Section",ExpressionUUID->"b833bd0d-8c0e-4378-88f7-8552a569d787",
+  Cell[126671, 2747, 833, 20, 68, "Section",ExpressionUUID->"b833bd0d-8c0e-4378-88f7-8552a569d787",
    CellTags->"Submission Notes",
    CellID->843283583]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 200322, 4181},
- {"TabNext", 200487, 4185},
- {"Description", 202708, 4231},
- {"Definition", 202883, 4235},
- {"Documentation", 203051, 4239},
- {"Usage", 203213, 4243},
- {"Details & Options", 203384, 4247},
- {"Examples", 203558, 4251},
- {"Source & Additional Information", 203745, 4255},
- {"Contributed By", 203937, 4259},
- {"Keywords", 204110, 4263},
- {"Categories", 204279, 4267},
- {"CategoriesCell", 204453, 4271},
- {"Related Symbols", 204632, 4275},
- {"Related Resource Objects", 204822, 4279},
- {"Source/Reference Citation", 205022, 4283},
- {"Links", 205203, 4287},
- {"Tests", 205364, 4291},
- {"Author Notes", 205531, 4295},
- {"Submission Notes", 205706, 4299}
+ {"Title", 199916, 4164},
+ {"TabNext", 200081, 4168},
+ {"Description", 202302, 4214},
+ {"Definition", 202477, 4218},
+ {"Documentation", 202645, 4222},
+ {"Usage", 202807, 4226},
+ {"Details & Options", 202978, 4230},
+ {"Examples", 203152, 4234},
+ {"Source & Additional Information", 203339, 4238},
+ {"Contributed By", 203531, 4242},
+ {"Keywords", 203704, 4246},
+ {"Categories", 203873, 4250},
+ {"CategoriesCell", 204047, 4254},
+ {"Related Symbols", 204226, 4258},
+ {"Related Resource Objects", 204416, 4262},
+ {"Source/Reference Citation", 204616, 4266},
+ {"Links", 204797, 4270},
+ {"Tests", 204958, 4274},
+ {"Author Notes", 205125, 4278},
+ {"Submission Notes", 205300, 4282}
  }
 *)
 (*NotebookFileOutline
@@ -4630,31 +4613,23 @@ Cell[124086, 2684, 774, 13, 32, "Item",ExpressionUUID->"67f99785-ff0a-49a3-b424-
  CellTags->"TabNext",
  CellID->485448166]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[124897, 2702, 880, 21, 54, "Subsection",ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0",
+Cell[124875, 2700, 880, 21, 54, "Subsection",ExpressionUUID->"7d0b9150-6cae-404e-b1ff-3f88067e79b0",
  CellTags->"Tests",
- CellID->74308299],
-Cell[CellGroupData[{
-Cell[125802, 2727, 184, 4, 30, "Input",ExpressionUUID->"00cb74c4-6d31-4277-b1e2-78e52553571b",
- CellID->667877521],
-Cell[125989, 2733, 148, 3, 34, "Output",ExpressionUUID->"59f26a56-02a0-4bd9-9906-8e04d3d03048",
- CellID->993233288]
-}, Open  ]]
-}, Open  ]]
+ CellID->74308299]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[126198, 2743, 182, 4, 67, "Section",ExpressionUUID->"1e55d458-1ee5-4750-8ece-4148fb98a7a6",
+Cell[125792, 2726, 182, 4, 67, "Section",ExpressionUUID->"1e55d458-1ee5-4750-8ece-4148fb98a7a6",
  CellTags->"Author Notes",
  CellID->795110225],
-Cell[126383, 2749, 657, 10, 35, "Text",ExpressionUUID->"d0acae57-7f6e-4a05-8205-11f36913f54f",
+Cell[125977, 2732, 657, 10, 35, "Text",ExpressionUUID->"d0acae57-7f6e-4a05-8205-11f36913f54f",
  CellTags->"TabNext",
  CellID->567921317]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[127077, 2764, 833, 20, 68, "Section",ExpressionUUID->"b833bd0d-8c0e-4378-88f7-8552a569d787",
+Cell[126671, 2747, 833, 20, 68, "Section",ExpressionUUID->"b833bd0d-8c0e-4378-88f7-8552a569d787",
  CellTags->"Submission Notes",
  CellID->843283583],
-Cell[127913, 2786, 550, 8, 35, "Text",ExpressionUUID->"15cecb95-0f4d-4a33-95ab-1bcce4f5fbfc",
+Cell[127507, 2769, 550, 8, 35, "Text",ExpressionUUID->"15cecb95-0f4d-4a33-95ab-1bcce4f5fbfc",
  CellTags->"TabNext",
  CellID->920818074]
 }, Open  ]]
