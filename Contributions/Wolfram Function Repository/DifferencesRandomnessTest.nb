@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    338166,       6669]
+NotebookDataLength[    338267,       6673]
 NotebookOptionsPosition[    125975,       2548]
-NotebookOutlinePosition[    328841,       6451]
-CellTagsIndexPosition[    328122,       6427]
+NotebookOutlinePosition[    328942,       6455]
+CellTagsIndexPosition[    328223,       6431]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2547,7 +2547,7 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{808, 683},
-WindowMargins->{{279, Automatic}, {Automatic, 0}},
+WindowMargins->{{-3, Automatic}, {-80, Automatic}},
 Visible->True,
 DockedCells->{
   Cell[
@@ -4142,8 +4142,8 @@ DeployedResources/Function/DifferencesRandomnessTest\"", "]"}], "]"}],
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4187,8 +4187,8 @@ submission id is 6824.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4319,8 +4319,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4364,8 +4364,8 @@ submission id is 6824.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4585,8 +4585,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4631,8 +4632,9 @@ submission id is 6824.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4764,8 +4766,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -4810,8 +4813,9 @@ submission id is 6824.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -6426,26 +6430,26 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 322700, 6305},
- {"TabNext", 322866, 6309},
- {"Description", 324943, 6352},
- {"Definition", 325119, 6356},
- {"Documentation", 325287, 6360},
- {"Usage", 325449, 6364},
- {"Details & Options", 325620, 6368},
- {"Examples", 325794, 6372},
- {"Source & Additional Information", 325981, 6376},
- {"Contributed By", 326173, 6380},
- {"Keywords", 326346, 6384},
- {"Categories", 326515, 6388},
- {"CategoriesCell", 326689, 6392},
- {"Related Symbols", 326868, 6396},
- {"Related Resource Objects", 327058, 6400},
- {"Source/Reference Citation", 327258, 6404},
- {"Links", 327439, 6408},
- {"Tests", 327600, 6412},
- {"Author Notes", 327767, 6416},
- {"Submission Notes", 327942, 6420}
+ {"Title", 322801, 6309},
+ {"TabNext", 322967, 6313},
+ {"Description", 325044, 6356},
+ {"Definition", 325220, 6360},
+ {"Documentation", 325388, 6364},
+ {"Usage", 325550, 6368},
+ {"Details & Options", 325721, 6372},
+ {"Examples", 325895, 6376},
+ {"Source & Additional Information", 326082, 6380},
+ {"Contributed By", 326274, 6384},
+ {"Keywords", 326447, 6388},
+ {"Categories", 326616, 6392},
+ {"CategoriesCell", 326790, 6396},
+ {"Related Symbols", 326969, 6400},
+ {"Related Resource Objects", 327159, 6404},
+ {"Source/Reference Citation", 327359, 6408},
+ {"Links", 327540, 6412},
+ {"Tests", 327701, 6416},
+ {"Author Notes", 327868, 6420},
+ {"Submission Notes", 328043, 6424}
  }
 *)
 (*NotebookFileOutline
