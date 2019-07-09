@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    225648,       4783]
+NotebookDataLength[    343930,       6962]
 NotebookOptionsPosition[     71648,       1761]
-NotebookOutlinePosition[    214543,       4525]
-CellTagsIndexPosition[    213824,       4501]
+NotebookOutlinePosition[    332825,       6704]
+CellTagsIndexPosition[    332106,       6680]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1818,87 +1818,7 @@ DockedCells->{
                     AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                   StyleBox[
-                    ActionMenuBox[
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "2", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                    "\"   \""}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1188790657]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1833260680])}, Method -> "Queued", Appearance -> None], 
-                    "BoxID" -> "WarningCountButton", StripOnInput -> False], 
+                    "Grid"], "", 
                    TagBox[
                     ButtonBox[
                     TagBox[
@@ -1988,87 +1908,7 @@ description\""}, "RowDefault"] :> (Block[{$ContextPath},
                     AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                   StyleBox[
-                    ActionMenuBox[
-                    TagBox[
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "2", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                    "\"   \""}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], 
-                    MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    584004037]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", 
-                    "\"Arguments should also be formatted in the \
-description\""}, "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1188790657]), TemplateBox[{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], "\" \"", "\"Cell is empty\""}, 
-                    "RowDefault"] :> (Block[{$ContextPath}, 
-                    Needs["FunctionResource`DefinitionNotebook`"]]; 
-                    FunctionResource`DefinitionNotebook`Private`seek[
-                    1833260680])}, Method -> "Queued", Appearance -> None], 
-                    "BoxID" -> "WarningCountButton", StripOnInput -> False], 
+                    "Grid"], "", 
                    TagBox[
                     ButtonBox[
                     TagBox[
@@ -2146,13 +1986,12 @@ description\""}, "RowDefault"] :> (Block[{$ContextPath},
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
+                    RGBColor[0.3607843137254902, 0.596078431372549, 
                     0.3803921568627451], 25], StripOnInput -> False], 
                     ContentPadding -> False, FrameStyle -> None, 
                     FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
@@ -2190,8 +2029,8 @@ submission id is 8895.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2320,8 +2159,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2364,8 +2203,8 @@ submission id is 8895.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2520,88 +2359,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
              Grid[{{"Submission ID:", 
                 RawBoxes[
                  TemplateBox[{"\"8895\"", 
-                   RawBoxes["\"8895\""]}, "ClickToCopyTemplate"]]}}], 
-             Style[
-              ActionMenu[
-               MouseAppearance[
-                Grid[{{
-                   RawBoxes[
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Potential issues found\""}, "PrettyTooltipTemplate"]], 
-                   
-                   RawBoxes[
-                    TemplateBox[{
-                    TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "2", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                    "\"Suggestions found\""}, "PrettyTooltipTemplate"]], 
-                   "   "}}], "LinkHand"], {Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Arguments should also be formatted in the description"}] :> \
-(Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[584004037]),
-                 Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{
-                    Rational[25, 51], 
-                    Rational[25, 51], 
-                    Rational[25, 51]}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", 
-                   "Arguments should also be formatted in the description"}] :> \
-(Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1188790657]), Row[{
-                   RawBoxes[
-                    TemplateBox[{
-                    RGBColor[{1, 
-                    Rational[118, 255], 0}], 
-                    RGBColor[{1, 1, 1}], 10., {{0., 18.}, {-2., 17.}}}, 
-                    "SuggestionIconTemplate"]], " ", "Cell is empty"}] :> (
-                 Block[{$ContextPath}, 
-                   Needs["FunctionResource`DefinitionNotebook`"]]; 
-                 FunctionResource`DefinitionNotebook`Private`seek[
-                  1833260680])}, Method -> "Queued", Appearance -> None], 
-              "BoxID" -> "WarningCountButton"], 
+                   RawBoxes["\"8895\""]}, "ClickToCopyTemplate"]]}}], "", 
              MouseAppearance[
               Button[
                MouseAppearance[
@@ -2651,6 +2409,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     InterpretationBox[
                     RowBox[{
                     TagBox["Success", "SummaryHead"], "[", 
+                    
                     DynamicModuleBox[{
                     Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
                     TemplateBox[{
@@ -2663,8 +2422,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2708,8 +2468,9 @@ submission id is 8895.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2839,8 +2600,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2884,8 +2646,9 @@ submission id is 8895.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -3007,18 +2770,2434 @@ submission id is `SubmissionID`.", "MessageParameters" ->
           False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
      "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
      False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771595546067138`16.329100103360695*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"ArcsineLawRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p\[Dash]value. "}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated property. "}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714199463514547`*^9, 3.7714199463545513`*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two\[Dash]tailed p\[Dash]value.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771419946648809*^9, 3.7714199702530003`*^9}}, CellID -> 
+                    184858095]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 45], "ExternalLinks" -> {
+                    Hyperlink[
+                    "Associated paper", "https://arxiv.org/pdf/1903.09805"]}, 
+                    "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0/download/\
+DefinitionData"], "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "CUSUMMaxRandomnessTest"}, "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Lorek, Los, Gotfry, Zag\[OAcute]rski. On testing \
+pseudorandom generators via statistical tests based on the\narcsine law."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"",
+                     "https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "cff48f98-845e-4a58-be8d-de30a9ce8b1f"]), Appearance -> 
+                    None, BoxID -> "cff48f98-845e-4a58-be8d-de30a9ce8b1f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771595546067138`16.329100103360695*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"ArcsineLawRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p\[Dash]value. "}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated property. "}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714199463514547`*^9, 3.7714199463545513`*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two\[Dash]tailed p\[Dash]value.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771419946648809*^9, 3.7714199702530003`*^9}}, CellID -> 
+                    184858095]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 45], "ExternalLinks" -> {
+                    Hyperlink[
+                    "Associated paper", "https://arxiv.org/pdf/1903.09805"]}, 
+                    "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0/download/\
+DefinitionData"], "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "CUSUMMaxRandomnessTest"}, "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Lorek, Los, Gotfry, Zag\[OAcute]rski. On testing \
+pseudorandom generators via statistical tests based on the\narcsine law."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"",
+                     "https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "cff48f98-845e-4a58-be8d-de30a9ce8b1f"]), Appearance -> 
+                    None, BoxID -> "cff48f98-845e-4a58-be8d-de30a9ce8b1f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-9d865724-aaeb-4136-8123-\
+581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"",
+                     "https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    
+                    RowBox[{"\"https://www.wolfram\"", "\[Ellipsis]", 
+                    "\"neLawRandomnessTest\""}], Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
+                    LineBreakWithin -> False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.15], "\"ArcsineLawRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "FunctionLocation" -> None]]], Selectable -> 
+                    False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> Dynamic[{
+                    Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.\"", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> Dynamic[{
+                    Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"Randomness\"", 
+                    "\"Statistics\""}, "RowWithSeparators"], Short], 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"d4486130-118a-4c0f-9f74-f1fd1f401cb0\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "FunctionLocation" -> None]], Selectable -> False, 
+                    Editable -> False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, 
+                  GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Style[
+              Dynamic[
+               DateString[
+                TimeZoneConvert[
+                 DateObject[
+                 3.771595546067138`16.329100103360695*^9, TimeZone -> 0]], {
+                "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
+              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
+              "   ", 
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "\[RightGuillemet]", 
+                 "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"]}}, 
+              Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"ArcsineLawRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated p\[Dash]value. "}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "uses the arcsine law to conduct a randomness test of ", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " and returns an associated property. "}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714199463514547`*^9, 3.7714199463545513`*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two\[Dash]tailed p\[Dash]value.", 
+                    "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771419946648809*^9, 3.7714199702530003`*^9}}, CellID -> 
+                    184858095]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 45], "ExternalLinks" -> {
+                    Hyperlink[
+                    "Associated paper", "https://arxiv.org/pdf/1903.09805"]}, 
+                    "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0/download/\
+DefinitionData"], "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "CUSUMMaxRandomnessTest"}, "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "Lorek, Los, Gotfry, Zag\[OAcute]rski. On testing \
+pseudorandom generators via statistical tests based on the\narcsine law."}], 
+                    "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/d44/d4486130-118a-4c0f-9f74-f1fd1f401cb0"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"",
+                     "https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                  "ClickToCopyTemplate"]]}}], "", 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "cff48f98-845e-4a58-be8d-de30a9ce8b1f"], Appearance -> None, 
+               BoxID -> "cff48f98-845e-4a58-be8d-de30a9ce8b1f"], 
+              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
+              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
+           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-9d865724-aaeb-4136-8123-\
+581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest\"",
+                     "https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Visit web page:", 
+                 Hyperlink[
+                  RawBoxes[
+                   TagBox[
+                    
+                    RowBox[{
+                    "\"https://www.wolfram\"", "\[Ellipsis]", 
+                    "\"neLawRandomnessTest\""}], Short[#, 0.75]& ]], 
+                  "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/ArcsineLawRandomnessTest"]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"ArcsineLawRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.15], "\"ArcsineLawRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "FunctionLocation" -> None]]], Selectable -> 
+                    False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.\"", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"Randomness\"", 
+                    "\"Statistics\""}, "RowWithSeparators"], Short], 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"d4486130-118a-4c0f-9f74-f1fd1f401cb0\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "d4486130-118a-4c0f-9f74-f1fd1f401cb0", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Uses the arcsine law to assess the randomness of a \
+sequence of zeros and ones.", "SymbolName" -> 
+                    "FunctionRepository`$d4486130118a4c0f9f74f1fd1f401cb0`\
+ArcsineLawRandomnessTest", "FunctionLocation" -> None]], Selectable -> False, 
+                    Editable -> False, SelectWithContents -> True]]}, 
+                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771607053170015`16.329101428387094*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    
+                    GridBox[{{
+                    "\"Your resource has been submitted for review.\"", 
+                    "\"\""}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"Submission ID:\"", 
+                    TemplateBox[{"\"0813\"", 
+                    RawBoxes["\"0813\""]}, "ClickToCopyTemplate"]}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f"]), Appearance -> 
+                    None, BoxID -> "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771607053170015`16.329101428387094*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    
+                    GridBox[{{
+                    "\"Your resource has been submitted for review.\"", 
+                    "\"\""}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"Submission ID:\"", 
+                    TemplateBox[{"\"0813\"", 
+                    RawBoxes["\"0813\""]}, "ClickToCopyTemplate"]}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f"]), Appearance -> 
+                    None, BoxID -> "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Submission result:\"", 
+                    
+                    TemplateBox[{
+                    TagBox[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["Success", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}},
+                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ShortName\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"9c8917df-5fba-4c5e-ade9-af0cbba3aca0\"", 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"0813\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    
+                    TemplateBox[{"\"SubmissionDate\"", "\": \""}, 
+                    "RowDefault"], "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    RowBox[{"\"Mon 8 Jul 2019 16:37:32\"", 
+                    StyleBox[
+                    RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+                    StyleBox[
+                    RowBox[{"-", "4.`"}], NumberMarks -> False, StripOnInput -> 
+                    False]}], FontColor -> GrayLevel[0.5]]}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "16", ",", "37", 
+                    ",", "32.621185`8.266074713641745"}], "}"}], ",", 
+                    "\"Instant\"", ",", "\"Gregorian\"", ",", 
+                    RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
+                    False], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Copying\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    Success["ResourceSubmission", 
+                    Association[
+                    "MessageTemplate" -> 
+                    "Your resource has been submitted for review. Your \
+submission id is `SubmissionID`.", "MessageParameters" -> 
+                    Association["SubmissionID" -> "0813"], "Name" -> 
+                    "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "9c8917df-5fba-4c5e-ade9-af0cbba3aca0", "SubmissionID" -> 
+                    "0813", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{2019, 7, 8, 16, 37, 
+                    32.621185`8.266074713641745}, "Instant", 
+                    "Gregorian", -4.], "Status" -> "Copying"]], Selectable -> 
+                    False, Editable -> False, SelectWithContents -> True], 
+                    Short[#, 0.75]& ], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["Success", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}},
+                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ShortName\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"9c8917df-5fba-4c5e-ade9-af0cbba3aca0\"", 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"0813\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    
+                    TemplateBox[{"\"SubmissionDate\"", "\": \""}, 
+                    "RowDefault"], "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    RowBox[{"\"Mon 8 Jul 2019 16:37:32\"", 
+                    StyleBox[
+                    RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+                    StyleBox[
+                    RowBox[{"-", "4.`"}], NumberMarks -> False, StripOnInput -> 
+                    False]}], FontColor -> GrayLevel[0.5]]}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "16", ",", "37", 
+                    ",", "32.621185`8.266074713641745"}], "}"}], ",", 
+                    "\"Instant\"", ",", "\"Gregorian\"", ",", 
+                    RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
+                    False], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Copying\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    Success["ResourceSubmission", 
+                    Association[
+                    "MessageTemplate" -> 
+                    "Your resource has been submitted for review. Your \
+submission id is `SubmissionID`.", "MessageParameters" -> 
+                    Association["SubmissionID" -> "0813"], "Name" -> 
+                    "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "9c8917df-5fba-4c5e-ade9-af0cbba3aca0", "SubmissionID" -> 
+                    "0813", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{2019, 7, 8, 16, 37, 
+                    32.621185`8.266074713641745}, "Instant", 
+                    "Gregorian", -4.], "Status" -> "Copying"]], Selectable -> 
+                    False, Editable -> False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Style[
+              Dynamic[
+               DateString[
+                TimeZoneConvert[
+                 DateObject[
+                 3.771607053170015`16.329101428387094*^9, TimeZone -> 0]], {
+                "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
+              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
+              "   ", 
+             
+             Grid[{{"Your resource has been submitted for review.", ""}}, 
+              Spacings -> 0.25], 
+             Grid[{{"Submission ID:", 
+                RawBoxes[
+                 TemplateBox[{"\"0813\"", 
+                   RawBoxes["\"0813\""]}, "ClickToCopyTemplate"]]}}], "", 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f"], Appearance -> None, 
+               BoxID -> "3ab1ba4e-b75e-4192-aab0-63b2ae4a1b0f"], 
+              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
+              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
+           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Submission result:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    TagBox[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["Success", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}},
+                     GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ShortName\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"9c8917df-5fba-4c5e-ade9-af0cbba3aca0\"", 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"0813\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    
+                    TemplateBox[{"\"SubmissionDate\"", "\": \""}, 
+                    "RowDefault"], "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    RowBox[{"\"Mon 8 Jul 2019 16:37:32\"", 
+                    StyleBox[
+                    RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+                    StyleBox[
+                    RowBox[{"-", "4.`"}], NumberMarks -> False, StripOnInput -> 
+                    False]}], FontColor -> GrayLevel[0.5]]}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "16", ",", "37", 
+                    ",", "32.621185`8.266074713641745"}], "}"}], ",", 
+                    "\"Instant\"", ",", "\"Gregorian\"", ",", 
+                    RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
+                    False], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Copying\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    Success["ResourceSubmission", 
+                    Association[
+                    "MessageTemplate" -> 
+                    "Your resource has been submitted for review. Your \
+submission id is `SubmissionID`.", "MessageParameters" -> 
+                    Association["SubmissionID" -> "0813"], "Name" -> 
+                    "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "9c8917df-5fba-4c5e-ade9-af0cbba3aca0", "SubmissionID" -> 
+                    "0813", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{
+                    2019, 7, 8, 16, 37, 32.621185`8.266074713641745}, 
+                    "Instant", "Gregorian", -4.], "Status" -> "Copying"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True], Short[#, 0.75]& ], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["Success", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}},
+                     GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    FrameBox[
+                    StyleBox["\"\[Checkmark]\"", 
+                    Directive[
+                    RGBColor[
+                    0.3607843137254902, 0.596078431372549, 
+                    0.3803921568627451], 25], StripOnInput -> False], 
+                    ContentPadding -> False, FrameStyle -> None, 
+                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                    
+                    GridBox[{{
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Your resource has been submitted for review. Your \
+submission id is 0813.\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ShortName\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ArcsineLawRandomnessTest\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"9c8917df-5fba-4c5e-ade9-af0cbba3aca0\"", 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"0813\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
+                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    
+                    TemplateBox[{"\"SubmissionDate\"", "\": \""}, 
+                    "RowDefault"], "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    RowBox[{"\"Mon 8 Jul 2019 16:37:32\"", 
+                    StyleBox[
+                    RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+                    StyleBox[
+                    RowBox[{"-", "4.`"}], NumberMarks -> False, StripOnInput -> 
+                    False]}], FontColor -> GrayLevel[0.5]]}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "16", ",", "37", 
+                    ",", "32.621185`8.266074713641745"}], "}"}], ",", 
+                    "\"Instant\"", ",", "\"Gregorian\"", ",", 
+                    RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
+                    False], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"Copying\"", "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                    TagBox["\"ResourceSubmission\"", "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    Success["ResourceSubmission", 
+                    Association[
+                    "MessageTemplate" -> 
+                    "Your resource has been submitted for review. Your \
+submission id is `SubmissionID`.", "MessageParameters" -> 
+                    Association["SubmissionID" -> "0813"], "Name" -> 
+                    "ArcsineLawRandomnessTest", "ShortName" -> 
+                    "ArcsineLawRandomnessTest", "UUID" -> 
+                    "9c8917df-5fba-4c5e-ade9-af0cbba3aca0", "SubmissionID" -> 
+                    "0813", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{
+                    2019, 7, 8, 16, 37, 32.621185`8.266074713641745}, 
+                    "Instant", "Gregorian", -4.], "Status" -> "Copying"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}}, 
+               Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> "1.2.22", "ToolsOpen" -> True, "StatusMessage" -> "", 
-  "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {
-    CellObject[191665], 
-    CellObject[191713], 
-    CellObject[191745]}, "PreviewNotebook" -> NotebookObject[
+  "SubmissionReviewData" -> {"Review" -> False}, "AttachedHints" -> {}, 
+  "PreviewNotebook" -> NotebookObject[
     FrontEndObject[
      LinkObject["vfffb_shm", 3, 1]], 68]},
 CreateCellID->True,
-FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -3205,6 +5384,7 @@ kI/iXyC/aX6cGIOFCJwPdp+oMJwPDt/PgnA+2D1PBOB8WHygxy8Abafrpg==
                    15.75, 5.25}, {6.75, 5.25}, {6.75, 17.25}, {8.25, 17.25}, {
                    8.25, 18.}}, {{9.75, 17.25}, {12.75, 17.25}, {12.75, 
                    16.5}, {9.75, 16.5}}}], 
+                 
                  FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
                   0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                   0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{8.25, 14.25}, {
@@ -3256,7 +5436,6 @@ clickTime$$ > FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$,
                     15.75, 17.25}, {15.75, 5.25}, {6.75, 5.25}, {6.75, 
                     17.25}, {8.25, 17.25}, {8.25, 18.}}, {{9.75, 17.25}, {
                     12.75, 17.25}, {12.75, 16.5}, {9.75, 16.5}}}], 
-                    
                     FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
                     0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{8.25, 
@@ -3924,6 +6103,7 @@ p2HmwdTp4FCHTvOhqYfZrw2lhdDk0fno6tHcD1PPwOSAnY+uns8BAE8cGz4=
 Hw4apk4Uap8aDr4QDhqqDu4uVRx8URw0TJ001D5lHHwJHDRUHYMclFbCwZfG
 QUPVNSjgp+HmIWgAG/wcEg==
                     "]], 
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -4367,9 +6547,8 @@ ACBxmlc=
     ShowStringCharacters -> False, FontSlant -> "Italic", FontColor -> 
     GrayLevel[0.5]], 
    Cell[
-    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, 
-  WindowMargins -> {{316, Automatic}, {-80, Automatic}}, Visible -> False, 
-  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 11, 2019)", 
+    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, Visible -> 
+  False, FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -4500,26 +6679,26 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 208423, 4379},
- {"TabNext", 208589, 4383},
- {"Description", 210658, 4426},
- {"Definition", 210833, 4430},
- {"Documentation", 211001, 4434},
- {"Usage", 211163, 4438},
- {"Details & Options", 211334, 4442},
- {"Examples", 211508, 4446},
- {"Source & Additional Information", 211695, 4450},
- {"Contributed By", 211886, 4454},
- {"Keywords", 212058, 4458},
- {"Categories", 212226, 4462},
- {"CategoriesCell", 212399, 4466},
- {"Related Symbols", 212577, 4470},
- {"Related Resource Objects", 212766, 4474},
- {"Source/Reference Citation", 212965, 4478},
- {"Links", 213145, 4482},
- {"Tests", 213305, 4486},
- {"Author Notes", 213471, 4490},
- {"Submission Notes", 213645, 4494}
+ {"Title", 326705, 6558},
+ {"TabNext", 326871, 6562},
+ {"Description", 328940, 6605},
+ {"Definition", 329115, 6609},
+ {"Documentation", 329283, 6613},
+ {"Usage", 329445, 6617},
+ {"Details & Options", 329616, 6621},
+ {"Examples", 329790, 6625},
+ {"Source & Additional Information", 329977, 6629},
+ {"Contributed By", 330168, 6633},
+ {"Keywords", 330340, 6637},
+ {"Categories", 330508, 6641},
+ {"CategoriesCell", 330681, 6645},
+ {"Related Symbols", 330859, 6649},
+ {"Related Resource Objects", 331048, 6653},
+ {"Source/Reference Citation", 331247, 6657},
+ {"Links", 331427, 6661},
+ {"Tests", 331587, 6665},
+ {"Author Notes", 331753, 6669},
+ {"Submission Notes", 331927, 6673}
  }
 *)
 (*NotebookFileOutline

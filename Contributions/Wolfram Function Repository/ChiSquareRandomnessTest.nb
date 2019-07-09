@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    376426,       7508]
-NotebookOptionsPosition[    167854,       3453]
-NotebookOutlinePosition[    363867,       7223]
-CellTagsIndexPosition[    363148,       7199]
+NotebookDataLength[    310403,       6251]
+NotebookOptionsPosition[    167897,       3453]
+NotebookOutlinePosition[    297844,       5966]
+CellTagsIndexPosition[    297125,       5942]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -234,8 +234,8 @@ Cell[BoxData[{
            RowBox[{"Interval", "[", 
             RowBox[{"{", 
              RowBox[{"0", ",", "1"}], "}"}], "]"}], ",", "#"}], "]"}], "&&", 
-         RowBox[{"NumberQ", "[", "#", "]"}]}], "&"}]}], "]"}]}], "]"}], ":=", 
-   
+         RowBox[{"InexactNumberQ", "[", "#", "]"}]}], "&"}]}], "]"}]}], "]"}],
+    ":=", 
    RowBox[{
     RowBox[{"chiSquareTestRandomReal", "[", "seq", "]"}], "[", 
     "\"\<PValue\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
@@ -254,7 +254,8 @@ Cell[BoxData[{
              RowBox[{"{", 
               RowBox[{"0", ",", "1"}], "}"}], "]"}], ",", "#"}], "]"}], "&&", 
           
-          RowBox[{"NumberQ", "[", "#", "]"}]}], "&"}]}], "]"}]}], ",", 
+          RowBox[{"InexactNumberQ", "[", "#", "]"}]}], "&"}]}], "]"}]}], ",", 
+     
      RowBox[{"req_String", "/;", 
       RowBox[{"MemberQ", "[", 
        RowBox[{
@@ -270,8 +271,7 @@ Cell[BoxData[{
   3.770782714597568*^9, 3.770782969591061*^9}, {3.7707831217698727`*^9, 
   3.770783124713357*^9}, {3.770783399142974*^9, 3.770783400601529*^9}, {
   3.770784001570097*^9, 3.7707840116716547`*^9}, {3.771153299865728*^9, 
-  3.7711533048160563`*^9}},
- CellLabel->"In[168]:=",
+  3.7711533048160563`*^9}, {3.7715967773430347`*^9, 3.771596781158806*^9}},
  CellID->1366173671,ExpressionUUID->"c4037ed0-9672-47ae-a4d7-01295821de8c"]
 }, Open  ]],
 
@@ -3471,160 +3471,6 @@ DockedCells->{
   Cell[
    BoxData[
     StyleBox[
-     InterpretationBox[
-      TagBox[
-       GridBox[{{
-          OverlayBox[{
-            StyleBox[
-             TagBox[
-              DynamicModuleBox[{Typeset`var$$ = False}, 
-               InterpretationBox[
-                StyleBox[
-                 PaneSelectorBox[{False -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    AutoDelete -> False, 
-                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}, {"", 
-                    PaneBox["\"\"", ImageMargins -> 0]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                  Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-                  Automatic, ImageMargins -> 0, BaseStyle -> {}, 
-                  DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
-                  Baseline], Deployed -> False, StripOnInput -> False], 
-                OpenerView[{
-                  Style[
-                   Dynamic[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    SingleEvaluation -> True, Evaluator -> "System"], 
-                   FontSlant -> Italic, FontColor -> GrayLevel[0.5], FontSize -> 
-                   0.9 Inherited], ""}, False]], DynamicModuleValues -> 
-               Automatic], Setting[#, {0}]& ], ShowContents -> False, 
-             StripOnInput -> False], 
-            StyleBox[
-             DynamicBox[
-              ToBoxes[
-               DateString[
-                TimeZoneConvert[
-                 DateObject[
-                 3.771183662650487`16.32905267291357*^9, TimeZone -> 0]], {
-                "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-               StandardForm], SingleEvaluation -> True, Evaluator -> 
-              "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
-             FontSize -> 0.9 Inherited, StripOnInput -> False]}, Alignment -> 
-           Right], "\"   \"", 
-          TagBox[
-           
-           GridBox[{{"\"Found 3 suggestions\"", "\"\""}}, AutoDelete -> False,
-             GridBoxItemSize -> {
-             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-            GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], "\"\"", "", 
-          
-          TagBox[
-           ButtonBox[
-            TagBox[
-             PaneSelectorBox[{False -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
-                True -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                 None]}, 
-              Dynamic[
-               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-              FrameMargins -> 0], 
-             MouseAppearanceTag["LinkHand"]], 
-            ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-             FunctionResource`DefinitionNotebook`Private`deleteMe[
-              "a19320f8-251d-49d2-b0b7-f792aca2a456"]), Appearance -> None, 
-            BoxID -> "a19320f8-251d-49d2-b0b7-f792aca2a456", Evaluator -> 
-            Automatic, Method -> "Preemptive"], 
-           MouseAppearanceTag["LinkHand"]]}}, 
-        GridBoxAlignment -> {
-         "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-          "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-        GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-            Scaled[0.35], Automatic, Fit, Automatic}, 
-          "Rows" -> {{Automatic}}}], "Grid"], 
-      FunctionResource`DefinitionNotebook`Private`$checkStripe], "Text", 
-     FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
-   "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
-  Cell[
-   BoxData[
-    StyleBox[
      TagBox[
       DynamicModuleBox[{Typeset`var$$ = False}, 
        InterpretationBox[
@@ -3641,7 +3487,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771184028066972`16.329052714995417*^9, TimeZone -> 
+                    3.771596808384204`16.329100248714894*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -3649,150 +3495,18 @@ DockedCells->{
                     GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
                     False], "\"   \"", 
                    TagBox[
-                    GridBox[{{"\"Deployed for this session\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DefinitionNotebook`Private`\
-viewPreviewNotebook[
-                    NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 99], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
+                    
+                    GridBox[{{
+                    "\"Your resource has been submitted for review.\"", 
+                    "\"\""}}, AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
                    TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
-                    RawBoxes[
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> 
-                    False]]}, "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBox[{{"\"Submission ID:\"", 
+                    TemplateBox[{"\"0640\"", 
+                    RawBoxes["\"0640\""]}, "ClickToCopyTemplate"]}}, 
+                    AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
                     "Grid"], "\"\"", 
@@ -3836,8 +3550,8 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable ->
                     MouseAppearanceTag["LinkHand"]], 
                     ButtonFunction :> (Symbol["System`ResourceFunction"]; 
                     FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "fa3e05cf-35c4-4f8c-b238-40f504e7bc05"]), Appearance -> 
-                    None, BoxID -> "fa3e05cf-35c4-4f8c-b238-40f504e7bc05", 
+                    "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d"]), Appearance -> 
+                    None, BoxID -> "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d", 
                     Evaluator -> Automatic, Method -> "Preemptive"], 
                     MouseAppearanceTag["LinkHand"]]}}, 
                  GridBoxAlignment -> {
@@ -3863,7 +3577,7 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable ->
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.771184028066972`16.329052714995417*^9, TimeZone -> 
+                    3.771596808384204`16.329100248714894*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -3871,867 +3585,6 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable ->
                     GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
                     False], "\"   \"", 
                    TagBox[
-                    GridBox[{{"\"Deployed for this session\"", 
-                    TemplateBox[{
-                    ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DefinitionNotebook`Private`\
-viewPreviewNotebook[
-                    NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 99], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                     "PrettyTooltipTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"ResourceFunction:\"", 
-                    TemplateBox[{
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
-                    RawBoxes[
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> 
-                    False]]}, "ClickToCopyTemplate"]}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], "\"\"", 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "fa3e05cf-35c4-4f8c-b238-40f504e7bc05"]), Appearance -> 
-                    None, BoxID -> "fa3e05cf-35c4-4f8c-b238-40f504e7bc05", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
-               PaneBox[
-                TagBox[
-                 GridBox[{{"\"\"", 
-                    StyleBox[
-                    TagBox[
-                    
-                    GridBox[{{
-                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
-                    TemplateBox[{
-                    TagBox[
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    RowBox[{"\"ChiSq\"", "\[Ellipsis]", "\"ssTest\""}], 
-                    "ResourceFunctionLabel"], FontSize -> 
-                    Rational[12, 13] Inherited, ShowStringCharacters -> 
-                    False]}}]], "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
-                    LineBreakWithin -> False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}], Short[#, 0.75]& ], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
-                    LineBreakWithin -> False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}]]}, "ClickToCopyTemplate"]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {Automatic, Automatic, Fit}, 
-                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
-                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
-                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                  False, GridBoxDividers -> {
-                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
-                    Rational[239, 255]]}}, 
-                  GridBoxItemSize -> {
-                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
-                  GridBoxSpacings -> {
-                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
-                ImageMargins -> 0]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}]}, 
-          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
-          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
-         StripOnInput -> False], 
-        OpenerView[{
-          Grid[{{
-             Style[
-              Dynamic[
-               DateString[
-                TimeZoneConvert[
-                 DateObject[
-                 3.771184028066972`16.329052714995417*^9, TimeZone -> 0]], {
-                "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
-              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
-              "   ", 
-             Grid[{{"Deployed for this session", 
-                RawBoxes[
-                 TemplateBox[{
-                   ButtonBox[
-                    TagBox[
-                    TemplateBox[{"\"\[RightGuillemet]\"", 
-                    StyleBox["\"\[RightGuillemet]\"", "HyperlinkActive"], 
-                    BaseStyle -> "Hyperlink"}, "MouseoverTemplate"], 
-                    MouseAppearanceTag["LinkHand"]], BaseStyle -> "Hyperlink",
-                     ButtonFunction :> 
-                    FunctionResource`DefinitionNotebook`Private`\
-viewPreviewNotebook[
-                    NotebookObject[
-                    FrontEndObject[
-                    LinkObject["jv6wa_shm", 3, 1]], 99], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]]], Evaluator -> 
-                    Automatic, Method -> "Queued"], "\"View Documentation\""},
-                   "PrettyTooltipTemplate"]]}}, Spacings -> 0.25], 
-             Grid[{{"ResourceFunction:", 
-                RawBoxes[
-                 TemplateBox[{
-                   InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
-                   RawBoxes[
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> 
-                    False]]}, "ClickToCopyTemplate"]]}}], "", 
-             MouseAppearance[
-              Button[
-               MouseAppearance[
-                Mouseover[
-                 Graphics[{
-                   GrayLevel[
-                    Rational[64, 85]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None], 
-                 Graphics[{
-                   GrayLevel[
-                    Rational[128, 255]], 
-                   
-                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                   
-                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
-               FunctionResource`DefinitionNotebook`Private`deleteMe[
-                "fa3e05cf-35c4-4f8c-b238-40f504e7bc05"], Appearance -> None, 
-               BoxID -> "fa3e05cf-35c4-4f8c-b238-40f504e7bc05"], 
-              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
-              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
-           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
-          Grid[{{"", 
-             Style[
-              Grid[{{"\[FilledVerySmallSquare]", "Resource object:", 
-                 RawBoxes[
-                  TemplateBox[{
-                    TagBox[
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    RowBox[{"\"ChiSq\"", "\[Ellipsis]", "\"ssTest\""}], 
-                    "ResourceFunctionLabel"], FontSize -> 
-                    Rational[12, 13] Inherited, ShowStringCharacters -> 
-                    False]}}]], "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}], Short[#, 0.75]& ], 
-                    RawBoxes[
-                    RowBox[{"ResourceObject", "[", 
-                    InterpretationBox[
-                    TagBox[
-                    StyleBox[
-                    StyleBox[
-                    FrameBox[
-                    GridBox[{{
-                    AdjustmentBox[
-                    StyleBox[
-                    StyleBox[
-                    StyleBox[
-                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
-                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
-                    "Source Sans Pro Black", FontWeight -> "Heavy", 
-                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
-                    FontSize -> Rational[10, 13] Inherited, 
-                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
-                     BoxMargins -> {{0, 0}, {-1, -1}}], 
-                    StyleBox[
-                    StyleBox[
-                    "\"ChiSquareRandomnessTest\"", "ResourceFunctionLabel"], 
-                    FontSize -> Rational[12, 13] Inherited, 
-                    ShowStringCharacters -> False]}}]], 
-                    "ResourceFunctionFrame"], 
-                    FrameBoxOptions -> {
-                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
-                    Directive[
-                    GrayLevel[0.5, 0.35], 
-                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
-                    GrayLevel[0.5, 0.15], 
-                    BaseStyle -> {
-                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
-                    False}}, 
-                    GridBoxOptions -> {
-                    FrameStyle -> GrayLevel[1, 0], 
-                    GridBoxFrame -> {
-                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
-                    "FunctionResourceBox", 
-                    GrayLevel[0.15], "\"ChiSquareRandomnessTest\""}], 
-                    ResourceFunction[
-                    ResourceObject[
-                    Association[
-                    "Name" -> "ChiSquareRandomnessTest", "ShortName" -> 
-                    "ChiSquareRandomnessTest", "UUID" -> 
-                    "563d7122-f7b6-432f-980f-55d6e4e4abaa", "ResourceType" -> 
-                    "Function", "Version" -> None, "Description" -> 
-                    "Tests a sequence of 0s and 1s or a set of random reals \
-between 0 and 1 for equidistribution and returns a p-value", "SymbolName" -> 
-                    "FunctionRepository`$563d7122f7b6432f980f55d6e4e4abaa`\
-ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
-                     "]"}]]}, "ClickToCopyTemplate"]]}}, Alignment -> Left, 
-               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
-              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
-           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
-           Dividers -> {None, {-1 -> GrayLevel[
-                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
-          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
-     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
-     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
-  Cell[
-   BoxData[
-    StyleBox[
-     InterpretationBox[
-      TagBox[
-       GridBox[{{
-          OverlayBox[{
-            StyleBox[
-             TagBox[
-              DynamicModuleBox[{Typeset`var$$ = False}, 
-               InterpretationBox[
-                StyleBox[
-                 PaneSelectorBox[{False -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771507521331147`16.32908996730481*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    AutoDelete -> False, 
-                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771507521331147`16.32908996730481*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}, {"", 
-                    PaneBox["\"\"", ImageMargins -> 0]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                  Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-                  Automatic, ImageMargins -> 0, BaseStyle -> {}, 
-                  DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
-                  Baseline], Deployed -> False, StripOnInput -> False], 
-                OpenerView[{
-                  Style[
-                   Dynamic[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.771507521331147`16.32908996730481*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    SingleEvaluation -> True, Evaluator -> "System"], 
-                   FontSlant -> Italic, FontColor -> GrayLevel[0.5], FontSize -> 
-                   0.9 Inherited], ""}, False]], DynamicModuleValues -> 
-               Automatic], Setting[#, {0}]& ], ShowContents -> False, 
-             StripOnInput -> False], 
-            StyleBox[
-             DynamicBox[
-              ToBoxes[
-               DateString[
-                TimeZoneConvert[
-                 DateObject[
-                 3.771507521331147`16.32908996730481*^9, TimeZone -> 0]], {
-                "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-               StandardForm], SingleEvaluation -> True, Evaluator -> 
-              "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
-             FontSize -> 0.9 Inherited, StripOnInput -> False]}, Alignment -> 
-           Right], "\"   \"", 
-          TagBox[
-           GridBox[{{
-              TagBox[
-               GridBox[{{
-                  StyleBox["\"\[Checkmark]\"", FontColor -> RGBColor[0, 
-                    Rational[2, 3], 0], FontSize -> 16, FontWeight -> "Heavy",
-                    StripOnInput -> False], "\"No issues found\""}}, 
-                GridBoxAlignment -> {
-                 "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                False, GridBoxItemSize -> {
-                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                GridBoxSpacings -> {"Columns" -> {{0.5}}}], "Grid"], "\"\""}},
-             AutoDelete -> False, 
-            GridBoxItemSize -> {
-             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-            GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], "\"\"", 
-          "\"\"", 
-          TagBox[
-           ButtonBox[
-            TagBox[
-             PaneSelectorBox[{False -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
-                True -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                 None]}, 
-              Dynamic[
-               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-              FrameMargins -> 0], 
-             MouseAppearanceTag["LinkHand"]], 
-            ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-             FunctionResource`DefinitionNotebook`Private`deleteMe[
-              "fcecbc66-4637-4b6f-b312-6772f1775129"]), Appearance -> None, 
-            BoxID -> "fcecbc66-4637-4b6f-b312-6772f1775129", Evaluator -> 
-            Automatic, Method -> "Preemptive"], 
-           MouseAppearanceTag["LinkHand"]]}}, 
-        GridBoxAlignment -> {
-         "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-          "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-        GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-            Scaled[0.35], Automatic, Fit, Automatic}, 
-          "Rows" -> {{Automatic}}}], "Grid"], 
-      FunctionResource`DefinitionNotebook`Private`$checkStripe], "Text", 
-     FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
-   "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
-  Cell[
-   BoxData[
-    StyleBox[
-     TagBox[
-      DynamicModuleBox[{Typeset`var$$ = False}, 
-       InterpretationBox[
-        StyleBox[
-         PaneSelectorBox[{False -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.77150752945617`16.32908996824042*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
                     
                     GridBox[{{
                     "\"Your resource has been submitted for review.\"", 
@@ -4741,99 +3594,8 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
                     GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
                    TagBox[
                     GridBox[{{"\"Submission ID:\"", 
-                    TemplateBox[{"\"8629\"", 
-                    RawBoxes["\"8629\""]}, "ClickToCopyTemplate"]}}, 
-                    AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-                    "Grid"], "\"\"", 
-                   TagBox[
-                    ButtonBox[
-                    TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], 
-                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
-                    FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "80ea2cc5-27cf-4aba-b779-8c068399f0ef"]), Appearance -> 
-                    None, BoxID -> "80ea2cc5-27cf-4aba-b779-8c068399f0ef", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                    MouseAppearanceTag["LinkHand"]]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
-                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
-                    Scaled[0.35], Automatic, Fit, Automatic}, 
-                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
-             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
-              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-             BaselinePosition -> {1, 1}], True -> GridBox[{{
-               OpenerBox[
-                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                Automatic, AutoAction -> False, ContinuousAction -> False], 
-               TagBox[
-                GridBox[{{
-                   StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.77150752945617`16.32908996824042*^9, TimeZone -> 0]], {
-                    "MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False], "\"   \"", 
-                   TagBox[
-                    
-                    GridBox[{{
-                    "\"Your resource has been submitted for review.\"", 
-                    "\"\""}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   TagBox[
-                    GridBox[{{"\"Submission ID:\"", 
-                    TemplateBox[{"\"8629\"", 
-                    RawBoxes["\"8629\""]}, "ClickToCopyTemplate"]}}, 
+                    TemplateBox[{"\"0640\"", 
+                    RawBoxes["\"0640\""]}, "ClickToCopyTemplate"]}}, 
                     AutoDelete -> False, 
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
@@ -4878,8 +3640,8 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
                     MouseAppearanceTag["LinkHand"]], 
                     ButtonFunction :> (Symbol["System`ResourceFunction"]; 
                     FunctionResource`DefinitionNotebook`Private`deleteMe[
-                    "80ea2cc5-27cf-4aba-b779-8c068399f0ef"]), Appearance -> 
-                    None, BoxID -> "80ea2cc5-27cf-4aba-b779-8c068399f0ef", 
+                    "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d"]), Appearance -> 
+                    None, BoxID -> "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d", 
                     Evaluator -> Automatic, Method -> "Preemptive"], 
                     MouseAppearanceTag["LinkHand"]]}}, 
                  GridBoxAlignment -> {
@@ -4933,7 +3695,7 @@ ChiSquareRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False],
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -4977,7 +3739,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -4995,13 +3757,13 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
-                    "\"1f540efb-05ac-4a08-bd58-b3432a76bf86\"", 
+                    "\"cf0bb246-99ef-4875-aed3-3e2c10854827\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"8629\"", "SummaryItem"]}]}, {
+                    TagBox["\"0640\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
@@ -5015,7 +3777,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Sun 7 Jul 2019 12:58:49\"", 
+                    RowBox[{"\"Mon 8 Jul 2019 13:46:47\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -5025,8 +3787,8 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2019", ",", "7", ",", "7", ",", "12", ",", "58", 
-                    ",", "49.096167`8.44362256332071"}], "}"}], ",", 
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "13", ",", "46", 
+                    ",", "47.894848`8.432863775652656"}], "}"}], ",", 
                     "\"Instant\"", ",", "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -5035,11 +3797,6 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox["\"Copying\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Provisional\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
@@ -5064,16 +3821,16 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "MessageTemplate" -> 
                     "Your resource has been submitted for review. Your \
 submission id is `SubmissionID`.", "MessageParameters" -> 
-                    Association["SubmissionID" -> "8629"], "Name" -> 
+                    Association["SubmissionID" -> "0640"], "Name" -> 
                     "ChiSquareRandomnessTest", "ShortName" -> 
                     "ChiSquareRandomnessTest", "UUID" -> 
-                    "1f540efb-05ac-4a08-bd58-b3432a76bf86", "SubmissionID" -> 
-                    "8629", "ResourceType" -> "Function", "SubmissionDate" -> 
-                    DateObject[{2019, 7, 7, 12, 58, 
-                    49.096167`8.44362256332071}, "Instant", "Gregorian", -4.],
-                     "Status" -> "Copying", "Provisional" -> True]], 
-                    Selectable -> False, Editable -> False, 
-                    SelectWithContents -> True], Short[#, 0.75]& ], 
+                    "cf0bb246-99ef-4875-aed3-3e2c10854827", "SubmissionID" -> 
+                    "0640", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{2019, 7, 8, 13, 46, 
+                    47.894848`8.432863775652656}, "Instant", 
+                    "Gregorian", -4.], "Status" -> "Copying"]], Selectable -> 
+                    False, Editable -> False, SelectWithContents -> True], 
+                    Short[#, 0.75]& ], 
                     RawBoxes[
                     InterpretationBox[
                     RowBox[{
@@ -5109,7 +3866,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5143,9 +3900,8 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     RGBColor[
                     0.3607843137254902, 0.596078431372549, 
                     0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    
+                    ContentPadding -> False, FrameStyle -> None, FrameMargins -> {\
+{0, 0}, {0, 0}}, StripOnInput -> False], 
                     GridBox[{{
                     RowBox[{
                     TagBox[
@@ -5153,7 +3909,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5171,13 +3927,13 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
-                    "\"1f540efb-05ac-4a08-bd58-b3432a76bf86\"", 
+                    "\"cf0bb246-99ef-4875-aed3-3e2c10854827\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"8629\"", "SummaryItem"]}]}, {
+                    TagBox["\"0640\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
@@ -5191,7 +3947,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Sun 7 Jul 2019 12:58:49\"", 
+                    RowBox[{"\"Mon 8 Jul 2019 13:46:47\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -5201,8 +3957,8 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2019", ",", "7", ",", "7", ",", "12", ",", "58", 
-                    ",", "49.096167`8.44362256332071"}], "}"}], ",", 
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "13", ",", "46", 
+                    ",", "47.894848`8.432863775652656"}], "}"}], ",", 
                     "\"Instant\"", ",", "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -5211,11 +3967,6 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox["\"Copying\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Provisional\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
@@ -5240,16 +3991,16 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "MessageTemplate" -> 
                     "Your resource has been submitted for review. Your \
 submission id is `SubmissionID`.", "MessageParameters" -> 
-                    Association["SubmissionID" -> "8629"], "Name" -> 
+                    Association["SubmissionID" -> "0640"], "Name" -> 
                     "ChiSquareRandomnessTest", "ShortName" -> 
                     "ChiSquareRandomnessTest", "UUID" -> 
-                    "1f540efb-05ac-4a08-bd58-b3432a76bf86", "SubmissionID" -> 
-                    "8629", "ResourceType" -> "Function", "SubmissionDate" -> 
-                    DateObject[{2019, 7, 7, 12, 58, 
-                    49.096167`8.44362256332071}, "Instant", "Gregorian", -4.],
-                     "Status" -> "Copying", "Provisional" -> True]], 
-                    Selectable -> False, Editable -> False, 
-                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]}}, 
+                    "cf0bb246-99ef-4875-aed3-3e2c10854827", "SubmissionID" -> 
+                    "0640", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    DateObject[{2019, 7, 8, 13, 46, 
+                    47.894848`8.432863775652656}, "Instant", 
+                    "Gregorian", -4.], "Status" -> "Copying"]], Selectable -> 
+                    False, Editable -> False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
                     False, GridBoxItemSize -> {
                     "Columns" -> {Automatic, Automatic, Fit}, 
@@ -5281,7 +4032,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                DateString[
                 TimeZoneConvert[
                  DateObject[
-                 3.77150752945617`16.32908996824042*^9, TimeZone -> 0]], {
+                 3.771596808384204`16.329100248714894*^9, TimeZone -> 0]], {
                 "MonthName", " ", "DayShort", ", ", "Year", " ", 
                  "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
@@ -5292,8 +4043,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
               Spacings -> 0.25], 
              Grid[{{"Submission ID:", 
                 RawBoxes[
-                 TemplateBox[{"\"8629\"", 
-                   RawBoxes["\"8629\""]}, "ClickToCopyTemplate"]]}}], "", 
+                 TemplateBox[{"\"0640\"", 
+                   RawBoxes["\"0640\""]}, "ClickToCopyTemplate"]]}}], "", 
              MouseAppearance[
               Button[
                MouseAppearance[
@@ -5329,8 +4080,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                   PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
                   None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
                FunctionResource`DefinitionNotebook`Private`deleteMe[
-                "80ea2cc5-27cf-4aba-b779-8c068399f0ef"], Appearance -> None, 
-               BoxID -> "80ea2cc5-27cf-4aba-b779-8c068399f0ef"], 
+                "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d"], Appearance -> None, 
+               BoxID -> "e4cefb41-dc4b-48eb-8fd4-d45fd317e42d"], 
               "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
               Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
            Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
@@ -5374,7 +4125,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5419,7 +4170,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5436,13 +4187,14 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TagBox[
                     TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"1f540efb-05ac-4a08-bd58-b3432a76bf86\"", 
+                    TagBox[
+                    "\"cf0bb246-99ef-4875-aed3-3e2c10854827\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"8629\"", "SummaryItem"]}]}, {
+                    TagBox["\"0640\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
@@ -5456,7 +4208,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Sun 7 Jul 2019 12:58:49\"", 
+                    RowBox[{"\"Mon 8 Jul 2019 13:46:47\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -5466,8 +4218,8 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2019", ",", "7", ",", "7", ",", "12", ",", "58", 
-                    ",", "49.096167`8.44362256332071"}], "}"}], ",", 
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "13", ",", "46", 
+                    ",", "47.894848`8.432863775652656"}], "}"}], ",", 
                     "\"Instant\"", ",", "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -5476,11 +4228,6 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox["\"Copying\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Provisional\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
@@ -5506,20 +4253,21 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "MessageTemplate" -> 
                     "Your resource has been submitted for review. Your \
 submission id is `SubmissionID`.", "MessageParameters" -> 
-                    Association["SubmissionID" -> "8629"], "Name" -> 
+                    Association["SubmissionID" -> "0640"], "Name" -> 
                     "ChiSquareRandomnessTest", "ShortName" -> 
                     "ChiSquareRandomnessTest", "UUID" -> 
-                    "1f540efb-05ac-4a08-bd58-b3432a76bf86", "SubmissionID" -> 
-                    "8629", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    "cf0bb246-99ef-4875-aed3-3e2c10854827", "SubmissionID" -> 
+                    "0640", "ResourceType" -> "Function", "SubmissionDate" -> 
                     DateObject[{
-                    2019, 7, 7, 12, 58, 49.096167`8.44362256332071}, 
-                    "Instant", "Gregorian", -4.], "Status" -> "Copying", 
-                    "Provisional" -> True]], Selectable -> False, Editable -> 
-                    False, SelectWithContents -> True], Short[#, 0.75]& ], 
+                    2019, 7, 8, 13, 46, 47.894848`8.432863775652656}, 
+                    "Instant", "Gregorian", -4.], "Status" -> "Copying"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True], Short[#, 0.75]& ], 
                     RawBoxes[
                     InterpretationBox[
                     RowBox[{
                     TagBox["Success", "SummaryHead"], "[", 
+                    
                     DynamicModuleBox[{
                     Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
                     TemplateBox[{
@@ -5550,7 +4298,7 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5595,7 +4343,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     "\"Your resource has been submitted for review. Your \
-submission id is 8629.\"", "SummaryItem"]}]}, {
+submission id is 0640.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Name\"", "\": \""}, "RowDefault"], 
@@ -5613,13 +4361,13 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"UUID\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
-                    "\"1f540efb-05ac-4a08-bd58-b3432a76bf86\"", 
+                    "\"cf0bb246-99ef-4875-aed3-3e2c10854827\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"SubmissionID\"", "\": \""}, "RowDefault"],
                      "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["\"8629\"", "SummaryItem"]}]}, {
+                    TagBox["\"0640\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"ResourceType\"", "\": \""}, "RowDefault"],
@@ -5633,7 +4381,7 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Sun 7 Jul 2019 12:58:49\"", 
+                    RowBox[{"\"Mon 8 Jul 2019 13:46:47\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -5643,8 +4391,8 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2019", ",", "7", ",", "7", ",", "12", ",", "58", 
-                    ",", "49.096167`8.44362256332071"}], "}"}], ",", 
+                    RowBox[{"2019", ",", "7", ",", "8", ",", "13", ",", "46", 
+                    ",", "47.894848`8.432863775652656"}], "}"}], ",", 
                     "\"Instant\"", ",", "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -5653,11 +4401,6 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     TemplateBox[{"\"Status\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox["\"Copying\"", "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Provisional\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox["True", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
@@ -5683,17 +4426,17 @@ submission id is 8629.\"", "SummaryItem"]}]}, {
                     "MessageTemplate" -> 
                     "Your resource has been submitted for review. Your \
 submission id is `SubmissionID`.", "MessageParameters" -> 
-                    Association["SubmissionID" -> "8629"], "Name" -> 
+                    Association["SubmissionID" -> "0640"], "Name" -> 
                     "ChiSquareRandomnessTest", "ShortName" -> 
                     "ChiSquareRandomnessTest", "UUID" -> 
-                    "1f540efb-05ac-4a08-bd58-b3432a76bf86", "SubmissionID" -> 
-                    "8629", "ResourceType" -> "Function", "SubmissionDate" -> 
+                    "cf0bb246-99ef-4875-aed3-3e2c10854827", "SubmissionID" -> 
+                    "0640", "ResourceType" -> "Function", "SubmissionDate" -> 
                     DateObject[{
-                    2019, 7, 7, 12, 58, 49.096167`8.44362256332071}, 
-                    "Instant", "Gregorian", -4.], "Status" -> "Copying", 
-                    "Provisional" -> True]], Selectable -> False, Editable -> 
-                    False, SelectWithContents -> True]]}, 
-                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+                    2019, 7, 8, 13, 46, 47.894848`8.432863775652656}, 
+                    "Instant", "Gregorian", -4.], "Status" -> "Copying"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}}, 
+               Alignment -> Left, 
                ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
               FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
            ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
@@ -5711,7 +4454,7 @@ TaggingRules->{
     FrontEndObject[
      LinkObject["jv6wa_shm", 3, 1]], 271]},
 CreateCellID->True,
-FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -6430,7 +5173,8 @@ peOfCD7MPTA+zL0yUSnW9/sV4Hxw/DgpQOL7igUkfi8qwsMHAHSDTZ8=
                     StripOnInput -> False]}}, 
                   GridBoxAlignment -> {
                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
-                  False, GridBoxDividers -> {
+                  False, 
+                  GridBoxDividers -> {
                    "ColumnsIndexed" -> {2 -> GrayLevel[1]}, 
                     "Rows" -> {{None}}}, 
                   GridBoxItemSize -> {
@@ -6656,7 +5400,6 @@ submitRepositoryUpdate[
                     GraphicsBox[{
                     Thickness[0.06349206349206349], 
                     StyleBox[{
-                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -6697,7 +5440,8 @@ eU8aPfbS9kxawAvxnrSCx3c3XzbS6JX4RFrAS34B53ckaw==
                     AspectRatio -> 1.15], "\"Submit to Repository\""}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
+                    False, 
+                    GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {
                     "Columns" -> {{0}}, "ColumnsIndexed" -> {2 -> 0.5}, 
@@ -7062,9 +5806,8 @@ ACBxmlc=
     ShowStringCharacters -> False, FontSlant -> "Italic", FontColor -> 
     GrayLevel[0.5]], 
    Cell[
-    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, 
-  WindowMargins -> {{316, Automatic}, {-80, Automatic}}, Visible -> False, 
-  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 11, 2019)", 
+    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, Visible -> 
+  False, FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -7086,40 +5829,40 @@ CellTagsIndex->{
   Cell[4160, 99, 3142, 83, 179, "Input",ExpressionUUID->"6b1c2e3d-e209-4df0-8795-ebafec255509",
    CellTags->"TabNext",
    CellID->778396829],
-  Cell[12719, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
+  Cell[12762, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
    CellTags->"TabNext",
    CellID->410373307],
-  Cell[13281, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
+  Cell[13324, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
    CellTags->"TabNext",
    CellID->584004037],
-  Cell[14517, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
+  Cell[14560, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
    CellTags->"TabNext",
    CellID->1728765464],
-  Cell[15080, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
+  Cell[15123, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
    CellTags->"TabNext",
    CellID->2054893185],
-  Cell[16316, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
+  Cell[16359, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
    CellTags->"TabNext",
    CellID->1201398026],
-  Cell[17081, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
+  Cell[17124, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
    CellTags->"TabNext",
    CellID->1255373888],
-  Cell[19869, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
+  Cell[19912, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
    CellTags->"TabNext",
    CellID->521904482],
-  Cell[152312, 3037, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
+  Cell[152355, 3037, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
    CellTags->"TabNext",
    CellID->832483124],
-  Cell[154093, 3084, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
+  Cell[154136, 3084, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
    CellTags->"TabNext",
    CellID->123227828],
-  Cell[163083, 3333, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
+  Cell[163126, 3333, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
    CellTags->"TabNext",
    CellID->343081869],
-  Cell[165716, 3402, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
+  Cell[165759, 3402, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
    CellTags->"TabNext",
    CellID->567921317],
-  Cell[167276, 3441, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
+  Cell[167319, 3441, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
    CellTags->"TabNext",
    CellID->920818074]},
  "Description"->{
@@ -7131,93 +5874,93 @@ CellTagsIndex->{
    CellTags->"Definition",
    CellID->474513213]},
  "Documentation"->{
-  Cell[10787, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
+  Cell[10830, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
    CellTags->"Documentation",
    CellID->855965831]},
  "Usage"->{
-  Cell[10966, 286, 1728, 43, 54, "Subsection",ExpressionUUID->"e2ee89b1-1f81-43c8-8b27-39320e134b17",
+  Cell[11009, 286, 1728, 43, 54, "Subsection",ExpressionUUID->"e2ee89b1-1f81-43c8-8b27-39320e134b17",
    CellTags->"Usage",
    CellID->310800389]},
  "Details & Options"->{
-  Cell[18600, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
+  Cell[18643, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
    CellTags->"Details & Options",
    CellID->66019318]},
  "Examples"->{
-  Cell[22361, 573, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
+  Cell[22404, 573, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
    CellTags->"Examples",
    CellID->180595041]},
  "Source & Additional Information"->{
-  Cell[151298, 3009, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
+  Cell[151341, 3009, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
    CellTags->"Source & Additional Information",
    CellID->318391102]},
  "Contributed By"->{
-  Cell[151513, 3016, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
+  Cell[151556, 3016, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
    CellTags->"Contributed By",
    CellID->127820888]},
  "Keywords"->{
-  Cell[153271, 3061, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
+  Cell[153314, 3061, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
    CellTags->"Keywords",
    CellID->547400482]},
  "Categories"->{
-  Cell[155293, 3109, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
+  Cell[155336, 3109, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
    CellTags->"Categories",
    CellID->749076926]},
  "CategoriesCell"->{
-  Cell[155477, 3115, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
+  Cell[155520, 3115, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
    CellTags->"CategoriesCell",
    CellID->1894707987]},
  "Related Symbols"->{
-  Cell[160106, 3254, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
+  Cell[160149, 3254, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
    CellTags->"Related Symbols",
    CellID->161079978]},
  "Related Resource Objects"->{
-  Cell[161097, 3282, 892, 20, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
+  Cell[161140, 3282, 892, 20, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
    CellTags->"Related Resource Objects",
    CellID->588449267]},
  "Source/Reference Citation"->{
-  Cell[162205, 3311, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
+  Cell[162248, 3311, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
    CellTags->"Source/Reference Citation",
    CellID->642091068]},
  "Links"->{
-  Cell[163884, 3349, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
+  Cell[163927, 3349, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
    CellTags->"Links",
    CellID->521525586]},
  "Tests"->{
-  Cell[164614, 3370, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
+  Cell[164657, 3370, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
    CellTags->"Tests",
    CellID->74308299]},
  "Author Notes"->{
-  Cell[165531, 3396, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
+  Cell[165574, 3396, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
    CellTags->"Author Notes",
    CellID->795110225]},
  "Submission Notes"->{
-  Cell[166440, 3419, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
+  Cell[166483, 3419, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
    CellTags->"Submission Notes",
    CellID->843283583]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 357552, 7074},
- {"TabNext", 357718, 7078},
- {"Description", 359966, 7124},
- {"Definition", 360142, 7128},
- {"Documentation", 360310, 7132},
- {"Usage", 360473, 7136},
- {"Details & Options", 360645, 7140},
- {"Examples", 360819, 7144},
- {"Source & Additional Information", 361006, 7148},
- {"Contributed By", 361198, 7152},
- {"Keywords", 361371, 7156},
- {"Categories", 361540, 7160},
- {"CategoriesCell", 361714, 7164},
- {"Related Symbols", 361894, 7168},
- {"Related Resource Objects", 362084, 7172},
- {"Source/Reference Citation", 362284, 7176},
- {"Links", 362465, 7180},
- {"Tests", 362626, 7184},
- {"Author Notes", 362793, 7188},
- {"Submission Notes", 362968, 7192}
+ {"Title", 291529, 5817},
+ {"TabNext", 291695, 5821},
+ {"Description", 293943, 5867},
+ {"Definition", 294119, 5871},
+ {"Documentation", 294287, 5875},
+ {"Usage", 294450, 5879},
+ {"Details & Options", 294622, 5883},
+ {"Examples", 294796, 5887},
+ {"Source & Additional Information", 294983, 5891},
+ {"Contributed By", 295175, 5895},
+ {"Keywords", 295348, 5899},
+ {"Categories", 295517, 5903},
+ {"CategoriesCell", 295691, 5907},
+ {"Related Symbols", 295871, 5911},
+ {"Related Resource Objects", 296061, 5915},
+ {"Source/Reference Citation", 296261, 5919},
+ {"Links", 296442, 5923},
+ {"Tests", 296603, 5927},
+ {"Author Notes", 296770, 5931},
+ {"Submission Notes", 296945, 5935}
  }
 *)
 (*NotebookFileOutline
@@ -7242,270 +5985,270 @@ Cell[4160, 99, 3142, 83, 179, "Input",ExpressionUUID->"6b1c2e3d-e209-4df0-8795-e
  CellID->778396829],
 Cell[7305, 184, 288, 5, 35, "Text",ExpressionUUID->"2a55704a-cac9-43c2-bfbb-c06d33a30efc",
  CellID->1008763850],
-Cell[7596, 191, 3154, 83, 207, "Input",ExpressionUUID->"c4037ed0-9672-47ae-a4d7-01295821de8c",
+Cell[7596, 191, 3197, 83, 207, "Input",ExpressionUUID->"c4037ed0-9672-47ae-a4d7-01295821de8c",
  CellID->1366173671]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10787, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
+Cell[10830, 279, 154, 3, 67, "Section",ExpressionUUID->"4579020d-5cfa-4c1e-9ee0-c790c8d642db",
  CellTags->"Documentation",
  CellID->855965831],
 Cell[CellGroupData[{
-Cell[10966, 286, 1728, 43, 54, "Subsection",ExpressionUUID->"e2ee89b1-1f81-43c8-8b27-39320e134b17",
+Cell[11009, 286, 1728, 43, 54, "Subsection",ExpressionUUID->"e2ee89b1-1f81-43c8-8b27-39320e134b17",
  CellTags->"Usage",
  CellID->310800389],
 Cell[CellGroupData[{
-Cell[12719, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
+Cell[12762, 333, 559, 11, 27, "UsageInputs",ExpressionUUID->"90eb2d71-f246-438a-941f-164b82f148be",
  CellTags->"TabNext",
  CellID->410373307],
-Cell[13281, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
+Cell[13324, 346, 1199, 30, 27, "UsageDescription",ExpressionUUID->"88240234-fc74-4f0b-87af-c9a072405b39",
  CellTags->"TabNext",
  CellID->584004037]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14517, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
+Cell[14560, 381, 560, 11, 27, "UsageInputs",ExpressionUUID->"6e7714f8-e93f-4f3a-bc16-74330cbf7827",
  CellTags->"TabNext",
  CellID->1728765464],
-Cell[15080, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
+Cell[15123, 394, 1199, 30, 27, "UsageDescription",ExpressionUUID->"16cd75b3-1df8-4d84-9ca4-6adcb6c02ffa",
  CellTags->"TabNext",
  CellID->2054893185]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16316, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
+Cell[16359, 429, 762, 15, 27, "UsageInputs",ExpressionUUID->"85345822-5c2c-4b49-8ade-48435a23fb2b",
  CellTags->"TabNext",
  CellID->1201398026],
-Cell[17081, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
+Cell[17124, 446, 1470, 36, 27, "UsageDescription",ExpressionUUID->"1c9c6b44-7b4b-4901-adb8-297e7750ba09",
  CellTags->"TabNext",
  CellID->1255373888]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18600, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
+Cell[18643, 488, 1244, 25, 54, "Subsection",ExpressionUUID->"ec0d1260-45e4-4ccf-ba86-20ed5bcd58dc",
  CellTags->"Details & Options",
  CellID->66019318],
 Cell[CellGroupData[{
-Cell[19869, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
+Cell[19912, 517, 831, 14, 32, "Notes",ExpressionUUID->"d9ac4803-d874-4e74-bc71-e566dd2a1f60",
  CellTags->"TabNext",
  CellID->521904482],
-Cell[20703, 533, 724, 12, 70, "TableNotes",ExpressionUUID->"899ae3f1-e565-4167-8b86-4b12cd27e395",
+Cell[20746, 533, 724, 12, 70, "TableNotes",ExpressionUUID->"899ae3f1-e565-4167-8b86-4b12cd27e395",
  CellID->1532378813],
-Cell[21430, 547, 294, 5, 32, "Notes",ExpressionUUID->"5cfdaa40-fb95-49ff-8732-4dd085d4d131",
+Cell[21473, 547, 294, 5, 32, "Notes",ExpressionUUID->"5cfdaa40-fb95-49ff-8732-4dd085d4d131",
  CellID->1869827803],
-Cell[21727, 554, 289, 5, 32, "Notes",ExpressionUUID->"1ed40162-3dc7-4be1-b84b-4ae4915dfa1b",
+Cell[21770, 554, 289, 5, 32, "Notes",ExpressionUUID->"1ed40162-3dc7-4be1-b84b-4ae4915dfa1b",
  CellID->356180727],
-Cell[22019, 561, 281, 5, 32, "Notes",ExpressionUUID->"4d21e6b0-0e7f-4896-afc7-8937e87b5436",
+Cell[22062, 561, 281, 5, 32, "Notes",ExpressionUUID->"4d21e6b0-0e7f-4896-afc7-8937e87b5436",
  CellID->2145563710]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22361, 573, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
+Cell[22404, 573, 6513, 144, 68, "Section",ExpressionUUID->"3c0f32a2-8dfd-4eaf-8a82-2232423b509e",
  CellTags->"Examples",
  CellID->180595041],
 Cell[CellGroupData[{
-Cell[28899, 721, 346, 6, 54, "Subsection",ExpressionUUID->"1034028f-93d8-4021-979b-a2c75b8e9b51",
+Cell[28942, 721, 346, 6, 54, "Subsection",ExpressionUUID->"1034028f-93d8-4021-979b-a2c75b8e9b51",
  CellID->462042388],
-Cell[29248, 729, 289, 5, 35, "Text",ExpressionUUID->"b5296509-450d-4eca-b919-e3125e422249",
+Cell[29291, 729, 289, 5, 35, "Text",ExpressionUUID->"b5296509-450d-4eca-b919-e3125e422249",
  CellID->13078159],
-Cell[29540, 736, 366, 10, 30, "Input",ExpressionUUID->"e87ba7aa-08f1-4590-afe6-4aeb9845b4de",
+Cell[29583, 736, 366, 10, 30, "Input",ExpressionUUID->"e87ba7aa-08f1-4590-afe6-4aeb9845b4de",
  CellID->771105549],
-Cell[29909, 748, 823, 20, 35, "Text",ExpressionUUID->"d50ddd93-e538-42b8-b546-cebda62eff31",
+Cell[29952, 748, 823, 20, 35, "Text",ExpressionUUID->"d50ddd93-e538-42b8-b546-cebda62eff31",
  CellID->942238246],
 Cell[CellGroupData[{
-Cell[30757, 772, 1330, 31, 34, "Input",ExpressionUUID->"e60875e4-13e3-46c5-aadd-37ed8f0ec3ce",
+Cell[30800, 772, 1330, 31, 34, "Input",ExpressionUUID->"e60875e4-13e3-46c5-aadd-37ed8f0ec3ce",
  CellID->524633794],
-Cell[32090, 805, 1527, 33, 183, "Output",ExpressionUUID->"5ceac37a-fc45-4be8-96de-2ef85939f411",
+Cell[32133, 805, 1527, 33, 183, "Output",ExpressionUUID->"5ceac37a-fc45-4be8-96de-2ef85939f411",
  CellID->1129538507]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33654, 843, 318, 6, 30, "Input",ExpressionUUID->"3dc54bc2-5358-4c97-b740-ba89973ecb55",
+Cell[33697, 843, 318, 6, 30, "Input",ExpressionUUID->"3dc54bc2-5358-4c97-b740-ba89973ecb55",
  CellID->954404241],
-Cell[33975, 851, 218, 4, 51, "Output",ExpressionUUID->"950a9e10-16a4-4acf-9d5c-614749e7c4c3",
+Cell[34018, 851, 218, 4, 51, "Output",ExpressionUUID->"950a9e10-16a4-4acf-9d5c-614749e7c4c3",
  CellID->1352626255]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34230, 860, 336, 6, 30, "Input",ExpressionUUID->"e2f5d44d-005c-4518-9e7d-bb1d39725ea0",
+Cell[34273, 860, 336, 6, 30, "Input",ExpressionUUID->"e2f5d44d-005c-4518-9e7d-bb1d39725ea0",
  CellID->431240592],
-Cell[34569, 868, 240, 4, 34, "Output",ExpressionUUID->"9d76cd0f-251f-4059-9cf1-125ace888d14",
+Cell[34612, 868, 240, 4, 34, "Output",ExpressionUUID->"9d76cd0f-251f-4059-9cf1-125ace888d14",
  CellID->1190656195]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34846, 877, 243, 5, 33, "ExampleDelimiter",ExpressionUUID->"9e6bdc5a-b22e-409d-8061-9d0926925a37",
+Cell[34889, 877, 243, 5, 33, "ExampleDelimiter",ExpressionUUID->"9e6bdc5a-b22e-409d-8061-9d0926925a37",
  CellID->1688042150],
-Cell[35092, 884, 290, 5, 35, "Text",ExpressionUUID->"b424142e-0ac4-41d6-980c-da3c28793ac8",
+Cell[35135, 884, 290, 5, 35, "Text",ExpressionUUID->"b424142e-0ac4-41d6-980c-da3c28793ac8",
  CellID->1912975356],
-Cell[35385, 891, 364, 10, 30, "Input",ExpressionUUID->"a6626910-9424-4445-ba4e-e2a153a05118",
+Cell[35428, 891, 364, 10, 30, "Input",ExpressionUUID->"a6626910-9424-4445-ba4e-e2a153a05118",
  CellID->1297948717],
-Cell[35752, 903, 826, 20, 35, "Text",ExpressionUUID->"92eeb36e-3d87-464f-a7cf-d44ab6da3814",
+Cell[35795, 903, 826, 20, 35, "Text",ExpressionUUID->"92eeb36e-3d87-464f-a7cf-d44ab6da3814",
  CellID->1094108079],
 Cell[CellGroupData[{
-Cell[36603, 927, 1281, 30, 34, "Input",ExpressionUUID->"95654acf-7aaf-42dd-96bb-364ecf3cec8e",
+Cell[36646, 927, 1281, 30, 34, "Input",ExpressionUUID->"95654acf-7aaf-42dd-96bb-364ecf3cec8e",
  CellID->365838601],
-Cell[37887, 959, 31186, 519, 183, "Output",ExpressionUUID->"ea44e51d-c140-4811-9163-a79ae24aaf26",
+Cell[37930, 959, 31186, 519, 183, "Output",ExpressionUUID->"ea44e51d-c140-4811-9163-a79ae24aaf26",
  CellID->1210222517]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69110, 1483, 291, 5, 30, "Input",ExpressionUUID->"b778590d-7aac-46c7-bb98-4b754773a06f",
+Cell[69153, 1483, 291, 5, 30, "Input",ExpressionUUID->"b778590d-7aac-46c7-bb98-4b754773a06f",
  CellID->916634257],
-Cell[69404, 1490, 197, 3, 34, "Output",ExpressionUUID->"697637d2-fb0d-4a77-83b0-aa7c4b8b8034",
+Cell[69447, 1490, 197, 3, 34, "Output",ExpressionUUID->"697637d2-fb0d-4a77-83b0-aa7c4b8b8034",
  CellID->1206962272]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69638, 1498, 287, 5, 30, "Input",ExpressionUUID->"cf0a4d5f-6eca-4437-9009-25865ef79a1c",
+Cell[69681, 1498, 287, 5, 30, "Input",ExpressionUUID->"cf0a4d5f-6eca-4437-9009-25865ef79a1c",
  CellID->674643075],
-Cell[69928, 1505, 188, 3, 34, "Output",ExpressionUUID->"0fd7916a-8174-4160-a8b4-323a1078f7c2",
+Cell[69971, 1505, 188, 3, 34, "Output",ExpressionUUID->"0fd7916a-8174-4160-a8b4-323a1078f7c2",
  CellID->1058656937]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70165, 1514, 242, 5, 33, "ExampleDelimiter",ExpressionUUID->"6172c997-80a3-4eb1-af6a-908db7409bef",
+Cell[70208, 1514, 242, 5, 33, "ExampleDelimiter",ExpressionUUID->"6172c997-80a3-4eb1-af6a-908db7409bef",
  CellID->177693041],
-Cell[70410, 1521, 252, 5, 35, "Text",ExpressionUUID->"5d097360-625f-4aec-965a-ac1b0f126249",
+Cell[70453, 1521, 252, 5, 35, "Text",ExpressionUUID->"5d097360-625f-4aec-965a-ac1b0f126249",
  CellID->2078625853],
-Cell[70665, 1528, 356, 9, 30, "Input",ExpressionUUID->"d53f31e2-86f0-479f-ad0b-d65478d1b2dc",
+Cell[70708, 1528, 356, 9, 30, "Input",ExpressionUUID->"d53f31e2-86f0-479f-ad0b-d65478d1b2dc",
  CellID->1774611697],
-Cell[71024, 1539, 181, 2, 35, "Text",ExpressionUUID->"2d5150fe-6e74-44c1-9332-bdf315c52745",
+Cell[71067, 1539, 181, 2, 35, "Text",ExpressionUUID->"2d5150fe-6e74-44c1-9332-bdf315c52745",
  CellID->1141236796],
 Cell[CellGroupData[{
-Cell[71230, 1545, 1333, 31, 34, "Input",ExpressionUUID->"e8cf8829-53f2-41dc-a4c1-d9939c70aea0",
+Cell[71273, 1545, 1333, 31, 34, "Input",ExpressionUUID->"e8cf8829-53f2-41dc-a4c1-d9939c70aea0",
  CellID->1979401808],
-Cell[72566, 1578, 31126, 519, 183, "Output",ExpressionUUID->"e1ed89d4-441d-44fd-9e27-ca898787bf94",
+Cell[72609, 1578, 31126, 519, 183, "Output",ExpressionUUID->"e1ed89d4-441d-44fd-9e27-ca898787bf94",
  CellID->1466219184]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[103729, 2102, 331, 6, 30, "Input",ExpressionUUID->"c1c8e22c-7464-4528-83b3-e892664511af",
+Cell[103772, 2102, 331, 6, 30, "Input",ExpressionUUID->"c1c8e22c-7464-4528-83b3-e892664511af",
  CellID->1921074434],
-Cell[104063, 2110, 3118, 59, 242, "Output",ExpressionUUID->"80723a3d-fedd-4708-99e5-8be620f75513",
+Cell[104106, 2110, 3118, 59, 242, "Output",ExpressionUUID->"80723a3d-fedd-4708-99e5-8be620f75513",
  CellID->137986306]
 }, Open  ]],
-Cell[107196, 2172, 914, 21, 35, "Text",ExpressionUUID->"3b34eeec-366b-4248-a532-cdcd9ff091bc",
+Cell[107239, 2172, 914, 21, 35, "Text",ExpressionUUID->"3b34eeec-366b-4248-a532-cdcd9ff091bc",
  CellID->1494721804],
-Cell[108113, 2195, 414, 10, 30, "Input",ExpressionUUID->"9664808c-b077-4482-b66d-f7a96d3c53ac",
+Cell[108156, 2195, 414, 10, 30, "Input",ExpressionUUID->"9664808c-b077-4482-b66d-f7a96d3c53ac",
  CellID->1535629711],
-Cell[108530, 2207, 192, 2, 35, "Text",ExpressionUUID->"03a15a16-04ef-4502-b636-47b1016d29f1",
+Cell[108573, 2207, 192, 2, 35, "Text",ExpressionUUID->"03a15a16-04ef-4502-b636-47b1016d29f1",
  CellID->836620557],
 Cell[CellGroupData[{
-Cell[108747, 2213, 1343, 31, 34, "Input",ExpressionUUID->"90185a50-3d97-493f-b533-01205e79b932",
+Cell[108790, 2213, 1343, 31, 34, "Input",ExpressionUUID->"90185a50-3d97-493f-b533-01205e79b932",
  CellID->465604369],
-Cell[110093, 2246, 31219, 520, 183, "Output",ExpressionUUID->"ba236e4b-07c2-4d8a-9e4c-ae7a07b9160c",
+Cell[110136, 2246, 31219, 520, 183, "Output",ExpressionUUID->"ba236e4b-07c2-4d8a-9e4c-ae7a07b9160c",
  CellID->2033869323]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[141349, 2771, 296, 6, 30, "Input",ExpressionUUID->"b3153431-af10-43ad-9083-953b23c1da9c",
+Cell[141392, 2771, 296, 6, 30, "Input",ExpressionUUID->"b3153431-af10-43ad-9083-953b23c1da9c",
  CellID->1766042889],
-Cell[141648, 2779, 4354, 78, 242, "Output",ExpressionUUID->"9e393ed4-0303-44a0-b1d1-4958ac3515c0",
+Cell[141691, 2779, 4354, 78, 242, "Output",ExpressionUUID->"9e393ed4-0303-44a0-b1d1-4958ac3515c0",
  CellID->906760209]
 }, Open  ]],
-Cell[146017, 2860, 215, 2, 35, "Text",ExpressionUUID->"96304be3-b64a-49ea-a65b-796223199fe6",
+Cell[146060, 2860, 215, 2, 35, "Text",ExpressionUUID->"96304be3-b64a-49ea-a65b-796223199fe6",
  CellID->1818358816],
 Cell[CellGroupData[{
-Cell[146257, 2866, 306, 6, 30, "Input",ExpressionUUID->"9503a805-8757-412b-86d4-87f053a5c9e7",
+Cell[146300, 2866, 306, 6, 30, "Input",ExpressionUUID->"9503a805-8757-412b-86d4-87f053a5c9e7",
  CellID->812290806],
-Cell[146566, 2874, 198, 3, 34, "Output",ExpressionUUID->"bd8deb19-5fd3-488f-a24e-049c3967fa1a",
+Cell[146609, 2874, 198, 3, 34, "Output",ExpressionUUID->"bd8deb19-5fd3-488f-a24e-049c3967fa1a",
  CellID->1389993010]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[146801, 2882, 296, 5, 30, "Input",ExpressionUUID->"c06c7907-a0d4-40e1-a97e-3e8e9e30d6dc",
+Cell[146844, 2882, 296, 5, 30, "Input",ExpressionUUID->"c06c7907-a0d4-40e1-a97e-3e8e9e30d6dc",
  CellID->386579685],
-Cell[147100, 2889, 190, 3, 34, "Output",ExpressionUUID->"fdb21afc-af02-479e-acc4-089b6ec0f9ef",
+Cell[147143, 2889, 190, 3, 34, "Output",ExpressionUUID->"fdb21afc-af02-479e-acc4-089b6ec0f9ef",
  CellID->1269833104]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[147351, 2899, 344, 6, 54, "Subsection",ExpressionUUID->"ebdb3ed2-33f9-473d-9d98-5c89c753e9c8",
+Cell[147394, 2899, 344, 6, 54, "Subsection",ExpressionUUID->"ebdb3ed2-33f9-473d-9d98-5c89c753e9c8",
  CellID->568056528],
-Cell[147698, 2907, 202, 2, 35, "Text",ExpressionUUID->"4f28f28b-3b11-44d3-a81d-4c69285ca080",
+Cell[147741, 2907, 202, 2, 35, "Text",ExpressionUUID->"4f28f28b-3b11-44d3-a81d-4c69285ca080",
  CellID->2049052413],
-Cell[147903, 2911, 572, 16, 30, "Input",ExpressionUUID->"362e9437-24d0-418d-952a-3bba3d34fdc4",
+Cell[147946, 2911, 572, 16, 30, "Input",ExpressionUUID->"362e9437-24d0-418d-952a-3bba3d34fdc4",
  CellID->2111465485],
 Cell[CellGroupData[{
-Cell[148500, 2931, 1247, 30, 34, "Input",ExpressionUUID->"bd440d6f-bf08-4e1d-8ee1-8ab88874e3a4",
+Cell[148543, 2931, 1247, 30, 34, "Input",ExpressionUUID->"bd440d6f-bf08-4e1d-8ee1-8ab88874e3a4",
  CellID->1158032380],
-Cell[149750, 2963, 1007, 25, 190, "Output",ExpressionUUID->"3b0b4fa8-f79a-4f2e-b5f7-a44913eba699",
+Cell[149793, 2963, 1007, 25, 190, "Output",ExpressionUUID->"3b0b4fa8-f79a-4f2e-b5f7-a44913eba699",
  CellID->1431044291]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150794, 2993, 253, 4, 30, "Input",ExpressionUUID->"2c7d0fa6-6070-4d8d-a7f2-56fb72a9beb0",
+Cell[150837, 2993, 253, 4, 30, "Input",ExpressionUUID->"2c7d0fa6-6070-4d8d-a7f2-56fb72a9beb0",
  CellID->1195759581],
-Cell[151050, 2999, 187, 3, 34, "Output",ExpressionUUID->"21efa139-ab99-4985-bb2d-0aaeb62d0fba",
+Cell[151093, 2999, 187, 3, 34, "Output",ExpressionUUID->"21efa139-ab99-4985-bb2d-0aaeb62d0fba",
  CellID->20765305]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[151298, 3009, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
+Cell[151341, 3009, 190, 3, 67, "Section",ExpressionUUID->"3e55663e-3ea4-4645-a991-9f37a21b465d",
  CellTags->"Source & Additional Information",
  CellID->318391102],
 Cell[CellGroupData[{
-Cell[151513, 3016, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
+Cell[151556, 3016, 796, 19, 54, "Subsection",ExpressionUUID->"8830b1b1-a5a4-481e-82b2-4ac65f23f27e",
  CellTags->"Contributed By",
  CellID->127820888],
-Cell[152312, 3037, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
+Cell[152355, 3037, 922, 19, 81, "Text",ExpressionUUID->"a1c84bd3-ffbe-4f4a-8e08-06d357e55415",
  CellTags->"TabNext",
  CellID->832483124]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[153271, 3061, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
+Cell[153314, 3061, 797, 19, 54, "Subsection",ExpressionUUID->"a8f4a891-0850-4e83-ad63-14a786008ae6",
  CellTags->"Keywords",
  CellID->547400482],
 Cell[CellGroupData[{
-Cell[154093, 3084, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
+Cell[154136, 3084, 585, 9, 32, "Item",ExpressionUUID->"16d585cd-69cf-4e83-9b07-9e906d6c1153",
  CellTags->"TabNext",
  CellID->123227828],
-Cell[154681, 3095, 563, 8, 32, "Item",ExpressionUUID->"1b6d538b-f8b6-4ca3-94bc-0effdb821f8a",
+Cell[154724, 3095, 563, 8, 32, "Item",ExpressionUUID->"1b6d538b-f8b6-4ca3-94bc-0effdb821f8a",
  CellID->965164660]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155293, 3109, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
+Cell[155336, 3109, 181, 4, 54, "Subsection",ExpressionUUID->"3a20eed1-478f-4a07-9b36-86da8cc43d90",
  CellTags->"Categories",
  CellID->749076926],
-Cell[155477, 3115, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
+Cell[155520, 3115, 4592, 134, 326, "Output",ExpressionUUID->"03733da5-6cc3-4bb2-82af-e4e0ab342ff4",
  CellTags->"CategoriesCell",
  CellID->1894707987]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[160106, 3254, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
+Cell[160149, 3254, 774, 19, 54, "Subsection",ExpressionUUID->"11652f47-4a01-49fe-a68d-3894fd0d0669",
  CellTags->"Related Symbols",
  CellID->161079978],
-Cell[160883, 3275, 177, 2, 32, "Item",ExpressionUUID->"bc4dd18a-4453-4099-9d4f-2dab128f549e",
+Cell[160926, 3275, 177, 2, 32, "Item",ExpressionUUID->"bc4dd18a-4453-4099-9d4f-2dab128f549e",
  CellID->555207389]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161097, 3282, 892, 20, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
+Cell[161140, 3282, 892, 20, 54, "Subsection",ExpressionUUID->"9345fb08-d787-426c-9c02-605806dd4740",
  CellTags->"Related Resource Objects",
  CellID->588449267],
-Cell[161992, 3304, 176, 2, 32, "Item",ExpressionUUID->"d68740d8-a5a9-46dd-96cf-75e0a058a626",
+Cell[162035, 3304, 176, 2, 32, "Item",ExpressionUUID->"d68740d8-a5a9-46dd-96cf-75e0a058a626",
  CellID->1484801701]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[162205, 3311, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
+Cell[162248, 3311, 875, 20, 54, "Subsection",ExpressionUUID->"d40e3653-9279-491a-b9b4-05610645df40",
  CellTags->"Source/Reference Citation",
  CellID->642091068],
-Cell[163083, 3333, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
+Cell[163126, 3333, 786, 13, 35, "Text",ExpressionUUID->"4420a4b3-1667-49de-8587-641ea0cecd57",
  CellTags->"TabNext",
  CellID->343081869]
 }, Open  ]],
-Cell[163884, 3349, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
+Cell[163927, 3349, 727, 19, 54, "Subsection",ExpressionUUID->"43ecc122-33d1-4e7a-9dab-1ed7719987c2",
  CellTags->"Links",
  CellID->521525586],
-Cell[164614, 3370, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
+Cell[164657, 3370, 880, 21, 38, "Subsection",ExpressionUUID->"cce416fb-614d-45cb-a87a-5d204e706709",
  CellTags->"Tests",
  CellID->74308299]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[165531, 3396, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
+Cell[165574, 3396, 182, 4, 67, "Section",ExpressionUUID->"3b5af8e8-d6e0-44a9-9410-28fdcc205052",
  CellTags->"Author Notes",
  CellID->795110225],
-Cell[165716, 3402, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
+Cell[165759, 3402, 687, 12, 35, "Text",ExpressionUUID->"766df4c6-a8d8-443d-8dc9-53aba136a085",
  CellTags->"TabNext",
  CellID->567921317]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[166440, 3419, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
+Cell[166483, 3419, 833, 20, 68, "Section",ExpressionUUID->"c9e57480-5ba7-4e5a-aae6-651cc6ed5b2f",
  CellTags->"Submission Notes",
  CellID->843283583],
-Cell[167276, 3441, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
+Cell[167319, 3441, 550, 8, 35, "Text",ExpressionUUID->"f845e7ce-1c8e-4738-91d0-2ebc5efa0be7",
  CellTags->"TabNext",
  CellID->920818074]
 }, Open  ]]

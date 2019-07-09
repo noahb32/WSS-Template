@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    231514,       4871]
+NotebookDataLength[    316291,       6437]
 NotebookOptionsPosition[     81039,       1920]
-NotebookOutlinePosition[    220378,       4612]
-CellTagsIndexPosition[    219659,       4588]
+NotebookOutlinePosition[    305155,       6178]
+CellTagsIndexPosition[    304436,       6154]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2309,8 +2309,8 @@ DockedCells->{
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2353,8 +2353,8 @@ submission id is 2399.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2483,8 +2483,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2527,8 +2527,8 @@ submission id is 2399.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2746,8 +2746,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2791,8 +2792,9 @@ submission id is 2399.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2922,8 +2924,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2939,7 +2942,6 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     TemplateBox[{"\"Message\"", "\": \""}, "RowDefault"], 
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
-                    
                     "\"Your resource has been submitted for review. Your \
 submission id is 2399.\"", "SummaryItem"]}]}, {
                     RowBox[{
@@ -2968,8 +2970,9 @@ submission id is 2399.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -3091,6 +3094,1570 @@ submission id is `SubmissionID`.", "MessageParameters" ->
           False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
      "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
      False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771595732331201`16.329100124808768*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"CUSUMMaxRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771414729273079*^9, 3.771414729276887*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two-tailed p-value of the \
+distribution.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714147295169497`*^9, 3.771414738456707*^9}, {
+                    3.7714147802300777`*^9, 3.771414788137549*^9}}, CellID -> 
+                    2116134340]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 251], 
+                    "ExternalLinks" -> {
+                    Hyperlink[
+                    "NIST Report", 
+                    "https://csrc.nist.gov/publications/detail/sp/800-22/rev-\
+1a/final"]}, "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f/download/\
+DefinitionData"], "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "BinaryRunRandomnessTest"}, "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "N.I.S.T., A Statistical Test Suite for Random and \
+Pseudorandom Number Generators for Cryptographic Applications, Special \
+Publication 800-22, Revision 1a"}], "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "4183ba5f-325b-44af-940b-e7e7523d5c26"]), Appearance -> 
+                    None, BoxID -> "4183ba5f-325b-44af-940b-e7e7523d5c26", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.771595732331201`16.329100124808768*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False], "\"   \"", 
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"CUSUMMaxRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771414729273079*^9, 3.771414729276887*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two-tailed p-value of the \
+distribution.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714147295169497`*^9, 3.771414738456707*^9}, {
+                    3.7714147802300777`*^9, 3.771414788137549*^9}}, CellID -> 
+                    2116134340]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 251], 
+                    "ExternalLinks" -> {
+                    Hyperlink[
+                    "NIST Report", 
+                    "https://csrc.nist.gov/publications/detail/sp/800-22/rev-\
+1a/final"]}, "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f/download/\
+DefinitionData"], "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "BinaryRunRandomnessTest"}, "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "N.I.S.T., A Statistical Test Suite for Random and \
+Pseudorandom Number Generators for Cryptographic Applications, Special \
+Publication 800-22, Revision 1a"}], "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "4183ba5f-325b-44af-940b-e7e7523d5c26"]), Appearance -> 
+                    None, BoxID -> "4183ba5f-325b-44af-940b-e7e7523d5c26", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Left, Left, Right, Right}, 
+                   "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {Automatic, Automatic, 
+                    Scaled[0.35], Automatic, Fit, Automatic}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-9d865724-aaeb-4136-8123-\
+581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    
+                    RowBox[{"\"https://www.wolframcloud.co\"", "\[Ellipsis]", 
+                    "\"ction/CUSUMMaxRandomnessTest\""}], Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {"StandardForm", LineSpacing -> {0, 0}, 
+                    LineBreakWithin -> False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.15], "\"CUSUMMaxRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
+                    "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> Dynamic[{
+                    Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"CUSUMMaxRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    TagBox[
+                    DynamicModuleBox[{ResourceSystemClient`Private`len$$ = 1}, 
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    ButtonBox[
+                    DynamicBox[
+                    ToBoxes[
+                    Replace[
+                    ResourceSystemClient`Private`snipDots[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], Except[
+                    Blank[String]] -> 
+                    Snippet[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], {0}], 
+                    StandardForm]], ButtonFunction :> (
+                    ResourceSystemClient`Private`len$$ = 
+                    Ceiling[ResourceSystemClient`Private`len$$ 1.5]), 
+                    Appearance -> None, BaseStyle -> {}, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], "SummaryItem"]}], 
+                    DynamicModuleValues :> {}], "SummaryItem"], 
+                    "\[SpanFromLeft]"}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> Dynamic[{
+                    Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"CUSUMMaxRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    TagBox[
+                    DynamicModuleBox[{ResourceSystemClient`Private`len$$ = 1}, 
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    ButtonBox[
+                    DynamicBox[
+                    ToBoxes[
+                    Replace[
+                    ResourceSystemClient`Private`snipDots[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], Except[
+                    Blank[String]] -> 
+                    Snippet[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], {0}], 
+                    StandardForm]], ButtonFunction :> (
+                    ResourceSystemClient`Private`len$$ = 
+                    Ceiling[ResourceSystemClient`Private`len$$ 1.5]), 
+                    Appearance -> None, BaseStyle -> {}, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], "SummaryItem"]}], 
+                    DynamicModuleValues :> {}], "SummaryItem"], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"Randomness\"", 
+                    "\"Statistics\""}, "RowWithSeparators"], Short], 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"84e71977-f39c-4f04-8c4d-e2da9f52292f\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "FunctionLocation" -> None]], Selectable -> False, 
+                    Editable -> False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Style[
+              Dynamic[
+               DateString[
+                TimeZoneConvert[
+                 DateObject[
+                 3.771595732331201`16.329100124808768*^9, TimeZone -> 0]], {
+                "MonthName", " ", "DayShort", ", ", "Year", " ", 
+                 "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+               SingleEvaluation -> True, Evaluator -> "System"], FontSlant -> 
+              Italic, FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited],
+              "   ", 
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "\[RightGuillemet]", 
+                 "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"]}}, 
+              Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.45]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.45], "\"CUSUMMaxRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "Version" -> None, 
+                    "Keywords" -> {"Randomness", "Statistics"}, 
+                    "Categories" -> {
+                    "Higher Mathematical Computation", 
+                    "Programming Utilities", 
+                    "Symbolic & Numeric Computation"}, 
+                    "ContributorInformation" -> 
+                    Association[
+                    "ContributedBy" -> 
+                    "Emmy/Noah Blumenthal\nnoahb320@gmail.com\n\
+emmyb320@bu.edu"], "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    StyleBox["sequence", "TI"], "]"}]], "Description" -> 
+                    TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+p-value."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionName"], 
+                    "]"}], "ResourceFunctionHandle"], "[", 
+                    RowBox[{
+                    StyleBox["sequence", "TI"], ",", 
+                    "\"\!\(\*StyleBox[\"properties\", \"TI\"]\)\""}], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "conducts a cumulative sum\[Dash]based randomness test on \
+", 
+                    Cell[
+                    BoxData[
+                    StyleBox["sequence", "TI"]], "InlineFormula", FontFamily -> 
+                    "Source Sans Pro"], 
+                    " that creates a test statistic from the maximum value \
+that a cumulative sums random walk achieves and returns the associated \
+property."}]]}, "Notes" -> {
+                    Cell[
+                    "Properties include:", "Notes", TaggingRules -> {}, 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.7711537115336933`*^9, 
+                    3.77115371729846*^9}, 3.771337535831131*^9}, CellTags -> 
+                    "TabNext", CellID -> 521904482], 
+                    Cell[
+                    BoxData[
+                    GridBox[{{
+                    Cell["\"TestStatistic\"", "TableText"], 
+                    Cell["Returns the test statistic", "TableText"]}, {
+                    Cell["\"PValue\"", "TableText"], 
+                    Cell[
+                    "Returns the p-value associated with the test", 
+                    "TableText"]}}]], "TableNotes", 
+                    CellChangeTimes -> {{3.7711566955233393`*^9, 
+                    3.7711567026915693`*^9}, {3.771156871535736*^9, 
+                    3.771156896970211*^9}, 3.771156992134433*^9, {
+                    3.771164593223517*^9, 3.771164623290739*^9}, {
+                    3.771164673138257*^9, 3.771164675567864*^9}}, CellID -> 
+                    1532378813], 
+                    Cell[
+                    "The test works only for sequences of zeros and ones.", 
+                    "Notes", 
+                    CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.7713375306617403`*^9}}, CellID -> 
+                    1734633867], 
+                    Cell[
+                    "Results are generally invalid for sequence lengths short \
+than 100.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.771414729273079*^9, 3.771414729276887*^9}}, CellID -> 
+                    1754410376], 
+                    Cell[
+                    "The test returns a two-tailed p-value of the \
+distribution.", "Notes", CellChangeTimes -> {{3.7711648249027987`*^9, 
+                    3.771164841585191*^9}, {3.7711651665079517`*^9, 
+                    3.771165203607033*^9}, {3.7711811135193987`*^9, 
+                    3.771181120842082*^9}, {3.771181456059189*^9, 
+                    3.771181456063326*^9}, {3.771239387135426*^9, 
+                    3.771239388194799*^9}, {3.77123943269209*^9, 
+                    3.771239436732009*^9}, 3.7712397785004272`*^9, {
+                    3.771254647442266*^9, 3.771254656374015*^9}, {
+                    3.771337524495823*^9, 3.771337568429269*^9}, {
+                    3.7714147295169497`*^9, 3.771414738456707*^9}, {
+                    3.7714147802300777`*^9, 3.771414788137549*^9}}, CellID -> 
+                    2116134340]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["mgbhi_shm", 3, 1]], 251], 
+                    "ExternalLinks" -> {
+                    Hyperlink[
+                    "NIST Report", 
+                    "https://csrc.nist.gov/publications/detail/sp/800-22/rev-\
+1a/final"]}, "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f/download/\
+DefinitionData"], "RelatedSymbols" -> {"DistributionFitTest"}, 
+                    "SeeAlso" -> {
+                    "OPERM5RandomnessTest", "ChiSquareRandomnessTest", 
+                    "RunCountRandomnessTest", "RunLengthRandomnessTest", 
+                    "BinaryRunRandomnessTest"}, "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "SourceMetadata" -> 
+                    Association[
+                    "Citation" -> {
+                    "N.I.S.T., A Statistical Test Suite for Random and \
+Pseudorandom Number Generators for Cryptographic Applications, Special \
+Publication 800-22, Revision 1a"}], "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/Resources/84e/84e71977-f39c-4f04-8c4d-e2da9f52292f"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                  "ClickToCopyTemplate"]]}}], "", 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "4183ba5f-325b-44af-940b-e7e7523d5c26"], Appearance -> None, 
+               BoxID -> "4183ba5f-325b-44af-940b-e7e7523d5c26"], 
+              "LinkHand"]}}, ItemSize -> {{Automatic, Automatic, 
+              Scaled[0.35], Automatic, Fit, Automatic}, Automatic}, 
+           Alignment -> {{Left, Left, Left, Left, Right, Right}, Baseline}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-9d865724-aaeb-4136-8123-\
+581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/obj/user-9d865724-aaeb-\
+4136-8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest\"", 
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Visit web page:", 
+                 Hyperlink[
+                  RawBoxes[
+                   TagBox[
+                    
+                    RowBox[{
+                    "\"https://www.wolframcloud.co\"", "\[Ellipsis]", 
+                    "\"ction/CUSUMMaxRandomnessTest\""}], Short[#, 0.75]& ]], 
+                  "https://www.wolframcloud.com/obj/user-9d865724-aaeb-4136-\
+8123-581bf516b95e/DeployedResources/Function/CUSUMMaxRandomnessTest"]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    TagBox[
+                    StyleBox[
+                    StyleBox[
+                    FrameBox[
+                    GridBox[{{
+                    AdjustmentBox[
+                    StyleBox[
+                    StyleBox[
+                    StyleBox[
+                    "\"[\[FilledSmallSquare]]\"", FontColor -> 
+                    GrayLevel[0.15]], "ResourceFunctionIcon"], FontFamily -> 
+                    "Source Sans Pro Black", FontWeight -> "Heavy", 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    FontSize -> Rational[10, 13] Inherited, 
+                    ShowStringCharacters -> False], BoxBaselineShift -> -0.25,
+                     BoxMargins -> {{0, 0}, {-1, -1}}], 
+                    StyleBox[
+                    StyleBox[
+                    "\"CUSUMMaxRandomnessTest\"", "ResourceFunctionLabel"], 
+                    FontSize -> Rational[12, 13] Inherited, 
+                    ShowStringCharacters -> False]}}]], 
+                    "ResourceFunctionFrame"], 
+                    FrameBoxOptions -> {
+                    FrameMargins -> {{3, 3}, {0, 0}}, FrameStyle -> 
+                    Directive[
+                    GrayLevel[0.5, 0.35], 
+                    AbsoluteThickness[0.5]], RoundingRadius -> 4, Background -> 
+                    GrayLevel[0.5, 0.15], 
+                    BaseStyle -> {
+                    "StandardForm", LineSpacing -> {0, 0}, LineBreakWithin -> 
+                    False}}, 
+                    GridBoxOptions -> {
+                    FrameStyle -> GrayLevel[1, 0], 
+                    GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+                    "FunctionResourceBox", 
+                    GrayLevel[0.15], "\"CUSUMMaxRandomnessTest\""}], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "FunctionLocation" -> None]]], Selectable -> False], 
+                    "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"CUSUMMaxRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    TagBox[
+                    DynamicModuleBox[{ResourceSystemClient`Private`len$$ = 1}, 
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    ButtonBox[
+                    DynamicBox[
+                    ToBoxes[
+                    Replace[
+                    ResourceSystemClient`Private`snipDots[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], Except[
+                    Blank[String]] -> 
+                    Snippet[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], {0}], 
+                    StandardForm]], ButtonFunction :> (
+                    ResourceSystemClient`Private`len$$ = 
+                    Ceiling[ResourceSystemClient`Private`len$$ 1.5]), 
+                    Appearance -> None, BaseStyle -> {}, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], "SummaryItem"]}], 
+                    DynamicModuleValues :> {}], "SummaryItem"], 
+                    "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, 
+                    ColorFunction -> RGBColor], AspectRatio -> 1, Axes -> 
+                    False, Background -> None, Frame -> None, FrameTicks -> 
+                    None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"CUSUMMaxRandomnessTest\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    TagBox[
+                    DynamicModuleBox[{ResourceSystemClient`Private`len$$ = 1}, 
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    ButtonBox[
+                    DynamicBox[
+                    ToBoxes[
+                    Replace[
+                    ResourceSystemClient`Private`snipDots[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], Except[
+                    Blank[String]] -> 
+                    Snippet[
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", ResourceSystemClient`Private`len$$], {0}], 
+                    StandardForm]], ButtonFunction :> (
+                    ResourceSystemClient`Private`len$$ = 
+                    Ceiling[ResourceSystemClient`Private`len$$ 1.5]), 
+                    Appearance -> None, BaseStyle -> {}, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], "SummaryItem"]}], 
+                    DynamicModuleValues :> {}], "SummaryItem"], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"Randomness\"", 
+                    "\"Statistics\""}, "RowWithSeparators"], Short], 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"84e71977-f39c-4f04-8c4d-e2da9f52292f\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "CUSUMMaxRandomnessTest", "ShortName" -> 
+                    "CUSUMMaxRandomnessTest", "UUID" -> 
+                    "84e71977-f39c-4f04-8c4d-e2da9f52292f", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Conducts a cumulative sum\[Dash]based randomness test \
+that creates a test statistic from the maximum value that a cumulative sums \
+random walk achieves.", "SymbolName" -> 
+                    "FunctionRepository`$84e71977f39c4f048c4de2da9f52292f`\
+CUSUMMaxRandomnessTest", "FunctionLocation" -> None]], Selectable -> False, 
+                    Editable -> False, SelectWithContents -> True]]}, 
+                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
@@ -3100,7 +4667,7 @@ TaggingRules->{
     FrontEndObject[
      LinkObject["vfffb_shm", 3, 1]], 68]},
 CreateCellID->True,
-FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 11, 2019)",
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -3401,8 +4968,7 @@ clickTime$$ > FunctionResourceTools`BuildDefinitionNotebook`Private`timeout$$,
                     11.25}}, {{8.25, 9.75}, {14.25, 9.75}, {14.25, 9.}, {8.25,
                      9.}}, {{8.25, 7.5}, {14.25, 7.5}, {14.25, 6.75}, {8.25, 
                     6.75}}}]}, ImageSize -> 12], "Copied"]], UpdateInterval -> 
-                    1, 
-                    TrackedSymbols :> {
+                    1, TrackedSymbols :> {
                     FunctionResourceTools`BuildDefinitionNotebook`Private`\
 clickTime$$}], StandardForm], Evaluator -> "System"], 
                  ButtonFunction :> (
@@ -3998,6 +5564,7 @@ p2HmwdTp4FCHTvOhqYfZrw2lhdDk0fno6tHcD1PPwOSAnY+uns8BAE8cGz4=
                     RGBColor[0.960784, 0.705882, 0.498039, 1.]], StripOnInput -> 
                     False], 
                     StyleBox[{
+                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2,
                      0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
                     0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1,
@@ -4451,9 +6018,8 @@ ACBxmlc=
     ShowStringCharacters -> False, FontSlant -> "Italic", FontColor -> 
     GrayLevel[0.5]], 
    Cell[
-    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, 
-  WindowMargins -> {{316, Automatic}, {-80, Automatic}}, Visible -> False, 
-  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 11, 2019)", 
+    StyleData["CharactersRefLink"], ShowSpecialCharacters -> False]}, Visible -> 
+  False, FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -4587,26 +6153,26 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 214110, 4463},
- {"TabNext", 214276, 4467},
- {"Description", 216493, 4513},
- {"Definition", 216668, 4517},
- {"Documentation", 216836, 4521},
- {"Usage", 216998, 4525},
- {"Details & Options", 217169, 4529},
- {"Examples", 217343, 4533},
- {"Source & Additional Information", 217530, 4537},
- {"Contributed By", 217721, 4541},
- {"Keywords", 217893, 4545},
- {"Categories", 218061, 4549},
- {"CategoriesCell", 218234, 4553},
- {"Related Symbols", 218412, 4557},
- {"Related Resource Objects", 218601, 4561},
- {"Source/Reference Citation", 218800, 4565},
- {"Links", 218980, 4569},
- {"Tests", 219140, 4573},
- {"Author Notes", 219306, 4577},
- {"Submission Notes", 219480, 4581}
+ {"Title", 298887, 6029},
+ {"TabNext", 299053, 6033},
+ {"Description", 301270, 6079},
+ {"Definition", 301445, 6083},
+ {"Documentation", 301613, 6087},
+ {"Usage", 301775, 6091},
+ {"Details & Options", 301946, 6095},
+ {"Examples", 302120, 6099},
+ {"Source & Additional Information", 302307, 6103},
+ {"Contributed By", 302498, 6107},
+ {"Keywords", 302670, 6111},
+ {"Categories", 302838, 6115},
+ {"CategoriesCell", 303011, 6119},
+ {"Related Symbols", 303189, 6123},
+ {"Related Resource Objects", 303378, 6127},
+ {"Source/Reference Citation", 303577, 6131},
+ {"Links", 303757, 6135},
+ {"Tests", 303917, 6139},
+ {"Author Notes", 304083, 6143},
+ {"Submission Notes", 304257, 6147}
  }
 *)
 (*NotebookFileOutline
